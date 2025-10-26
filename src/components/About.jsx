@@ -1,0 +1,68 @@
+import React from "react";
+import "./About.css";
+import Navbar from "./Navbar";
+import Myimage from "./../assets/aboutimage.jpeg";
+import Footer from "./Footer";
+import { motion } from "framer-motion";
+import Logo from "./../assets/Logo.png";
+import Navbar_bottom from "./Navbar_bottom";
+const AboutMe = () => {
+  return (
+    <>
+      <Navbar />
+      <section className="about-me" id="about-me">
+        <motion.div className="container"
+          initial={{ opacity: 0, y: -70 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}>
+          <div className="about-me-container">
+            <div className="about-me-title">
+              About <br /> Abu Bakr
+            </div>
+
+            <div className="about-me-flex-container">
+              <div className="about-me-image">
+                <div className="back-div"></div>
+                <div className="black-image">
+                  <img src={Myimage} alt="black" />
+                </div>
+                <div className="main-image">
+                  <img src={Myimage} alt="smit" />
+                </div>
+              </div>
+
+              <div className="about-me-content">
+                <div className="logo">
+                  <h1 className="logoAB">AB</h1>
+                </div>
+
+                <div className="text">
+                  An ambitious Front-end Developer and designer who takes great
+                  pride in the presentation and quality of work.
+                  <br /> <br />
+                  Abu Bakr is someone who can design and create simple, beautiful and
+                  easy to understand things. He is an expert at taking designs
+                  into original, exciting and new directions.
+                </div>
+              </div>
+            </div>
+
+            <div className="mail-button mail-button2">
+              <a href="mailto:abubakr.ab69@gmail.com">
+                <img
+                  src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/20391be8bf1ed24ef0e5da066bf68a5f6ee78fa1/images/mail.svg"
+                  // src='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=abubakr.ab69@gmail.com'
+                  alt="mail"
+                />
+              </a>
+            </div>
+          </div>
+        </motion.div>
+      </section>
+      <Navbar_bottom/>
+      <Footer />
+    </>
+  );
+};
+
+export default AboutMe;

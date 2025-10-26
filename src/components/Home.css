@@ -1,0 +1,333 @@
+.container_80{
+    width: 95%;
+}
+.main{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+.hero_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.container_80{
+    width: 80%;
+}
+.top_namimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    color: white;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+}
+.main_name_text{
+    font-size: 100px;
+}
+
+.my_image{
+    border-radius: 20px;
+}
+
+
+.btn_cv {
+    width: 220px;
+    padding: 20px;
+    border: none;
+    margin-top: 30px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn_cv::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+    background-color: #0b3231;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn_cv:hover::after {
+    width: 100%;
+    height: 100%;
+    content: '📨';
+    cursor: pointer;
+    font-size: 100%;
+}
+
+
+/* project section  */
+
+.project_main {
+    margin-top: 80px;
+    background-color: rgb(50, 47, 76);
+    padding: 10px 0px;
+}
+
+
+.project_inner {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.project_cover {
+    margin-top: 50px;
+    background-color: #063136;
+    padding-top: 10px;
+}
+
+.project_heading {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: white;
+}
+
+.project_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.project_first_line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project1 {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(4, 85, 97);
+}
+
+.outer_link {
+    width: 30%;
+}
+
+.outer_link {
+    position: relative;
+}
+
+.outer_link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    backdrop-filter: blur(20px);
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer_link:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'Click to View Project';
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.btn_see_more {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    /* background-color: rgb(225, 184, 3); */
+    background-color: white;
+    color: rgb(32, 30, 49);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.btn_see_more::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #216a67;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 0px;
+}
+.btn_see_more:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'See More';
+    cursor: pointer;
+    color: white;
+    font-size: 100%;
+}
+
+.logo_section_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 20px;
+    border-radius: 100px;
+    
+}
+
+.icon{
+    transition: all 0.2s ease-in-out;
+}
+.fb:hover{
+    background-color: rgb(8, 127, 224);
+}
+.insta:hover{
+    background: linear-gradient(45deg, #71048f, #f403b8, #edd717);
+}
+.twit:hover{
+    background-color: rgb(8, 127, 224);
+}
+.linked:hover{
+    background-color: rgb(8, 127, 224);
+}
+.first{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 20px;
+    border-radius: 100px;
+    backdrop-filter: blur(120px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .top_namimg{
+        width: 80%;
+    }
+    .my_image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (max-width: 728px) {
+    .main_name_text{
+        font-size: 70px;
+    }
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .top_namimg{
+        width: 95%;
+    }
+    .my_image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .my_img{
+        width: 95%;
+    }
+    .hello_text{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .main_name_text{
+        font-size: 50px;
+    }
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .top_namimg{
+        width: 95%;
+    }
+    .my_image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .my_img{
+        width: 95%;
+    }
+    .project_first_line{
+        width: 95%;
+        flex-direction: column;
+    }
+    .outer_link{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project_container{
+        gap: 0px;
+    }
+    .container_80{
+        width: 90%;
+    }
+    .logo_section_social{
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .first{
+        width: 40px;
+        height: 40px;
+    }
+    
+}

@@ -1,0 +1,99 @@
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    backdrop-filter: blur(120px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(19, 60, 74, 0.678);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.5px solid rgba(19, 17, 177, 0.2);
+    z-index: 1000;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.footer_inn{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo_section_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+.first{
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.first:hover{
+    color: rgb(255, 191, 0);
+    cursor: pointer;
+}
+.footer_title{
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(144, 247, 144);
+    font-weight: 400;
+    font-size: 55px;
+    margin-top: 100px;
+}
+.footer_desc{
+    text-align: center;
+    color: white;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    margin-top: 70px;
+}
+
+.footer_end{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffff;
+    padding: 20px;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 425px) {
+    .footer{
+        width: 90% !important;
+    }
+    .footer_links{
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    .footer_loca{
+        width: 100% !important;
+        display: block !important;
+        color: white !important;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .logo_section_social{
+        margin-top: 40px;
+    }
+}

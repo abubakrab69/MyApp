@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 337px;
+    max-width: 1800px;
+    margin: auto;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 10px;
+    border-radius: 25px;
+    position: fixed;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    backdrop-filter: blur(220px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(181, 177, 177, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo_top {
+    width: 42px;
+    border-radius: 50%;
+}
+
+.logo_top:hover {
+    cursor: pointer;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.btn_sign_in {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    /* background-color: rgb(225, 184, 3); */
+    background-color: rgb(255, 191, 0);
+    color: black;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.btn_sign_in::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: white;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+    font-size: 0px;
+}
+
+.btn_sign_in:hover::after {
+    width: 100%;
+    height: 100%;
+    content: '📱';
+    font-size: 100%;
+    cursor: pointer;
+}
+
+li {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.active {
+    color: rgb(255, 191, 0);
+    font-weight: bold;
+}
+
+.link:hover {
+    color: rgb(255, 191, 0);
+}
+
+.logoABNav {
+    color: #FF7A01;
+    font-size: 40px;
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 9px;
+}
+
+@media screen and (max-width: 728px) {
+    .logo_top {
+        width: 25px;
+    }
+
+    .nav_links {
+        gap: 30px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    .navbar1 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo_top {
+        width: 25px;
+    }
+
+    .nav_links {
+        gap: 30px;
+    }
+
+    .link {
+        display: none;
+    }
+}

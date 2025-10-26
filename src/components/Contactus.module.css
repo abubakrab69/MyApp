@@ -1,0 +1,361 @@
+.contact_main {
+    width: 80% !important;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    backdrop-filter: blur(120px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 20px;
+}
+.form {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logos {
+    width: 10%;
+}
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_logo {
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.social_logo:hover {
+    color: rgb(255, 204, 0);
+}
+
+.contact_text {
+    color: white;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 65px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.contact_para {
+    color: rgb(179, 178, 178);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.line {
+    width: 55%;
+    height: 3.5px;
+    background-color: white;
+}
+
+.right {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.myForm {
+    width: 50%;
+}
+
+
+
+/* myForm  */
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left !important;
+}
+
+.inputs {
+    width: 70%;
+    padding: 13px 13px 13px 0px;
+    font-family: "Philosopher", sans-serif;
+    border: 2px solid rgb(80, 96, 102);
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding: 10px;
+}
+
+.inputs::placeholder {
+    color: white;
+}
+
+.inputs:focus {
+    outline-color: rgb(35, 189, 176);
+}
+
+#textarea {
+    width: 70%;
+    padding: 13px 13px 13px 0px;
+    min-height: 100px;
+    max-height: 400px;
+    resize: none !important;
+    overflow: auto;
+    font-family: "Philosopher", sans-serif;
+    margin: 2px solid gray;
+    border: 2px solid rgb(80, 96, 102);
+    background-color: transparent;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+#textarea::placeholder {
+    color: white;
+}
+
+#textarea:focus {
+    outline-color: rgb(35, 189, 176);
+}
+
+.btn_send {
+    width: 70%;
+    padding: 8px;
+    border-radius: 100px;
+    font-family: "Philosopher", sans-serif;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: #0f171d;
+    position: relative;
+    font-size: 20px;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.btn_send::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: rgb(255, 191, 0);
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #0f171d;
+    font-size: 0px;
+}
+
+.btn_send:hover::after {
+    width: 100%;
+    height: 100%;
+    content: '📤';
+    font-size: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+.log {
+    transition: all 0.2s ease-in-out;
+}
+
+.log:hover {
+    color: rgb(255, 191, 0);
+    cursor: pointer;
+}
+
+.email_box {
+    width: 50%;
+    padding: 30px;
+    background-color: rgb(255, 191, 0);
+    margin-top: 70px;
+}
+
+.line2 {
+    width: 30px;
+    height: 2px;
+    background-color: #0f171d;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputs {
+        width: 50%;
+    }
+
+    #textarea {
+        width: 50%;
+    }
+
+    .contact_text {
+        text-align: center;
+    }
+
+    .line {
+        width: 48%;
+    }
+    .btn_send{
+        width: 50%;
+    }}
+
+@media screen and (max-width: 768px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputs {
+        width: 50%;
+    }
+
+    #textarea {
+        width: 50%;
+    }
+
+    .contact_text {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .line {
+        width: 48%;
+    }
+    .btn_send{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact_main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        width: 90% !important;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myForm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    #textarea {
+        width: 100%;
+    }
+
+    .contact_text {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .email_box {
+        width: 100%;
+    }
+    .btn_send{
+        width: 100%;
+    }
+}

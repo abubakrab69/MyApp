@@ -1,0 +1,173 @@
+.project_main {
+    margin-top: 80px;
+    background-color: rgb(47, 76, 74);
+    padding: 10px 0px;
+}
+
+.project_title {
+    color: #87A4B6;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.project_inner {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.project_cover {
+    margin-top: 50px;
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+.project_heading {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: white;
+}
+
+.container_80{
+    width: 80%;
+}
+
+.project_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    margin-top: 40px;
+}
+
+.project_first_line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.project1 {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgb(8, 60, 70);
+    border-radius: 30px;
+}
+
+.proj_img{
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.outer_link {
+    width: 49%;
+}
+.outer_link {
+    position: relative;
+}
+.outer_link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    backdrop-filter: blur(20px);
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+    border-radius: 30px;
+}
+
+.outer_link:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'Click to View Project';
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btn_see_more {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: rgb(32, 30, 49);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.btn_see_more::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #216a67;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 0px;
+}
+.btn_see_more:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'See More';
+    cursor: pointer;
+    color: white;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .project_first_line{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .project_inner{
+        margin: auto;
+    }
+    .project_container{
+        width: 100%;
+        gap: 0px;
+        margin: auto;
+    }
+    .project1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .outer_link{
+        width: 100%;
+    }
+    .container_80{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .project1{
+        padding: 10px;
+    }
+    
+}

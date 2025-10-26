@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+
+/* .container_80{
+    width: 95%;
+} */
+.main{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+.hero_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.container_80{
+    width: 80%;
+}
+.top_namimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    color: white;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    transition: all 0.2s ease-in-out;
+}
+.main_name_text{
+    font-size: 250px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 150;
+    color: #87A4B6;
+    transition: all 0.2s ease-in-out;
+}
+
+.my_image{
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hero_btn{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn_cv {
+    width: 220px;
+    padding: 20px;
+    border: none;
+    margin-top: 30px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px;
+    overflow: hidden;
+}
+
+.btn_cv::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+    background-color: rgb(255, 191, 0);
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px 0px 0px 25px;
+    color: white;
+}
+
+.btn_cv:hover::after {
+    width: 100%;
+    height: 100%;
+    content: '📂';
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.btn_hire{
+    width: 220px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0px 25px 25px 0px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    overflow: hidden;
+}
+.btn_hire::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+    background-color: #ffffffff;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 22px 22px 0px;
+    color: #0b3231;
+}
+
+.btn_hire:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'Hire Me';
+    cursor: pointer;
+    font-size: 100%;
+}
+
+/* project section  */
+
+.project_main {
+    margin-top: 80px;
+    background-color: rgb(50, 47, 76);
+    padding: 10px 0px;
+}
+
+
+.project_inner {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.project_cover {
+    margin-top: 50px;
+    /* background-color: #041e25c4; */
+    padding-top: 10px;
+}
+
+.project_heading {
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    /* font-weight: 200; */
+    font-size: 55px;
+  color: #87A4B6;
+  font-weight: 700;
+}
+
+.project_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.project_first_line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project1 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(4, 71, 97);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer_link {
+    width: 30%;
+}
+
+.outer_link {
+    position: relative;
+}
+
+.proj_img{
+    border-radius: 18px;
+}
+
+.outer_link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    backdrop-filter: blur(20px);
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 0px;
+}
+
+.outer_link:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'Click to View Project';
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.btn_see_more {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    /* background-color: rgb(225, 184, 3); */
+    background-color: white;
+    color: rgb(32, 30, 49);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 35px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn_see_more::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: rgb(255, 191, 0);
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 0px;
+    
+}
+.btn_see_more:hover::after {
+    width: 100%;
+    height: 100%;
+    content: 'See More';
+    cursor: pointer;
+    color: #063136;
+    font-size: 100%;
+}
+
+.logo_section_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 0px;
+    border-radius: 100px;
+    
+}
+
+.icon{
+    transition: all 0.2s ease-in-out;
+}
+.first{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-top: 20px;
+    border-radius: 100px;
+    backdrop-filter: blur(120px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.first:hover{
+    background-color: rgb(255, 191, 0);
+    color: #063136;
+}
+.hello_text_f{
+    color: rgb(0, 166, 255);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 150;
+    
+    
+}
+.hello_text{
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: Nunito, sans-serif;
+    font-weight: 350;
+    color: #87A4B6;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hero_section{
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+    }
+    .top_namimg{
+        width: 80%;
+    }
+    .my_image{
+        width: 100%;
+        margin-top: 30px;
+        align-items: left;
+    }
+    .hero_btn{
+        width: 90%;
+        margin-top: 0px;
+    }
+    .main_name_text{
+        font-size: 200px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .main_name_text{
+        font-size: 200px;
+    }
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .top_namimg{
+        width: 95%;
+    }
+    .my_image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .my_img{
+        width: 95%;
+    }
+    .hello_text{
+        font-size: 20px;
+    }
+    .btn_cv{
+        gap: 0px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .main_name_text{
+        font-size: 150px;
+    }
+    .hero_section{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .top_namimg{
+        width: 95%;
+    }
+    .my_image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .my_img{
+        width: 95%;
+    }
+    .project_first_line{
+        width: 95%;
+        flex-direction: column;
+    }
+    .outer_link{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .project_container{
+        gap: 0px;
+    }
+    .container_80{
+        width: 95%;
+    }
+    .logo_section_social{
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .first{
+        width: 40px;
+        height: 40px;
+    }
+    .hero_btn{
+        gap: 8px;
+    }
+    .btn_cv{
+        width: 160px;
+        padding: 12px;
+    }
+    .btn_hire{
+        width: 160px;
+        padding: 12px;
+    }
+    .hello_text{
+        font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    }
+    
+}
