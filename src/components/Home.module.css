@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 
 
-/* .container_80{
-    width: 95%;
-} */
 .main{
     display: flex;
     margin: auto;
@@ -51,7 +48,6 @@
 
 .hero_btn{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 20px;
     transition: all 0.2s ease-in-out;
@@ -238,7 +234,6 @@
     width: 120px;
     padding: 10px;
     border: none;
-    /* background-color: rgb(225, 184, 3); */
     background-color: white;
     color: rgb(32, 30, 49);
     font-family: "Philosopher", sans-serif;
@@ -317,7 +312,6 @@
     color: rgb(0, 166, 255);
     font-family: "DM Sans", sans-serif;
     font-weight: 150;
-    
     
 }
 .hello_text{

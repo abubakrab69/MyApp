@@ -37,6 +37,7 @@
   background-color: #001b2c;
   /* overflow: hidden; */
   transition: all 0.4s ease-in-out;
+  border-radius: 20px;
 }
 .box_one:hover{
   transform: scale(1.1);
