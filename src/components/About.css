@@ -46,6 +46,8 @@ img {
 section{
   width: 100% !important;
   padding: 0%;
+  position: relative;
+  z-index: 1;
 }
 .container{
   width: 100% !important;

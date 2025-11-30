@@ -14,7 +14,7 @@ import Myntra from './../assets/myntra.png'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import { motion } from 'framer-motion'
-import Navbar_bottom from './Navbar_bottom';
+import Navbar_bottom from './Navbar_bottom'
 
 const Home = () => {
   const handleDownload = () => {
@@ -41,9 +41,9 @@ const Home = () => {
               data-aos-duration="2000">
               <motion.h1
                 className={styles.main_name_text}
-                initial={{ opacity: 50, y: -150 }}
-                animate={{ opacity: 40, y: 30 }}
-                transition={{ duration: 0.6, ease: 'easeOut' }}
+                initial={{ opacity: 0, y: -150 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
               >
                 Hello
               </motion.h1>

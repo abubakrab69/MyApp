@@ -1,0 +1,65 @@
+/* ===== KEYFRAME ANIMATIONS (SIMPLIFIED) ===== */
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.4;
+    box-shadow: 0 0 6px rgba(135, 164, 182, 0.5);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 12px rgba(135, 164, 182, 0.9);
+  }
+}
+
+@keyframes nebula {
+  0%, 100% {
+    opacity: 0.08;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
+
+/* ===== CONTAINER ===== */
+
+.starfield_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(135deg, rgba(10, 25, 45, 1) 0%, rgba(15, 35, 60, 0.95) 50%, rgba(20, 30, 50, 1) 100%);
+}
+
+/* ===== NEBULA BACKGROUND ===== */
+
+.nebula_glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at 30% 20%,
+    rgba(135, 164, 182, 0.08) 0%,
+    transparent 50%
+  ),
+  radial-gradient(
+    ellipse at 70% 80%,
+    rgba(112, 128, 144, 0.06) 0%,
+    transparent 50%
+  );
+  animation: nebula 6s ease-in-out infinite;
+}
+
+/* ===== STARS (SIMPLIFIED) ===== */
+
+.star {
+  position: absolute;
+  background: radial-gradient(circle, rgba(135, 164, 182, 1) 0%, rgba(135, 164, 182, 0.4) 60%);
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(135, 164, 182, 0.6);
+  animation: twinkle 4s ease-in-out infinite;
+  will-change: opacity, box-shadow;
+}

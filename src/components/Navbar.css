@@ -27,6 +27,26 @@ body {
     top: 25px;
     left: 50%;
     transform: translate(-50%, 0);
+    /* backdrop-filter: blur(220px);
+    transition: all 0.2s ease-in-out;
+    background: rgba(181, 177, 177, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+    z-index: 1000;
+}
+
+.nav_inner_box {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 7px;
+    border-radius: 55px;
+    position: fixed;
+    top: 7px;
+    left: 50%;
+    transform: translate(-50%, 0);
     backdrop-filter: blur(220px);
     transition: all 0.2s ease-in-out;
     background: rgba(181, 177, 177, 0.15);
@@ -60,14 +80,15 @@ a {
 }
 
 .btn_sign_in {
-    width: 150px;
-    padding: 12px;
+    width: 110px;
+    height: 40px;
+    padding: 8px;
     border: none;
     background-color: rgb(255, 191, 0);
     color: black;
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
     border-radius: 50px;
     overflow: hidden;
@@ -124,21 +145,38 @@ li {
     margin-left: 9px;
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
     .logo_top {
         width: 25px;
     }
-
     .nav_links {
         gap: 30px;
     }
-
     li {
         font-size: 15px;
     }
-
     .navbar1 {
         width: 90%;
+    }
+    .nav_inner_box {
+        width: 50%;
+    }
+    .btn_sign_in {
+        width: 110px;
+    }
+    .nav_inner_box{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_inner_box{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 625px) {
+    .nav_inner_box{
+        width: 60%;
     }
 }
 
@@ -151,6 +189,9 @@ li {
         display: none;
     }
     .link {
+        display: none;
+    }
+    .nav_inner_box {
         display: none;
     }
     

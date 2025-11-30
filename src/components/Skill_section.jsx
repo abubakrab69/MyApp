@@ -12,7 +12,7 @@ import Bootstrap from './../assets/Bootstrap.png'
 import Navbar_bottom from './Navbar_bottom'
 
 
-const Contact = () => {
+const SkillSection = () => {
   return (
     <>
       <Navbar />
@@ -70,4 +70,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default SkillSection

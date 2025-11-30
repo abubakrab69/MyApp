@@ -16,7 +16,8 @@ const Navbar = () => {
         /> */}
         <h1 className="logoABNav">AB</h1>
 
-        <ul className='nav_links'>
+        <div className='nav_inner_box'>
+          <ul className='nav_links'>
           <li className='link'>
             <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>
               Home
@@ -33,11 +34,12 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className='link'>
-            <NavLink to="/contact" end className={({ isActive }) => isActive ? "active" : ""}>
+            <NavLink to="/skill_section" end className={({ isActive }) => isActive ? "active" : ""}>
               Skills
             </NavLink>
           </li>
         </ul>
+        </div>
         <NavLink to="/contactus"><button className="btn_sign_in">
           Let's Contact
         </button></NavLink>

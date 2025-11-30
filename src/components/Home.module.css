@@ -5,6 +5,8 @@
     display: flex;
     margin: auto;
     margin-top: 100px;
+    position: relative;
+    z-index: 1;
 }
 .hero_section{
     display: flex;
@@ -13,6 +15,8 @@
     align-items: center;
     width: 100%;
     transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
 }
 
 .container_80{
@@ -29,6 +33,8 @@
     font-weight: 200;
     font-size: 23px;
     transition: all 0.2s ease-in-out;
+    position: relative;
+    z-index: 2;
 }
 .main_name_text{
     font-size: 250px;
@@ -40,10 +46,9 @@
     transition: all 0.2s ease-in-out;
 }
 
-.my_image{
-    margin-top: 10px;
-    border-radius: 20px;
-    transition: all 0.2s ease-in-out;
+.my_img{
+    position: relative;
+    z-index: 2;
 }
 
 .hero_btn{

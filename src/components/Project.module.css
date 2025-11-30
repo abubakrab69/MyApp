@@ -2,6 +2,8 @@
     margin-top: 80px;
     background-color: rgb(47, 76, 74);
     padding: 10px 0px;
+    position: relative;
+    z-index: 1;
 }
 
 .project_title {
