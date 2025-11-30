@@ -1,18 +1,50 @@
+/* ===== KEYFRAME ANIMATIONS ===== */
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(135, 164, 182, 0.5), inset 0 0 10px rgba(135, 164, 182, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(135, 164, 182, 0.8), 0 0 40px rgba(135, 164, 182, 0.4), inset 0 0 20px rgba(135, 164, 182, 0.2);
+  }
+}
+
+@keyframes iconFloat {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.15);
+  }
+}
+
+@keyframes backgroundShift {
+  0%, 100% {
+    background: linear-gradient(135deg, #001b2c 0%, rgba(135, 164, 182, 0.05) 100%);
+  }
+  50% {
+    background: linear-gradient(135deg, rgba(135, 164, 182, 0.1) 0%, rgba(135, 164, 182, 0.15) 100%);
+  }
+}
+
+/* ===== SKILL MAIN ===== */
+
 .skill_main {
   width: 80%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   gap: 50px;
   margin: auto;
   margin-top: 110px;
+  position: relative;
+  z-index: 1;
 }
+
 .skill_name{
   color: #87A4B6;
-  font-size: 20px;
-  font-weight: 600;
   font-size: 60px;
+  font-weight: 600;
+  text-shadow: 0 0 20px rgba(135, 164, 182, 0.3);
 }
 
 .skill_box{
@@ -25,45 +57,105 @@
   flex-wrap: wrap;
   margin: auto;
 }
+
+/* ===== SKILL CARD ===== */
+
 .box_one{
   width: 180px;
   height: 180px;
   padding: 30px;
-  border: 10px solid rgb(1, 69, 86);
+  border: 2px solid rgba(135, 164, 182, 0.5);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: black;
-  background-color: #001b2c;
-  /* overflow: hidden; */
-  transition: all 0.4s ease-in-out;
+  color: white;
+  background: linear-gradient(135deg, #001b2c 0%, rgba(135, 164, 182, 0.05) 100%);
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
   border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
 }
+
+/* Glow layer before */
+.box_one::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(135, 164, 182, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.box_one:hover::before {
+  opacity: 1;
+}
+
+/* Hover State */
 .box_one:hover{
-  transform: scale(1.1);
-  filter: drop-shadow(0 0 15px rgb(0, 0, 0));
+  transform: scale(1.15) translateY(-10px);
+  border-color: rgba(135, 164, 182, 1);
+  background: linear-gradient(135deg, rgba(135, 164, 182, 0.15) 0%, rgba(135, 164, 182, 0.1) 100%);
+  box-shadow: 
+    0 0 20px rgba(135, 164, 182, 0.6),
+    0 0 40px rgba(135, 164, 182, 0.3),
+    0 0 60px rgba(135, 164, 182, 0.15),
+    inset 0 0 20px rgba(135, 164, 182, 0.1);
+  animation: glowPulse 2s ease-in-out infinite, backgroundShift 3s ease-in-out infinite;
   cursor: pointer;
 }
 
-.box_one:hover img{
-  transform: scale(1.3);
-  /* filter: drop-shadow(0 0 25px rgb(0, 0, 0)); */
-  transform: translate(0, -50px);
-}
-
+/* ===== SKILL ICON ===== */
 
 .skill_icons{
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px rgba(135, 164, 182, 0.3));
+  position: relative;
+  z-index: 2;
 }
-/* .skill_icons:hover{
-  transform: scale(1.5);
-  filter: drop-shadow(0 0 25px rgb(0, 0, 0));
-} */
 
-@media screen and (max-width: 425px) {
-  .box_one{
-    width: 95%;
-    height: 250px;
+.box_one:hover img{
+  animation: iconFloat 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 20px rgba(135, 164, 182, 0.8));
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 768px) {
+  .box_one {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
   }
   
+  .skill_icons {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .skill_main {
+    width: 95%;
+  }
+  
+  .box_one{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .skill_icons {
+    width: 80px;
+    height: 80px;
+  }
 }

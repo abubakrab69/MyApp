@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import styles from './Contact.module.css'
+import styles from './Skills.module.css'
 import Footer from './Footer'
 import { motion } from 'framer-motion'
 
@@ -40,6 +40,12 @@ const SkillSection = () => {
           <div className={styles.box_one}>
             <img src={REACT} alt="" loading='lazy' className={styles.skill_icons} />
           </div>
+          <div className={styles.box_one}>
+            <img src={REACT} alt="" loading='lazy' className={styles.skill_icons} />
+          </div>
+          <div className={styles.box_one}>
+            <img src={REACT} alt="" loading='lazy' className={styles.skill_icons} />
+          </div>
         </motion.div>
         <motion.div
           className={styles.skill_box}
@@ -52,6 +58,12 @@ const SkillSection = () => {
           </div>
           <div className={styles.box_one}>
             <img src="https://smit-prajapati.github.io/prajapatismit/images/css.png" alt="" loading='lazy' className={styles.skill_icons} />
+          </div>
+          <div className={styles.box_one}>
+            <img src="https://smit-prajapati.github.io/prajapatismit/images/js.png" alt="" loading='lazy' className={styles.skill_icons} />
+          </div>
+          <div className={styles.box_one}>
+            <img src="https://smit-prajapati.github.io/prajapatismit/images/js.png" alt="" loading='lazy' className={styles.skill_icons} />
           </div>
           <div className={styles.box_one}>
             <img src="https://smit-prajapati.github.io/prajapatismit/images/js.png" alt="" loading='lazy' className={styles.skill_icons} />
