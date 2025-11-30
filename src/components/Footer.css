@@ -6,17 +6,16 @@
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    backdrop-filter: blur(120px);
-    transition: all 0.2s ease-in-out;
-    background: #400554;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 0.5px solid #630c80;
-    z-index: 1000;
-    border-radius: 20px;
-    overflow: hidden;
     padding: 20px;
     margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
 }
 .footer_inn{
     width: 80%;

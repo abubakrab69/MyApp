@@ -1,14 +1,24 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './components/Home'
-import Projects from './components/Projects'
-import Contactus from './components/Contactus'
-import About from './components/About'
-import SkillSection from './components/Skill_section'
-import AnimatedStarfield from './animations/AnimatedStarfield'
+import { useState, useEffect } from "react";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Contactus from './components/Contactus';
+import About from './components/About';
+import SkillSection from './components/Skill_section';
+import SplashScreen from "./splash/splash_screen";
+import AnimatedStarfield from './animations/AnimatedStarfield';
 
 function App() {
+
+  // Splash state
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -30,14 +40,20 @@ function App() {
       path: "/contactus",
       element: <Contactus />
     }
-  ])
+  ]);
 
+  // Show splash first
+  if (loading) {
+    return <SplashScreen />;
+  }
+
+  // Show actual app after splash
   return (
     <>
       <AnimatedStarfield />
       <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

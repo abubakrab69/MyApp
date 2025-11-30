@@ -47,6 +47,7 @@
     position: relative;
     cursor: pointer;
     border-radius: 50px;
+    background-color: #0f6aea;
 }
 
 .btn_cv::after {
@@ -57,7 +58,7 @@
     width: 0%;
     height: 0%;
     font-size: 0px;
-    background-color: #0b3231;
+    background-color: #0f6aea;
     transition: 250ms;
     display: flex;
     justify-content: center;

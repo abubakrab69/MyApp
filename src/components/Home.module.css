@@ -70,7 +70,7 @@
     cursor: pointer;
     border-radius: 15px;
     overflow: hidden;
-    background: #6e109a;
+    background-color: #2f73fd;
     color: white;
     transition: 0.3s ease;
 }
@@ -82,7 +82,7 @@
     inset: 0;
     border-radius: inherit;
     padding: 2px;
-    background: linear-gradient(120deg, #2f054d, #7015b2, #350657);
+    background: linear-gradient(to right, 120deg, #2f054d, #7015b2, #350657);
     filter: blur(12px);
     opacity: 0;
     transition: opacity 0.4s ease, filter 0.4s ease;
@@ -137,7 +137,7 @@
     cursor: pointer;
     border-radius: 15px;
     overflow: hidden;
-    background: #6e109a;
+    background: #2f73fd;
     color: white;
     transition: 0.3s ease;
 }
@@ -149,7 +149,7 @@
     inset: 0;
     border-radius: inherit;
     padding: 2px;
-    background: linear-gradient(120deg, #2f054d, #7015b2, #350657);
+    background-color: #2f73fd;
     filter: blur(12px);
     opacity: 0;
     transition: opacity 0.4s ease, filter 0.4s ease;
@@ -238,8 +238,6 @@
     background-color: rgb(50, 47, 76);
     padding: 10px 0px;
 }
-
-
 .project_inner {
     margin: auto;
     margin-top: 30px;
@@ -256,7 +254,7 @@
     font-family: Nunito, sans-serif;
     /* font-weight: 200; */
     font-size: 55px;
-  color: #87A4B6;
+  color: #d8e8f3;
   font-weight: 700;
 }
 
