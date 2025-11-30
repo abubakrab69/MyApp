@@ -69,7 +69,7 @@ const Contactus = () => {
                             <div className={styles.line2}></div>
                             <h5>Email: abubakr.ab69@gmail.com</h5>
                             <div className={styles.line2}></div>
-                            <h5>Phone: 346-54-27-034</h5>
+                            <h5>Phone: 370-89-04-231</h5>
                         </div>
                     </div>
 

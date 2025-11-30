@@ -36,7 +36,7 @@
     margin-bottom: 0px;
     font-family: "DM Sans", sans-serif;
     font-weight: 150;
-    color: #87A4B6;
+    color: white;
     transition: all 0.2s ease-in-out;
 }
 
@@ -49,13 +49,13 @@
 .hero_btn{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     transition: all 0.2s ease-in-out;
 }
 
 .btn_cv {
     width: 220px;
-    padding: 20px;
+    padding: 14px;
     border: none;
     margin-top: 30px;
     font-family: "Philosopher", sans-serif;
@@ -63,38 +63,132 @@
     font-size: 23px;
     position: relative;
     cursor: pointer;
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 15px;
     overflow: hidden;
+    background: #6e109a;
+    color: white;
+    transition: 0.3s ease;
 }
 
+/* Glowing border layer */
+.btn_cv::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(120deg, #2f054d, #7015b2, #350657);
+    filter: blur(12px);
+    opacity: 0;
+    transition: opacity 0.4s ease, filter 0.4s ease;
+    z-index: -1;
+}
+
+/* Hover glow */
+.btn_cv:hover::before {
+    opacity: 1;
+    filter: blur(18px);
+}
+
+/* Your sliding overlay + icon */
 .btn_cv::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 0%;
-    height: 0%;
-    font-size: 0px;
-    background-color: rgb(255, 191, 0);
-    transition: 250ms;
+    height: 100%;
+    background: rgba(255, 191, 0, 0.2);
+    transition: 0.4s ease;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:25px 0px 0px 25px;
-    color: white;
+    border-radius: inherit;
+    font-size: 0;
 }
 
+/* Hover animation */
 .btn_cv:hover::after {
     width: 100%;
-    height: 100%;
-    content: '📂';
-    cursor: pointer;
-    font-size: 100%;
+    font-size: 26px;
 }
 
-.btn_hire{
+.btn_cv:hover {
+    transform: translateY(-3px) scale(1.03);
+}
+
+
+ /* hire btn  */
+
+ .btn_hire {
     width: 220px;
-    padding: 20px;
+    padding: 14px;
+    border: none;
+    margin-top: 30px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #6e109a;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* Glowing border layer */
+.btn_hire::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(120deg, #2f054d, #7015b2, #350657);
+    filter: blur(12px);
+    opacity: 0;
+    transition: opacity 0.4s ease, filter 0.4s ease;
+    z-index: -1;
+}
+
+/* Hover glow */
+.btn_hire:hover::before {
+    opacity: 1;
+    filter: blur(18px);
+}
+
+/* Your sliding overlay + icon */
+.btn_hire::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 191, 0, 0.2);
+    transition: 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit;
+    font-size: 0;
+}
+
+/* Hover animation */
+.btn_hire:hover::after {
+    width: 100%;
+    font-size: 26px;
+}
+
+.btn_hire:hover {
+    transform: translateY(-3px) scale(1.03);
+}
+
+
+
+/* .btn_hire{
+    width: 220px;
+    padding: 14px;
     margin-top: 30px;
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
@@ -121,7 +215,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 0px 22px 22px 0px;
-    color: #0b3231;
+    color: #3d0450;
 }
 
 .btn_hire:hover::after {
@@ -130,7 +224,7 @@
     content: 'Hire Me';
     cursor: pointer;
     font-size: 100%;
-}
+} */
 
 /* project section  */
 
@@ -167,7 +261,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     margin-top: 40px;
 }
 
@@ -183,7 +277,7 @@
     width: 100%;
     height: auto;
     overflow: hidden;
-    padding: 10px;
+    padding: 0px;
     background-color: rgb(4, 71, 97);
     border-radius: 25px;
     display: flex;
@@ -192,7 +286,7 @@
 }
 
 .outer_link {
-    width: 30%;
+    width: 32%;
 }
 
 .outer_link {
@@ -287,8 +381,8 @@
     transition: all 0.2s ease-in-out;
 }
 .first{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -319,7 +413,7 @@
     margin-top: 0px;
     font-family: Nunito, sans-serif;
     font-weight: 350;
-    color: #87A4B6;
+    color: white;
 }
 
 
@@ -372,7 +466,7 @@
     }
     
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 0px) and (max-width: 426px) {
     .main_name_text{
         font-size: 150px;
     }
@@ -414,11 +508,12 @@
         height: 40px;
     }
     .hero_btn{
-        gap: 8px;
+        gap: 4px;
+        width: 100%;
     }
     .btn_cv{
         width: 160px;
-        padding: 12px;
+        padding: 12px 7px;
     }
     .btn_hire{
         width: 160px;
@@ -428,5 +523,5 @@
         font-family: "DM Sans", sans-serif;
     font-weight: 200;
     }
-    
+
 }

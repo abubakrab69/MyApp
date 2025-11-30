@@ -37,9 +37,7 @@ const Navbar = () => {
               Skills
             </NavLink>
           </li>
-         
         </ul>
-
         <NavLink to="/contactus"><button className="btn_sign_in">
           Let's Contact
         </button></NavLink>

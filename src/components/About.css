@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: #040e1e;
+  background: linear-gradient(to left, #53076d, #4e0766, #22022d);
 }
 
 .orange {

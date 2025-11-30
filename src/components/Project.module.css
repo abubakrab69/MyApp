@@ -51,9 +51,9 @@
 }
 .project1 {
     width: 100%;
-    height: 600px;
+    height: 650px;
     overflow: hidden;
-    padding: 20px;
+    /* padding: 5px; */
     background-color: rgb(8, 60, 70);
     border-radius: 30px;
 }

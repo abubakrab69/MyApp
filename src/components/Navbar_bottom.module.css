@@ -21,8 +21,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16.5px 1px;
-    border-radius: 25px;
+    padding: 11.5px 1px;
+    border-radius: 55px;
     position: fixed;
     bottom: 25px;
     left: 50%;

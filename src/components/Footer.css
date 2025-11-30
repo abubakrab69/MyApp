@@ -8,10 +8,10 @@
     margin-top: 60px;
     backdrop-filter: blur(120px);
     transition: all 0.2s ease-in-out;
-    background: rgba(19, 60, 74, 0.678);
+    background: #400554;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 0.5px solid rgba(19, 17, 177, 0.2);
+    border-bottom: 0.5px solid #630c80;
     z-index: 1000;
     border-radius: 20px;
     overflow: hidden;
