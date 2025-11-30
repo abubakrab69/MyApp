@@ -10,6 +10,8 @@ import JS from './../assets/js.png'
 import REACT from './../assets/react1.png'
 import Bootstrap from './../assets/Bootstrap.png'
 import Navbar_bottom from './Navbar_bottom'
+import Flutter from './../assets/flutter_icon.webp'
+import Tailwind from './../assets/tailwindcss.jpg'
 
 
 const SkillSection = () => {
@@ -41,10 +43,10 @@ const SkillSection = () => {
             <img src={REACT} alt="" loading='lazy' className={styles.skill_icons} />
           </div>
           <div className={styles.box_one}>
-            <img src={REACT} alt="" loading='lazy' className={styles.skill_icons} />
+            <img src={Flutter} alt="" loading='lazy' className={styles.skill_icons} />
           </div>
           <div className={styles.box_one}>
-            <img src={REACT} alt="" loading='lazy' className={styles.skill_icons} />
+            <img src={Tailwind} alt="" loading='lazy' className={styles.skill_icons}/>
           </div>
         </motion.div>
         <motion.div

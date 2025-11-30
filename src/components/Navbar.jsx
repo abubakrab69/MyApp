@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import { color } from 'framer-motion'
-import Logo from './../assets/Logo.png'
+import Logo from './../assets/Logo_main.png'
 
 const Navbar = () => {
   return (
@@ -14,7 +14,9 @@ const Navbar = () => {
           loading="lazy" 
           className="logo_top" 
         /> */}
-        <h1 className="logoABNav">AB</h1>
+        <h1 className="logoABNav">
+          <img src={Logo} alt="" width={70} height={70}/>
+        </h1>
 
         <div className='nav_inner_box'>
           <ul className='nav_links'>

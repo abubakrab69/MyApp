@@ -31,7 +31,7 @@ const SplashScreen = () => {
         <motion.div
           style={styles.loader}
           initial={{ width: 0 }}
-          animate={{ width: "100%" }}
+          animate={{ width: "80%" }}
           transition={{
             duration: 2,
             repeat: Infinity,

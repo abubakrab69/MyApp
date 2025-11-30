@@ -26,6 +26,7 @@ body {
     position: fixed;
     top: 25px;
     left: 50%;
+    height: 60px;
     transform: translate(-50%, 0);
     /* backdrop-filter: blur(220px);
     transition: all 0.2s ease-in-out;
@@ -143,6 +144,9 @@ li {
     font-weight: 400;
     font-style: normal;
     margin-left: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {

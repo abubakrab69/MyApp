@@ -35,11 +35,12 @@
     transition: all 0.2s ease-in-out;
     position: relative;
     z-index: 2;
+    margin-bottom: 220px;
 }
 .main_name_text{
     font-size: 250px;
     font-weight: 100;
-    margin-bottom: 0px;
+    margin-bottom: -30px;
     font-family: "DM Sans", sans-serif;
     font-weight: 150;
     color: white;
@@ -428,6 +429,7 @@
     }
     .top_namimg{
         width: 80%;
+        margin-bottom: 0px;
     }
     .my_image{
         width: 100%;
@@ -453,6 +455,7 @@
     }
     .top_namimg{
         width: 95%;
+        margin-bottom: 0px;
     }
     .my_image{
         width: 100%;
@@ -480,6 +483,7 @@
     }
     .top_namimg{
         width: 95%;
+        margin-bottom: 0px;
     }
     .my_image{
         width: 100%;
@@ -526,5 +530,6 @@
         font-family: "DM Sans", sans-serif;
     font-weight: 200;
     }
+
 
 }

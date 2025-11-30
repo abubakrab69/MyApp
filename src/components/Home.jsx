@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import styles from './Home.module.css'
 
 
-import MyPic from './../assets/Mypic.jpeg'
+import MyPic from './../assets/Mypic.png'
 import Chaidocs from './../assets/Chiadocs.png'
 import Nova from './../assets/Nova.png'
 import Skillgrow from './../assets/Skillgrow.png'

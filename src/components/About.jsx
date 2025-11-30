@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Myimage from "./../assets/aboutimage.jpeg";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
-import Logo from "./../assets/Logo.png";
+import Logo from "./../assets/Logo_main.png";
 import Navbar_bottom from "./Navbar_bottom";
 const AboutMe = () => {
   return (
@@ -33,11 +33,13 @@ const AboutMe = () => {
 
               <div className="about-me-content">
                 <div className="logo">
-                  <h1 className="logoAB">AB</h1>
+                  <h1 className="logoAB">
+                    <img src={Logo} alt="logo"/>
+                  </h1>
                 </div>
 
                 <div className="text">
-                  An ambitious Front-end Developer and designer who takes great
+                  An ambitious Mobile App and Web Developer who takes great
                   pride in the presentation and quality of work.
                   <br /> <br />
                   Abu Bakr is someone who can design and create simple, beautiful and
