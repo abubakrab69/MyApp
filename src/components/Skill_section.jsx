@@ -20,7 +20,6 @@ const SkillSection = () => {
       <Navbar />
       <div className={styles.skill_main}>
         <h1 className={styles.skill_name}>skills</h1>
-
         <motion.div
           className={styles.skill_box}
           initial={{ opacity: 0, y: -70 }}
