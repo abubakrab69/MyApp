@@ -58,7 +58,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
     list-style: none;
     color: white;
     margin-top: 70px;
@@ -72,6 +72,9 @@
     color: #ffffffff;
     padding: 20px;
     background-color: transparent;
+}
+.linktext {
+    font-size: 15px;
 }
 
 @media screen and (max-width: 425px) {

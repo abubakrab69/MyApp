@@ -7,10 +7,10 @@ const Footer = () => {
         <div className='footer'>
             <div className="footer_inn">
                <ul className='footer_links'>
-               <NavLink to="/"><div className="footer_loca"> <li>Home</li></div></NavLink>
-               <NavLink to="/projects"><div className="footer_loca"> <li>Projects</li></div></NavLink>
-               <NavLink to="/about"><div className="footer_loca"> <li>About</li></div></NavLink>
-               <NavLink to="/contact"><div className="footer_loca"> <li>Skills</li></div></NavLink>
+               <NavLink to="/"><div className="footer_loca"> <li className='linktext'>Home</li></div></NavLink>
+               <NavLink to="/projects"><div className="footer_loca"> <li className='linktext'>Projects</li></div></NavLink>
+               <NavLink to="/about"><div className="footer_loca"> <li className='linktext'>About</li></div></NavLink>
+               <NavLink to="/Skill_section"><div className="footer_loca"> <li className='linktext'>Skills</li></div></NavLink>
                </ul>
 
 
