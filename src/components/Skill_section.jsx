@@ -13,7 +13,6 @@ import Navbar_bottom from './Navbar_bottom'
 import Flutter from './../assets/flutter_icon.webp'
 import Tailwind from './../assets/tailwindcss.jpg'
 
-
 const SkillSection = () => {
   return (
     <>
