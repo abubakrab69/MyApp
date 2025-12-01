@@ -85,7 +85,7 @@ a {
     height: 40px;
     padding: 8px;
     border: none;
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(59, 167, 255);
     color: black;
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
@@ -129,24 +129,12 @@ li {
 }
 
 .active {
-    color: rgb(255, 191, 0);
+    color: rgb(59, 167, 255);
     font-weight: bold;
 }
 
 .link:hover {
-    color: rgb(255, 191, 0);
-}
-
-.logoABNav {
-    color: #FF7A01;
-    font-size: 40px;
-    font-family: "Bonheur Royale", cursive;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: rgb(59, 167, 255);
 }
 
 @media screen and (max-width: 768px) {
