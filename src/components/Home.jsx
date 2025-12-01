@@ -97,9 +97,11 @@ const Home = () => {
                 <button onClick={handleDownload} className={styles.btn_cv}>
                   Download CV
                 </button>
-                <button className={styles.btn_hire}>
+                <a href="/contactus">
+                  <button className={styles.btn_hire}>
                   Hire Me
                 </button>
+                </a>
               </motion.div>
             </div>
 
