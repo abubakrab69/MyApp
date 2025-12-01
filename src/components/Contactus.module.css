@@ -42,7 +42,7 @@
     transition: all 0.2s ease-in-out;
 }
 .social_logo:hover {
-    color: rgb(255, 204, 0);
+    color: rgb(59, 167, 255);
 }
 
 .contact_text {
@@ -157,7 +157,7 @@
     left: 0;
     width: 0%;
     height: 0%;
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(59, 167, 255);
     transition: 250ms;
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@
 .email_box {
     width: 50%;
     padding: 30px;
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(59, 167, 255);
     margin-top: 70px;
 }
 
