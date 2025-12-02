@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Contactus from './components/Contactus';
 import About from './components/About';
 import SkillSection from './components/Skill_section';
-import SplashScreen from "./splash/splash_screen";
+import SplashScreen from "./Splash/splash_screen";
 import AnimatedStarfield from './animations/AnimatedStarfield';
 
 function App() {
