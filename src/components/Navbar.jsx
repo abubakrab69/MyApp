@@ -8,12 +8,6 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar1">
-        {/* <img 
-          src={Logo} 
-          alt="MY_Logo" 
-          loading="lazy" 
-          className="logo_top" 
-        /> */}
         <h1 className="logoABNav">
           <img src={Logo} alt="" width={70} height={70}/>
         </h1>
