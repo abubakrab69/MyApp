@@ -22,17 +22,19 @@ body {
     justify-content: center;
     align-items: center;
     padding: 11.5px 1px;
-    border-radius: 55px;
+    border-radius: 15px;
     position: fixed;
     bottom: 25px;
     left: 50%;
     transform: translate(-50%, 0);
-    backdrop-filter: blur(220px);
+    transform: translate(-50%, 0);
     transition: all 0.2s ease-in-out;
-    background: rgba(181, 177, 177, 0.15);
-    backdrop-filter: blur(10px);
+    background: rgba(124, 121, 121, 0.077);
+    backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
     z-index: 1000;
+    
 
 }
 
