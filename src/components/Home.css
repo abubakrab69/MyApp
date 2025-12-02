@@ -167,7 +167,6 @@
     width: 120px;
     padding: 10px;
     border: none;
-    /* background-color: rgb(225, 184, 3); */
     background-color: white;
     color: rgb(32, 30, 49);
     font-family: "Philosopher", sans-serif;
@@ -262,8 +261,8 @@
         width: 100%;
         margin-top: 30px;
     }
-    
 }
+
 @media screen and (max-width: 728px) {
     .main_name_text{
         font-size: 70px;
@@ -285,8 +284,8 @@
     .hello_text{
         font-size: 20px;
     }
-    
 }
+
 @media screen and (max-width: 425px) {
     .main_name_text{
         font-size: 50px;

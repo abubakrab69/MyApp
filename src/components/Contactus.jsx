@@ -64,7 +64,6 @@ const Contactus = () => {
 </svg>
                         </div>
                     </a>
-
                 </div>
 
                 <div className={styles.form}>
