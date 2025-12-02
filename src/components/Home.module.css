@@ -38,10 +38,11 @@
     margin-bottom: 220px;
 }
 .main_name_text{
-    font-size: 250px;
+    font-size: 30px;
     font-weight: 100;
-    margin-bottom: -30px;
-    font-family: "DM Sans", sans-serif;
+    /* margin-bottom: -30px; */
+    /* font-family: "DM Sans", sans-serif; */
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 150;
     color: white;
     transition: all 0.2s ease-in-out;
@@ -411,11 +412,13 @@
     font-family: "DM Sans", sans-serif;
     font-weight: 150;
     
+    
 }
 .hello_text{
-    font-size: 30px;
+    font-size: 65px;
     margin-top: 0px;
-    font-family: Nunito, sans-serif;
+    /* font-family: Nunito, sans-serif; */
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 350;
     color: white;
 }
