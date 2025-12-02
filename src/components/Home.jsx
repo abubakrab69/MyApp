@@ -128,7 +128,6 @@ const Home = () => {
             </motion.div>
           </div>
         </div>
-
         {/* project section */}
         <div className={`${styles.project_cover} ${styles.container_100}`}>
           <div className={`${styles.project_inner} ${styles.container_80}`}>
