@@ -135,13 +135,13 @@ li {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .logo_top {
         width: 25px;
     }
 
     .nav_links {
-        gap: 30px;
+        gap: 65px;
     }
     .navbar{
         width: 90%;
