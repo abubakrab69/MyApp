@@ -38,7 +38,7 @@
     margin-bottom: 220px;
 }
 .main_name_text{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
     /* margin-bottom: -30px; */
     /* font-family: "DM Sans", sans-serif; */
@@ -61,7 +61,7 @@
 }
 
 .btn_cv {
-    width: 220px;
+    width: 210px;
     padding: 14px;
     border: none;
     margin-top: 30px;
@@ -128,7 +128,7 @@
  /* hire btn  */
 
  .btn_hire {
-    width: 220px;
+    width: 210px;
     padding: 14px;
     border: none;
     margin-top: 30px;
@@ -419,8 +419,9 @@
     margin-top: 0px;
     /* font-family: Nunito, sans-serif; */
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 350;
+    font-weight: 600;
     color: white;
+    color: #61baff;
 }
 
 
@@ -444,13 +445,13 @@
         margin-top: 0px;
     }
     .main_name_text{
-        font-size: 200px;
+        font-size: 20px;
     }
     
 }
 @media screen and (max-width: 768px) {
     .main_name_text{
-        font-size: 200px;
+        font-size: 20px;
     }
     .hero_section{
         display: flex;
@@ -468,7 +469,7 @@
         width: 95%;
     }
     .hello_text{
-        font-size: 20px;
+        font-size: 65px;
     }
     .btn_cv{
         gap: 0px;
@@ -477,7 +478,7 @@
 }
 @media screen and (min-width: 0px) and (max-width: 426px) {
     .main_name_text{
-        font-size: 150px;
+        font-size: 20px;
     }
     .hero_section{
         display: flex;
@@ -518,21 +519,19 @@
         height: 40px;
     }
     .hero_btn{
-        gap: 4px;
+        gap: 3px;
         width: 100%;
     }
     .btn_cv{
-        width: 160px;
-        padding: 12px 7px;
+        width: 140px;
+        padding: 12px 1px;
     }
     .btn_hire{
-        width: 160px;
+        width: 140px;
         padding: 12px;
     }
     .hello_text{
         font-family: "DM Sans", sans-serif;
-    font-weight: 200;
     }
-
 
 }

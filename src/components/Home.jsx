@@ -33,7 +33,7 @@ const Home = () => {
           {/* hero section */}
           <div className={styles.hero_section}>
             <div className={styles.top_namimg}>
-              <h1 className={styles.main_name_text}>HELLO</h1>
+              <h1 className={styles.main_name_text}>HELLO,</h1>
               <h1 className={styles.main_name_text}>IT'S MUHAMMAD ABU BAKR</h1>
 
               <h1 className={styles.hello_text}>
@@ -86,7 +86,7 @@ const Home = () => {
               {/* buttons */}
               <div className={styles.hero_btn}>
                 <button onClick={handleDownload} className={styles.btn_cv}>
-                  Download CV
+                  Grab My CV
                 </button>
                 <a href="/contactus">
                   <button className={styles.btn_hire}>
