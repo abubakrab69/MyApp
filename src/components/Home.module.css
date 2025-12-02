@@ -333,7 +333,7 @@
     padding: 10px;
     border: none;
     background-color: white;
-    color: rgb(32, 30, 49);
+    color: rgb(0, 0, 0);
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
     font-size: 20px;
@@ -352,13 +352,14 @@
     left: 0;
     width: 0%;
     height: 0%;
-    background-color: rgb(255, 191, 0);
+    background-color: #2f73fd;
     transition: 250ms;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     font-size: 0px;
+    color: white;
     
 }
 .btn_see_more:hover::after {
@@ -403,7 +404,7 @@
 }
 
 .first:hover{
-    background-color: rgb(255, 191, 0);
+    background-color: #2f73fd;
     color: #063136;
 }
 .hello_text_f{
