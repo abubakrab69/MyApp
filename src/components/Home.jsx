@@ -37,7 +37,7 @@ const Home = () => {
               <h1 className={styles.main_name_text}>IT'S MUHAMMAD ABU BAKR</h1>
 
               <h1 className={styles.hello_text}>
-                Mobile Application and Web Developer
+                A Mobile Application and Web Developer
               </h1>
 
               {/* social icons */}
