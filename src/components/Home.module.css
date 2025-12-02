@@ -395,11 +395,11 @@
     gap: 17px;
     margin-top: 20px;
     border-radius: 100px;
-    backdrop-filter: blur(120px);
+    /* backdrop-filter: blur(120px);
     transition: all 0.2s ease-in-out;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -534,4 +534,49 @@
         font-family: "DM Sans", sans-serif;
     }
 
+}
+
+
+/* Fade + slide-in animation */
+.hero_section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.8s ease;
+}
+
+.hero_section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Each item stagger animation */
+.fade_item {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.9s ease forwards;
+}
+
+/* Stagger delays */
+.fade_item:nth-child(1) { animation-delay: 0.3s; }
+.fade_item:nth-child(2) { animation-delay: 0.45s; }
+.fade_item:nth-child(3) { animation-delay: 0.6s; }
+.fade_item:nth-child(4) { animation-delay: 0.75s; }
+
+/* Fade + slide keyframe */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth floating effect for image */
+.float_img {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-18px); }
+    100% { transform: translateY(0px); }
 }

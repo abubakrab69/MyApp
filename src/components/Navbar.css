@@ -43,16 +43,16 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px 7px;
-    border-radius: 55px;
+    border-radius: 15px;
     position: fixed;
     top: 7px;
     left: 50%;
     transform: translate(-50%, 0);
-    backdrop-filter: blur(220px);
     transition: all 0.2s ease-in-out;
-    background: rgba(181, 177, 177, 0.15);
-    backdrop-filter: blur(10px);
+    background: rgba(124, 121, 121, 0.077);
+    backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
     z-index: 1000;
 }
 
@@ -91,7 +91,7 @@ a {
     font-weight: 200;
     font-size: 16px;
     position: relative;
-    border-radius: 50px;
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -107,7 +107,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 15px;
     color: white;
     font-size: 0px;
 }
