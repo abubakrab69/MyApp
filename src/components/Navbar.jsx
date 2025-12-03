@@ -30,7 +30,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className='link'>
-            <NavLink to="/skill_section" end className={({ isActive }) => isActive ? "active" : ""}>
+            <NavLink to="/Uses" end className={({ isActive }) => isActive ? "active" : ""}>
               Uses
             </NavLink>
           </li>
