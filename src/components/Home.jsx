@@ -165,10 +165,9 @@ const Home = () => {
               </Link>
             </div>
           </div>
-
-          <Navbar_bottom />
-          <Footer />
         </div>
+        <Navbar_bottom />
+          <Footer />
       </div>
     </>
   )

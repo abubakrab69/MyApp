@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li className='link'>
             <NavLink to="/skill_section" end className={({ isActive }) => isActive ? "active" : ""}>
-              Skills
+              Uses
             </NavLink>
           </li>
         </ul>

@@ -292,7 +292,6 @@
 .outer_link {
     width: 32%;
 }
-
 .outer_link {
     position: relative;
 }
@@ -421,6 +420,10 @@
     color: #61baff;
 }
 
+.skill_heading {
+    font-size: 40px;
+    color: white;
+}
 
 
 @media screen and (max-width: 1024px) {
