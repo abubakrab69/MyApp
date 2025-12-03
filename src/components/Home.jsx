@@ -175,7 +175,7 @@ const Home = () => {
                 <button className={styles.btn_see_more}>See More</button>
               </Link>
 
-              <h1 className={styles.project_heading}>Skills</h1>
+              <h1 className={styles.project_heading}>Technical Mastery</h1>
 
               <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>

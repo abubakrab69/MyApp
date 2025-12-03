@@ -1,0 +1,14 @@
+.uses_main_container{
+  width: 80%;
+  margin: auto;
+}
+.laptop_image {
+  width: 840px;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+

@@ -65,9 +65,10 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Contactus from './components/Contactus';
 import About from './components/About';
-import SkillSection from './components/Skill_section';
+// import SkillSection from './components/Skill_section';
 import SplashScreen from "./splash/Splash.jsx";
 import AnimatedStarfield from './animations/AnimatedStarfield';
+import Uses from "./components/Uses.jsx";
 
 function App() {
 
@@ -82,8 +83,8 @@ function App() {
     { path: "/", element: <Home /> },
     { path: "/projects", element: <Projects /> },
     { path: "/about", element: <About /> },
-    { path: "/skill_section", element: <SkillSection /> },
-    { path: "/contactus", element: <Contactus /> }
+    { path: "/skill_section", element: <Uses /> },
+    { path: "/Uses", element: <Contactus /> }
   ]);
 
   if (loading) {
