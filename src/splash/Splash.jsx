@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import AnimatedStarfield from "../animations/AnimatedStarfield"; // adjust path
 
-const SplashScreen = () => {
+const Splash = () => {
   return (
     <div style={styles.container}>
       {/* Animated starfield background */}
@@ -82,4 +82,4 @@ const styles = {
   },
 };
 
-export default SplashScreen;
+export default Splash;

@@ -6,12 +6,11 @@ import Projects from './components/Projects';
 import Contactus from './components/Contactus';
 import About from './components/About';
 import SkillSection from './components/Skill_section';
-import SplashScreen from "./../src/splash/splash_screen";
+import SplashScreen from "./splash/Splash.jsx";
 import AnimatedStarfield from './animations/AnimatedStarfield';
 
 function App() {
 
-  // Splash state
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -47,7 +46,6 @@ function App() {
     return <SplashScreen />;
   }
 
-  // Show actual app after splash
   return (
     <>
       <AnimatedStarfield />
