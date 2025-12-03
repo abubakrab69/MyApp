@@ -11,9 +11,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background: linear-gradient(to left, #53076d, #4e0766, #22022d);
-}
+} */
 
 .orange {
   color: #FF7A01;

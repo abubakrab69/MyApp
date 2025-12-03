@@ -83,8 +83,8 @@ function App() {
     { path: "/", element: <Home /> },
     { path: "/projects", element: <Projects /> },
     { path: "/about", element: <About /> },
-    { path: "/skill_section", element: <Uses /> },
-    { path: "/Uses", element: <Contactus /> }
+    { path: "/Uses", element: <Uses /> },
+    { path: "/Contactus", element: <Contactus /> }
   ]);
 
   if (loading) {

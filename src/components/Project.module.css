@@ -140,7 +140,7 @@
     font-size: 100%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .project_first_line{
         flex-direction: column;
         width: 100%;

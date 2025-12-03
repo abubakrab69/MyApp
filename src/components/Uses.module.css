@@ -1,14 +1,45 @@
-.uses_main_container{
-  width: 80%;
-  margin: auto;
-}
-.laptop_image {
-  width: 780px;
-  height: 520px;
-  margin: auto;
-  border-radius: 20px;
+.uses_main_container {
+  width: 90%; 
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 10px;
 }
 
+.laptop_image {
+  width: 100%; 
+  max-width: 780px; 
+  height: auto; 
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+
+@media (max-width: 768px) {
+  .uses_main_container {
+    margin-top: 30px;
+  }
+
+  .laptop_image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .uses_main_container {
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .laptop_image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+}

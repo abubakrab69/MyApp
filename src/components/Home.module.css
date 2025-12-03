@@ -84,7 +84,6 @@
     inset: 0;
     border-radius: inherit;
     padding: 2px;
-    background: linear-gradient(to right, 120deg, #2f054d, #7015b2, #350657);
     filter: blur(12px);
     opacity: 0;
     transition: opacity 0.4s ease, filter 0.4s ease;
@@ -428,9 +427,10 @@
 
 /* skills section  */
 
-.skills_main_container {
+/* .skills_main_container {
     display: flex;
     gap: 13px;
+    flex-wrap: wrap;
 }
 .skill_num_one {
     width: 52px;
@@ -443,7 +443,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.skills_main_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center; 
+    margin-top: 30px;
 }
+
+.skill_num_one {
+    width: 52px;
+    height: 52px;
+}
+
+.skill_num_one_box {
+    padding: 10px;
+    border: 4px solid rgb(48, 142, 249);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1024px) {
     .hero_section{
         display: flex;
