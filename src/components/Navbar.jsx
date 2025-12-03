@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import { color } from 'framer-motion'
-import Logo from './../assets/Logo_main.png'
+import Logo from './../assets/logo_main.png'
 
 const Navbar = () => {
   return (
