@@ -14,6 +14,17 @@ import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Navbar_bottom from './Navbar_bottom'
 
+import HTML from './../assets/html.png'
+import CSS from './../assets/css.png'
+import JS from './../assets/js.png'
+import REACT from './../assets/react1.png'
+import Bootstrap from './../assets/bootstrap.png'
+// import Navbar_bottom from './Navbar_bottom'
+import Flutter from './../assets/flutter_icon.webp'
+import Tailwind from './../assets/tailwindcss.jpg'
+
+
+
 const Home = () => {
 
   useEffect(() => {
@@ -163,6 +174,32 @@ const Home = () => {
               <Link to="/projects">
                 <button className={styles.btn_see_more}>See More</button>
               </Link>
+
+              <h1 className={styles.project_heading}>Skills</h1>
+
+              <div className={styles.skills_main_container}>
+                <div className={styles.skill_num_one_box}>
+                  <img src={HTML} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={CSS} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={JS} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={REACT} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={Tailwind} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={Bootstrap} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={Flutter} alt="" className={styles.skill_num_one}/>
+                </div>
+              </div>
             </div>
           </div>
         </div>

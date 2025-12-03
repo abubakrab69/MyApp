@@ -420,12 +420,30 @@
     color: #61baff;
 }
 
-.skill_heading {
-    font-size: 40px;
-    color: white;
+
+
+
+
+
+
+/* skills section  */
+
+.skills_main_container {
+    display: flex;
+    gap: 13px;
 }
-
-
+.skill_num_one {
+    width: 52px;
+    height: 52px;
+}
+.skill_num_one_box {
+    padding: 10px;
+    border: 4px solid rgb(48, 142, 249);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 1024px) {
     .hero_section{
         display: flex;
