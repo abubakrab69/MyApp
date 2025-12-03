@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Myimage from "./../assets/aboutimage.jpeg";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
-import Logo from "./../assets/Logo_main.png";
+import Logo from "./../assets/logo_main.png";
 import Navbar_bottom from "./Navbar_bottom";
 const AboutMe = () => {
   return (
