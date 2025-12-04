@@ -207,6 +207,9 @@ const Home = () => {
                   <img src={Github} alt="" className={styles.skill_num_one}/>
                 </div>
               </div>
+              <Link to="/Uses">
+                <button className={styles.btn_Uses}>Uses</button>
+              </Link>
             </div>
           </div>
         </div>
