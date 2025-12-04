@@ -406,7 +406,7 @@
 .btn_Uses:hover::after{
     width: 100%;
     height: 100%;
-    content: 'See More';
+    content: 'Uses';
     cursor: pointer;
     color: #000000;
     font-size: 100%;

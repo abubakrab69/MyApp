@@ -11,7 +11,7 @@
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 20px 0px;
     position: relative;
     z-index: 1;
     border-radius: 20px;
@@ -52,6 +52,8 @@
     font-size: 65px;
     width: 100%;
     margin-bottom: 0px;
+    justify-content: flex-start;
+    display: initial;
 }
 
 .contact_para {
@@ -319,7 +321,6 @@
         display: flex;
         flex-direction: row;
     }
-
     .right {
         width: 100%;
         margin-left: 0px;
@@ -345,14 +346,12 @@
     #textarea {
         width: 100%;
     }
-
     .contact_text {
         text-align: center;
         font-size: 45px;
     }
-
     .line {
-        width: 90%;
+        width: 70%;
     }
 
     .email_box {

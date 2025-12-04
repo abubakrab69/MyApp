@@ -39,14 +39,18 @@
   width: 20%;
   background-color: rgb(17, 17, 63);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: white;
   background: rgba(124, 121, 121, 0.077);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
+    transition: 0.2s all ease-in-out;
 }
 
+.specBox:hover{
+  transform: translateY(-7px);
+}
 
 @media (max-width: 768px) {
   .uses_main_container {

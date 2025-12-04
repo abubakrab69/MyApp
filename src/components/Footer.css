@@ -80,6 +80,7 @@
 @media screen and (max-width: 426px) {
     .footer{
         width: 90% !important;
+        margin-bottom: 100px;
     }
     .footer_links{
         flex-direction: column;
