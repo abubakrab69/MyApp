@@ -468,6 +468,12 @@
     align-items: center;
 }
 
+
+.project_name {
+    color: white;
+    font-size: 40px;
+}
+
 @media screen and (max-width: 1024px) {
     .hero_section{
         display: flex;

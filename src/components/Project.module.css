@@ -53,17 +53,17 @@
 }
 .project1 {
     width: 100%;
-    height: 650px;
+    height: 550px;
     overflow: hidden;
-    /* padding: 5px; */
-    background-color: rgb(8, 60, 70);
+    padding: 5px;
+    background-color: rgb(3, 32, 56);
     border-radius: 30px;
 }
 
 .proj_img{
-    border-radius: 17px;
+    border-radius: 27px;
     width: 100%;
-    height: 100%;
+    height: 65%;
     overflow: hidden;
 }
 .outer_link {
@@ -88,7 +88,7 @@
     border-radius: 30px;
 }
 
-.outer_link:hover::after {
+/* .outer_link:hover::after {
     width: 100%;
     height: 100%;
     content: 'Click to View Project';
@@ -98,7 +98,7 @@
     color: black;
     cursor: pointer;
     font-size: 30px;
-}
+} */
 
 .btn_see_more {
     width: 120px;

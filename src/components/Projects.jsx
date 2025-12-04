@@ -30,6 +30,9 @@ const Projects = () => {
               <a href="https://chai-code-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
                 <div className={styles.project1} data-aos="zoom-in-right">
                   <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.proj_img} />
+                  <div>
+                  <h1 className={styles.project_name}>Chaidocs</h1>some 
+                </div>
                 </div>
               </a>
 
