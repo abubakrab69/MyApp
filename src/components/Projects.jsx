@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="zoom-in-right">
                   <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.proj_img} />
                   <div>
-                  <h1 className={styles.project_name}>Chaidocs</h1>some 
+                  <h1 className={styles.project_name}>Chaidocs</h1>
                 </div>
                 </div>
               </a>
