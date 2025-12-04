@@ -22,7 +22,8 @@ import Bootstrap from './../assets/bootstrap.png'
 // import Navbar_bottom from './Navbar_bottom'
 import Flutter from './../assets/flutter_icon.webp'
 import Tailwind from './../assets/tailwindcss.jpg'
-
+import Git from './../assets/git.png'
+import Github from './../assets/github.png'
 
 
 const Home = () => {
@@ -198,6 +199,12 @@ const Home = () => {
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Flutter} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={Git} alt="" className={styles.skill_num_one}/>
+                </div>
+                <div className={styles.skill_num_one_box}>
+                  <img src={Github} alt="" className={styles.skill_num_one}/>
                 </div>
               </div>
             </div>

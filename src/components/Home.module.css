@@ -456,6 +456,7 @@
 .skill_num_one {
     width: 52px;
     height: 52px;
+    border-radius: 10px;
 }
 
 .skill_num_one_box {
