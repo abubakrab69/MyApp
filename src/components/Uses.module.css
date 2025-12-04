@@ -3,10 +3,12 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   margin-top: 50px;
   padding: 0 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .laptop_image {
@@ -17,8 +19,33 @@
   display: block;
   margin: 0 auto;
   margin-top: 80px;
+  justify-content: center;
 }
 
+.laptopName {
+  color: white;
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.spesContainer {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.specBox {
+  width: 28%;
+  background-color: rgb(17, 17, 63);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  background: rgba(124, 121, 121, 0.077);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
+}
 
 @media (max-width: 768px) {
   .uses_main_container {
