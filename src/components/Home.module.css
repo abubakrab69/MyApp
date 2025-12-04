@@ -422,9 +422,6 @@
 
 
 
-
-
-
 /* skills section  */
 
 .skills_main_container {
@@ -595,13 +592,10 @@
     }
 }
 
-/* Smooth floating effect for image */
-.float_img {
-    animation: float 4s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-18px); }
-    100% { transform: translateY(0px); }
+/* Image style (no float animation) */
+.hero_img {
+    /* agar koi specific styling chahiye to yahan add karo */
+    max-width: 100%;
+    display: block;
+    height: auto;
 }

@@ -69,4 +69,10 @@
     height: auto;
     border-radius: 15px;
   }
+  .spesContainer {
+    flex-direction: column;
+  }
+  .specBox {
+    width: 100%;
+  }
 }
