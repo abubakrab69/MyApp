@@ -29,6 +29,9 @@ const Uses = () => {
          <div className={styles.specBox}>
             Core i5
           </div>
+         <div className={styles.specBox}>
+            Windows 11 Pro
+          </div>
         </div>
       </div>
 
