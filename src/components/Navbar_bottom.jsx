@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './Navbar_bottom.module.css';
 import { NavLink } from 'react-router-dom'
 import { color } from 'framer-motion'
-// import Logo from './../assets/Logo_main.png'
 import { style } from 'framer-motion/client';
 
 const Navbar_bottom = () => {
@@ -38,7 +37,6 @@ const Navbar_bottom = () => {
 </svg>
             </NavLink>
           </li>
-         
         </ul>
       </nav>
     </div>
