@@ -45,15 +45,6 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="mail-button mail-button2">
-              <a href="mailto:abubakr.ab69@gmail.com">
-                <img
-                  src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/20391be8bf1ed24ef0e5da066bf68a5f6ee78fa1/images/mail.svg"
-                  // src='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=abubakr.ab69@gmail.com'
-                  alt="mail"
-                />
-              </a>
-            </div> */}
             <div className="mail-button mail-button2">
   <a
     href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=abubakr.ab69@gmail.com"
