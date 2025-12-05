@@ -47,36 +47,84 @@ const Uses = () => {
         <div className={styles.tools_main_container}>
           <div className={styles.tool_one}>
             <img src={Postman} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Postman</h3>
+            <h6 className={styles.textTopTool}>Api testing</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={Vercel} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Vercel</h3>
+            <h6 className={styles.textTopTool}>Project Deployement</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={Slack} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Slack</h3>
+            <h6 className={styles.textTopTool}>Work Space</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={DART} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Dart</h3>
+            <h6 className={styles.textTopTool}>Dart Devtools</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={AndriodS} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Andriod Studio</h3>
+            <h6 className={styles.textTopTool}>Code Editor</h6>
+            </div>
           </div>
+        </div>
+        <div className={styles.tools_main_container}>
           <div className={styles.tool_one}>
             <img src={VSCode} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>VS Code</h3>
+            <h6 className={styles.textTopTool}>Code Editor</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={DART} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Postman</h3>
+            <h6 className={styles.textTopTool}>Api testing</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={Emulator} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Postman</h3>
+            <h6 className={styles.textTopTool}>Api testing</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={NPM} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Postman</h3>
+            <h6 className={styles.textTopTool}>Api testing</h6>
+            </div>
           </div>
           <div className={styles.tool_one}>
             <img src={Git} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Postman</h3>
+            <h6 className={styles.textTopTool}>Api testing</h6>
+            </div>
           </div>
+        </div>
+        <div className={styles.tools_main_container}>
           <div className={styles.tool_one}>
             <img src={Github} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Postman</h3>
+            <h6 className={styles.textTopTool}>Api testing</h6>
+            </div>
           </div>
         </div>
       </div>
