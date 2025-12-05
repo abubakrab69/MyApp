@@ -79,10 +79,6 @@
   color: white;
 }
 
-/* @media screen and (max-width: 1024) {
-  
-} */
-
 @media (max-width: 1024px) {
   .uses_main_container {
     margin-top: 30px;
