@@ -19,7 +19,6 @@ const AboutMe = () => {
             <div className="about-me-title">
               About <br /> Abu Bakr
             </div>
-
             <div className="about-me-flex-container">
               <div className="about-me-image">
                 <div className="back-div"></div>
@@ -30,14 +29,12 @@ const AboutMe = () => {
                   <img src={Myimage} alt="smit" />
                 </div>
               </div>
-
               <div className="about-me-content">
                 <div className="logo">
                   <h1 className="logoAB">
                     <img src={Logo} alt="logo"/>
                   </h1>
                 </div>
-
                 <div className="text">
                   An ambitious Mobile App and Web Developer who takes great
                   pride in the presentation and quality of work.
@@ -48,8 +45,7 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-
-            <div className="mail-button mail-button2">
+            {/* <div className="mail-button mail-button2">
               <a href="mailto:abubakr.ab69@gmail.com">
                 <img
                   src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/20391be8bf1ed24ef0e5da066bf68a5f6ee78fa1/images/mail.svg"
@@ -57,7 +53,20 @@ const AboutMe = () => {
                   alt="mail"
                 />
               </a>
-            </div>
+            </div> */}
+            <div className="mail-button mail-button2">
+  <a
+    href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=abubakr.ab69@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/20391be8bf1ed24ef0e5da066bf68a5f6ee78fa1/images/mail.svg"
+      alt="mail"
+    />
+  </a>
+</div>
+
           </div>
         </motion.div>
       </section>

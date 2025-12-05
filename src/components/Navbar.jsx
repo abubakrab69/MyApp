@@ -11,7 +11,6 @@ const Navbar = () => {
         <h1 className="logoABNav">
           <img src={Logo} alt="" width={70} height={70}/>
         </h1>
-
         <div className='nav_inner_box'>
           <ul className='nav_links'>
           <li className='link'>
