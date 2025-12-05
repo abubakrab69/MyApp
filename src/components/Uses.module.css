@@ -79,7 +79,11 @@
   color: white;
 }
 
-
+@media screen and (max-width: 1027) {
+  .tool_one{
+    padding: 5px 2px;
+  }
+}
 
 @media (max-width: 768px) {
   .uses_main_container {
