@@ -5,7 +5,6 @@
     position: relative;
     z-index: 1;
 }
-
 .project_title {
     color: #87A4B6;
     font-size: 50px;
@@ -15,13 +14,11 @@
     margin: auto;
     margin-top: 30px;
 }
-
 .project_cover {
     margin-top: 50px;
     background-color: transparent;
     padding-top: 10px;
 }
-
 .project_heading {
     text-align: center;
     font-family: "Philosopher", sans-serif;
@@ -29,11 +26,9 @@
     font-size: 60px;
     color: white;
 }
-
 .container_80{
     width: 80%;
 }
-
 .project_container {
     width: 100%;
     display: flex;
@@ -43,7 +38,6 @@
     gap: 21px;
     margin-top: 40px;
 }
-
 .project_first_line {
     width: 100%;
     display: flex;
@@ -59,7 +53,6 @@
     background-color: rgb(3, 32, 56);
     border-radius: 30px;
 }
-
 .proj_img{
     border-radius: 27px;
     width: 100%;
@@ -87,7 +80,6 @@
     font-size: 0px;
     border-radius: 30px;
 }
-
 .btn_see_more {
     width: 120px;
     padding: 10px;
@@ -103,7 +95,6 @@
     margin-bottom: 35px;
     cursor: pointer;
 }
-
 .btn_see_more::after {
     content: "";
     position: absolute;
