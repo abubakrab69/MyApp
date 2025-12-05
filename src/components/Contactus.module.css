@@ -235,15 +235,12 @@
     .inputs {
         width: 50%;
     }
-
     #textarea {
         width: 50%;
     }
-
     .contact_text {
         text-align: center;
     }
-
     .line {
         width: 48%;
     }
@@ -259,7 +256,6 @@
         align-items: center;
         gap: 30px;
     }
-
     .right {
         width: 100%;
         margin-left: 0px;
@@ -269,7 +265,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .myForm {
         width: 100%;
         display: flex;
@@ -277,20 +272,16 @@
         justify-content: center;
         align-items: center;
     }
-
     .inputs {
         width: 50%;
     }
-
     #textarea {
         width: 50%;
     }
-
     .contact_text {
         text-align: center;
         font-size: 50px;
     }
-
     .line {
         width: 48%;
     }
@@ -308,7 +299,6 @@
         margin-bottom: 40px;
         width: 90% !important;
     }
-
     .form {
         display: flex;
         flex-direction: column;
@@ -316,7 +306,6 @@
         align-items: center;
         gap: 30px;
     }
-
     .logos {
         display: flex;
         flex-direction: row;
@@ -330,7 +319,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .myForm {
         width: 100%;
         display: flex;
@@ -338,11 +326,9 @@
         justify-content: center;
         align-items: center;
     }
-
     .inputs {
         width: 100%;
     }
-
     #textarea {
         width: 100%;
     }
