@@ -36,7 +36,6 @@
     align-items: center;
     gap: 10px;
 }
-
 .social_logo {
     color: white;
     transition: all 0.2s ease-in-out;
@@ -44,7 +43,6 @@
 .social_logo:hover {
     color: rgb(59, 167, 255);
 }
-
 .contact_text {
     color: white;
     font-family: "Philosopher", sans-serif;
@@ -55,7 +53,6 @@
     justify-content: flex-start;
     display: initial;
 }
-
 .contact_para {
     color: rgb(179, 178, 178);
     font-family: "Philosopher", sans-serif;
@@ -63,23 +60,18 @@
     font-size: 14px;
     margin-top: 16px;
 }
-
 .line {
     width: 55%;
     height: 3.5px;
     background-color: white;
 }
-
 .right {
     width: 50%;
     margin-left: 150px;
 }
-
 .myForm {
     width: 50%;
 }
-
-
 
 /* myForm  */
 
@@ -89,7 +81,6 @@
     justify-content: center;
     align-items: left !important;
 }
-
 .inputs {
     width: 70%;
     padding: 13px 13px 13px 0px;
@@ -102,15 +93,12 @@
     margin-top: 6px;
     padding: 10px;
 }
-
 .inputs::placeholder {
     color: white;
 }
-
 .inputs:focus {
     outline-color: rgb(35, 189, 176);
 }
-
 #textarea {
     width: 70%;
     padding: 13px 13px 13px 0px;
@@ -128,15 +116,12 @@
     padding: 10px;
     margin-top: 6px;
 }
-
 #textarea::placeholder {
     color: white;
 }
-
 #textarea:focus {
     outline-color: rgb(35, 189, 176);
 }
-
 .btn_send {
     width: 70%;
     padding: 8px;
@@ -151,7 +136,6 @@
     margin-top: 6px;
     overflow: hidden;
 }
-
 .btn_send::after {
     content: "";
     position: absolute;
@@ -168,7 +152,6 @@
     color: #0f171d;
     font-size: 0px;
 }
-
 .btn_send:hover::after {
     width: 100%;
     height: 100%;
@@ -176,11 +159,6 @@
     font-size: 100%;
     cursor: pointer;
 }
-
-
-
-
-
 .log {
     transition: all 0.2s ease-in-out;
 }
@@ -189,14 +167,12 @@
     color: rgb(59, 167, 255);
     cursor: pointer;
 }
-
 .email_box {
     width: 50%;
     padding: 30px;
     background-color: rgb(59, 167, 255);
     margin-top: 70px;
 }
-
 .line2 {
     width: 30px;
     height: 2px;
@@ -213,7 +189,6 @@
         align-items: center;
         gap: 30px;
     }
-
     .right {
         width: 100%;
         margin-left: 0px;
@@ -223,7 +198,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .myForm {
         width: 100%;
         display: flex;
@@ -231,7 +205,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .inputs {
         width: 50%;
     }
