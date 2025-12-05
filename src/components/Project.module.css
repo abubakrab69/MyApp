@@ -88,18 +88,6 @@
     border-radius: 30px;
 }
 
-/* .outer_link:hover::after {
-    width: 100%;
-    height: 100%;
-    content: 'Click to View Project';
-    font-family: "Philosopher", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    color: black;
-    cursor: pointer;
-    font-size: 30px;
-} */
-
 .btn_see_more {
     width: 120px;
     padding: 10px;
@@ -148,8 +136,10 @@
 .project_detail {
     color: white;
     margin-left: 25px;
-    /* margin-top: 15px; */
 }
+
+
+
 @media screen and (max-width: 426px) {
     .project_first_line{
         flex-direction: column;
