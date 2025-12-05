@@ -16,6 +16,8 @@ import AndriodS from './../assets/androidstudio.png'
 import NPM from './../assets/npm.webp'
 import VSCode from './../assets/vscode.png'
 import Emulator from './../assets/emulator.png'
+import Netlify from './../assets/netlify.png'
+import GithubDextop from './../assets/github_dextop.png'
 
 const Uses = () => {
   return (
@@ -90,40 +92,47 @@ const Uses = () => {
             </div>
           </div>
           <div className={styles.tool_one}>
-            <img src={DART} alt="" className={styles.tools_images}/>
+            <img src={Github} alt="" className={styles.tools_images}/>
             <div className={styles.toolInnerText}>
-              <h3 className={styles.textTopTool}>Postman</h3>
-            <h6 className={styles.textTopTool}>Api testing</h6>
+              <h3 className={styles.textTopTool}>Github</h3>
+            <h6 className={styles.textTopTool}>Collaboration With Teams</h6>
             </div>
           </div>
           <div className={styles.tool_one}>
             <img src={Emulator} alt="" className={styles.tools_images}/>
             <div className={styles.toolInnerText}>
-              <h3 className={styles.textTopTool}>Postman</h3>
-            <h6 className={styles.textTopTool}>Api testing</h6>
+              <h3 className={styles.textTopTool}>Emulator</h3>
+            <h6 className={styles.textTopTool}>Andriod emulator</h6>
             </div>
           </div>
           <div className={styles.tool_one}>
             <img src={NPM} alt="" className={styles.tools_images}/>
             <div className={styles.toolInnerText}>
-              <h3 className={styles.textTopTool}>Postman</h3>
-            <h6 className={styles.textTopTool}>Api testing</h6>
+              <h3 className={styles.textTopTool}>NPM</h3>
+            <h6 className={styles.textTopTool}>Npm package</h6>
             </div>
           </div>
           <div className={styles.tool_one}>
             <img src={Git} alt="" className={styles.tools_images}/>
             <div className={styles.toolInnerText}>
-              <h3 className={styles.textTopTool}>Postman</h3>
-            <h6 className={styles.textTopTool}>Api testing</h6>
+              <h3 className={styles.textTopTool}>Git</h3>
+            <h6 className={styles.textTopTool}>VCS</h6>
             </div>
           </div>
         </div>
         <div className={styles.tools_main_container}>
           <div className={styles.tool_one}>
-            <img src={Github} alt="" className={styles.tools_images}/>
+            <img src={Netlify} alt="" className={styles.tools_images}/>
             <div className={styles.toolInnerText}>
-              <h3 className={styles.textTopTool}>Postman</h3>
-            <h6 className={styles.textTopTool}>Api testing</h6>
+              <h3 className={styles.textTopTool}>Netlify</h3>
+            <h6 className={styles.textTopTool}>Project Deployement</h6>
+            </div>
+          </div>
+          <div className={styles.tool_one}>
+            <img src={GithubDextop} alt="" className={styles.tools_images}/>
+            <div className={styles.toolInnerText}>
+              <h3 className={styles.textTopTool}>Github Desktop</h3>
+            <h6 className={styles.textTopTool}>Collaboration With Teams</h6>
             </div>
           </div>
         </div>
