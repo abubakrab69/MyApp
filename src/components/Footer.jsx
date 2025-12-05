@@ -32,7 +32,6 @@ const Footer = () => {
             </div>
           </NavLink>
         </ul>
-
         <div className="logo_section_social">
           <a href="" target="_blank">
             <div className="first fb">
@@ -48,7 +47,6 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-
           <a href="" target="_blank">
             <div className="first twit">
               <svg
@@ -63,7 +61,6 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-
           <a href="https://www.instagram.com/maybe.bakar/" target="_blank">
             <div className="first insta">
               <svg
@@ -78,7 +75,6 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-
           <a href="https://github.com/abubakrab69" target="_blank">
             <div className="first insta">
               <svg
@@ -93,7 +89,6 @@ const Footer = () => {
               </svg>
             </div>
           </a>
-
           <a href="" target="_blank">
             <div className="first linked">
               <svg
@@ -116,5 +111,4 @@ const Footer = () => {
     </div>
   );
 };
-
 export default Footer;

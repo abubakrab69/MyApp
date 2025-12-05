@@ -52,7 +52,6 @@
     text-align: center;
     color: white;
 }
-
 .footer_links{
     display: flex;
     flex-direction: row;
@@ -63,7 +62,6 @@
     color: white;
     margin-top: 70px;
 }
-
 .footer_end{
     width: 100%;
     display: flex;
@@ -87,7 +85,6 @@
         gap: 10px;
         display: none;
     }
-
     .footer_loca{
         width: 100% !important;
         display: block !important;

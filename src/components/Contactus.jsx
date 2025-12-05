@@ -35,7 +35,6 @@ const Contactus = () => {
                             </svg>
                         </div>
                     </a>
-
                     <a href="https://www.facebook.com/profile.php?id=61554939953623" target='_blank'>
                         <div className={styles.social_logo} target="_blank" >
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">

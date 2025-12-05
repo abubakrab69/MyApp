@@ -6,15 +6,9 @@
   padding: 0px;
   font-family: "Nunito", sans-serif;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
-/* body {
-  background: linear-gradient(to left, #53076d, #4e0766, #22022d);
-} */
-
 .orange {
   color: #FF7A01;
 }
@@ -28,13 +22,11 @@ img {
   -o-object-fit: cover;
   object-fit: cover;
 }
-
 .container {
   max-width: 1300px;
   margin: 0px auto 0px auto;
   padding: 0px 40px;
 }
-
 .logoAB {
   color: #FF7A01;
   font-size: 70px;
@@ -42,7 +34,6 @@ img {
   font-weight: 400;
   font-style: normal;
 }
-
 section{
   width: 100% !important;
   padding: 0%;
@@ -294,11 +285,10 @@ section{
   .about-me{
     width: 100% !important;
   }
-  
 }
+
 @media screen and (min-width: 768px) {
   .about-me{
     width: 80% !important;
   }
-  
 }
