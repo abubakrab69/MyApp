@@ -79,13 +79,11 @@
   color: white;
 }
 
-@media screen and (max-width: 1027) {
-  .tool_one{
-    padding: 5px 2px;
-  }
-}
+/* @media screen and (max-width: 1024) {
+  
+} */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .uses_main_container {
     margin-top: 30px;
   }
@@ -93,6 +91,13 @@
   .laptop_image {
     max-width: 100%;
     height: auto;
+  }
+  .tools_main_container{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tool_one{
+    width: 100%;
   }
 }
 
