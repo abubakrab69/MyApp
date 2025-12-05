@@ -3,14 +3,12 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   margin-top: 50px;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
 }
-
 .laptop_image {
   width: 100%; 
   max-width: 780px; 
@@ -47,12 +45,9 @@
     border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
     transition: 0.2s all ease-in-out;
 }
-
 .specBox:hover{
   transform: translateY(-7px);
 }
-
-
 .tools_main_container{
   display: flex;
   gap: 14px;
