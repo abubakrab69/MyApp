@@ -294,11 +294,9 @@
 .outer_link {
     position: relative;
 }
-
 .proj_img{
     border-radius: 18px;
 }
-
 .outer_link::after {
     content: "";
     position: absolute;
