@@ -110,7 +110,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         {/* Project section */}
         <div className={`${styles.project_cover} ${styles.container_100}`}>
           <div className={`${styles.project_inner} ${styles.container_80}`}>
@@ -150,7 +149,6 @@ const Home = () => {
                   </div>
                 </a>
               </div>
-
               <Link to="/projects">
                 <button className={styles.btn_see_more}>See More</button>
               </Link>
