@@ -116,7 +116,6 @@ const Projects = () => {
                 </div>
               </a>
             </div>
-
             {/* Fifth Row */}
             <div className={styles.project_first_line}>
               <a href="https://itodo-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
@@ -128,7 +127,6 @@ const Projects = () => {
                 </div>
                 </div>
               </a>
-
               <a href="https://rps-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
                 <div className={styles.project1} data-aos="flip-down">
                   <img src={RPS} alt="Myntra" loading="lazy" className={styles.proj_img} />
