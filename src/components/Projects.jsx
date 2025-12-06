@@ -24,7 +24,6 @@ const Projects = () => {
         <div className={`${styles.project_inner} ${styles.container_80}`}>
           <h1 className={styles.project_title}>Projects</h1>
           <div className={styles.project_container}>
-
             {/* First Row */}
             <div className={styles.project_first_line}>
               <a href="https://chai-code-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
@@ -36,7 +35,6 @@ const Projects = () => {
                 </div>
                 </div>
               </a>
-
               <a href="https://nova-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
                 <div className={styles.project1} data-aos="zoom-in">
                   <img src={Nova} alt="Nova" loading="lazy" className={styles.proj_img} />
@@ -47,7 +45,6 @@ const Projects = () => {
                 </div>
               </a>
             </div>
-
             {/* Second Row */}
             <div className={styles.project_first_line}>
               <a href="https://i-coder-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
@@ -59,7 +56,6 @@ const Projects = () => {
                 </div>
                 </div>
               </a>
-
               <a href="https://hurst-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
                 <div className={styles.project1} data-aos="zoom-in">
                   <img src={Hurst} alt="Hurst" loading="lazy" className={styles.proj_img} />
@@ -70,7 +66,6 @@ const Projects = () => {
                 </div>
               </a>
             </div>
-
             {/* Third Row */}
             <div className={styles.project_first_line}>
               <a href="https://skill-grow-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
@@ -82,7 +77,6 @@ const Projects = () => {
                 </div>
                 </div>
               </a>
-
               <a href="https://rad-tanuki-11123f.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
                 <div className={styles.project1} data-aos="zoom-in">
                   <img src={WeatherApp} alt="WeatherApp" loading="lazy" className={styles.proj_img} />
@@ -93,7 +87,6 @@ const Projects = () => {
                 </div>
               </a>
             </div>
-
             {/* Fourth Row */}
             <div className={styles.project_first_line}>
               <a href="https://calculator-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
