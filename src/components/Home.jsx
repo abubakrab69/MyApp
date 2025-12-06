@@ -138,33 +138,28 @@ const Home = () => {
                     <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.proj_img} width="100%" />
                   </div>
                 </a>
-
                 <a rel="noreferrer" href="https://nova-abubakr.netlify.app" className={styles.outer_link} target="_blank">
                   <div className={styles.project1}>
                     <img src={Nova} alt="Nova" className={styles.proj_img} loading="lazy" width="100%" />
                   </div>
                 </a>
-
                 <a rel="noreferrer" href="https://skill-grow-abubakr.netlify.app" className={styles.outer_link} target="_blank">
                   <div className={styles.project1}>
                     <img src={Skillgrow} alt="Skill Grow" className={styles.proj_img} loading="lazy" width="100%" />
                   </div>
                 </a>
               </div>
-
               <div className={styles.project_first_line}>
                 <a rel="noreferrer" href="https://i-coder-abubakr.netlify.app" className={styles.outer_link} target="_blank">
                   <div className={styles.project1}>
                     <img src={icoder} alt="iCoder" loading="lazy" className={styles.proj_img} width="100%" />
                   </div>
                 </a>
-
                 <a rel="noreferrer" href="https://hurst-abubakr.netlify.app" className={styles.outer_link} target="_blank">
                   <div className={styles.project1}>
                     <img src={Hurst} alt="Hurst" className={styles.proj_img} loading="lazy" width="100%" />
                   </div>
                 </a>
-
                 <a rel="noreferrer" href="https://mintra-abubakr.netlify.app" className={styles.outer_link} target="_blank">
                   <div className={styles.project1}>
                     <img src={Myntra} alt="Myntra" loading="lazy" className={styles.proj_img} width="100%" />
