@@ -436,11 +436,6 @@
     gap: 17px;
     margin-top: 20px;
     border-radius: 100px;
-    /* backdrop-filter: blur(120px);
-    transition: all 0.2s ease-in-out;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); */
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 .first:hover{
