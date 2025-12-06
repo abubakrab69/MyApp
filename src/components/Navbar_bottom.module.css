@@ -101,7 +101,6 @@ li {
     color: rgb(255, 191, 0);
     font-weight: bold;
 }
-
 .link:hover {
     color: rgb(255, 191, 0);
 }
@@ -110,7 +109,6 @@ li {
     .navbar{
         display: none;
     }
-    
 }
 @media screen and (max-width: 728px) {
     .logo_top {
