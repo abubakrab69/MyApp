@@ -59,6 +59,10 @@ const AboutMe = () => {
 </div>
 
           </div>
+          <div>
+  <h1>Contributions</h1>
+  <img src="https://ghchart.rshah.org/abubakrab69" alt=""/>
+</div>
         </motion.div>
       </section>
       <Navbar_bottom/>
