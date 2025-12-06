@@ -272,7 +272,6 @@ section{
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .portfolio-link a {
   text-decoration: none;
   color: white;
@@ -285,6 +284,8 @@ section{
   margin-top: 25px ;
   margin-bottom: 20px;
 }
+
+
 @media screen and (max-width: 425px) {
   .about-me{
     width: 100% !important;
