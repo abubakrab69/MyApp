@@ -280,7 +280,11 @@ section{
   margin: 10px;
   border-radius: 5px;
 }
-
+.contribution_heading{
+  color: white;
+  margin-top: 25px ;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 425px) {
   .about-me{
     width: 100% !important;
