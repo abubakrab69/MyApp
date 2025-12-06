@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import styles from './Home.module.css'
-
 import MyPic from './../assets/Mypic.png'
 import Chaidocs from './../assets/Chiadocs.png'
 import Nova from './../assets/Nova.png'
@@ -9,11 +8,9 @@ import Skillgrow from './../assets/Skillgrow.png'
 import icoder from './../assets/icoder.png'
 import Hurst from './../assets/Hurst.png'
 import Myntra from './../assets/myntra.png'
-
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Navbar_bottom from './Navbar_bottom'
-
 import HTML from './../assets/html.png'
 import CSS from './../assets/css.png'
 import JS from './../assets/js.png'
