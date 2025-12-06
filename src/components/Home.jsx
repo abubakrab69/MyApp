@@ -47,10 +47,8 @@ const Home = () => {
       <div>
         {/* main section */}
         <div className={`${styles.main} ${styles.container_80}`}>
-
           {/* hero section */}
           <div className={styles.hero_section}>
-
             <div className={styles.top_namimg}>
               <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>HELLO,</h1>
               <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>IT'S MUHAMMAD ABU BAKR</h1>
@@ -58,7 +56,6 @@ const Home = () => {
               <h1 className={`${styles.hello_text} ${styles.fade_item}`}>
                 A Mobile Application and Web Developer
               </h1>
-
               {/* social icons */}
               <div className={`${styles.logo_section_social} ${styles.fade_item}`}>
                 <a href="https://www.facebook.com/profile.php?id=61554939953623" target='_blank'>
