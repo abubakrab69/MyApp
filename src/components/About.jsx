@@ -57,7 +57,6 @@ const AboutMe = () => {
     />
   </a>
 </div>
-
           </div>
           <div>
   <h1>Contributions</h1>
