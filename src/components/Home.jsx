@@ -52,7 +52,6 @@ const Home = () => {
             <div className={styles.top_namimg}>
               <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>HELLO,</h1>
               <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>IT'S MUHAMMAD ABU BAKR</h1>
-
               <h1 className={`${styles.hello_text} ${styles.fade_item}`}>
                 A Mobile Application and Web Developer
               </h1>
@@ -65,7 +64,6 @@ const Home = () => {
                     </svg>
                   </div>
                 </a>
-
                 <a href="" target='_blank'>
                   <div className={`${styles.first} ${styles.twit}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-twitter" viewBox="0 0 16 16">
