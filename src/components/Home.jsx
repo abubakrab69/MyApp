@@ -76,7 +76,6 @@ const Home = () => {
                     </svg>
                   </div>
                 </a>
-
                 <a href="https://www.instagram.com/maybe.bakar/" target='_blank' rel="noreferrer">
                   <div className={`${styles.first} ${styles.insta}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -84,7 +83,6 @@ const Home = () => {
 </svg>
                   </div>
                 </a>
-
                 <a href="" target='_blank'>
                   <div className={`${styles.first} ${styles.linked}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -92,7 +90,6 @@ const Home = () => {
                     </svg>
                   </div>
                 </a>
-
                 <a href="https://github.com/abubakrab69" target='_blank'>
                   <div className={`${styles.first} ${styles.linked}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
@@ -100,9 +97,7 @@ const Home = () => {
                     </svg>
                   </div>
                 </a>
-
               </div>
-
               {/* buttons */}
               <div className={`${styles.hero_btn} ${styles.fade_item}`}>
                 <button onClick={handleDownload} className={styles.btn_cv}>
@@ -115,7 +110,6 @@ const Home = () => {
                 </a>
               </div>
             </div>
-
             {/* my image */}
             <div className={`${styles.my_img} ${styles.float_img}`}>
               <img src={MyPic} alt="MY" loading="lazy" className={styles.my_image} />
