@@ -120,9 +120,7 @@ const Home = () => {
             <div className={`${styles.my_img} ${styles.float_img}`}>
               <img src={MyPic} alt="MY" loading="lazy" className={styles.my_image} />
             </div>
-
           </div>
-
         </div>
 
         {/* Project section */}
