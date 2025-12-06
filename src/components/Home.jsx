@@ -129,9 +129,7 @@ const Home = () => {
         <div className={`${styles.project_cover} ${styles.container_100}`}>
           <div className={`${styles.project_inner} ${styles.container_80}`}>
             <h1 className={styles.project_heading}>Projects</h1>
-
             <div className={styles.project_container}>
-
               <div className={styles.project_first_line}>
                 <a rel="noreferrer" href="https://chai-code-abubakr.netlify.app" className={styles.outer_link} target="_blank">
                   <div className={styles.project1}>
