@@ -64,7 +64,6 @@ const Contactus = () => {
                         </div>
                     </a>
                 </div>
-
                 <div className={styles.form}>
                     <div className={styles.right}>
                         <h2 className={styles.contact_text}>Contact Me</h2>
@@ -77,7 +76,6 @@ const Contactus = () => {
                             <h5>Phone: 370-89-04-231</h5>
                         </div>
                     </div>
-
                     <form className={styles.myForm} onSubmit={handleSubmit(onSubmit)}>
                         <input
                             type="text"
