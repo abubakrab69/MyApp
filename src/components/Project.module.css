@@ -155,6 +155,13 @@
     .container_80{
         width: 90%;
     }
+    .project_detail{
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .project_name{
+        font-size: 35px;
+    }
     
 }
 
