@@ -87,7 +87,7 @@ section{
 
 .about-me .about-me-container .about-me-title {
   font-size: 55px;
-  color: #87A4B6;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -142,7 +142,6 @@ section{
   width: 80%;
   height: 80%;
 }
-
 .about-me-flex-container .about-me-image .black-image {
   z-index: -2;
   position: absolute;
@@ -213,7 +212,7 @@ section{
 }
 
 .about-me-flex-container .about-me-content .text {
-  color: #87A4B6;
+  color: #ffffff;
   font-weight: 600;
   font-size: 18px;
 }
