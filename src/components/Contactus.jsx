@@ -88,7 +88,6 @@ const Contactus = () => {
                             })}
                         />
                         {errors.name && <h5 style={{ color: "red" }}>{errors.name.message}</h5>}
-
                         <input
                             type="number"
                             placeholder='Phone'
@@ -99,7 +98,6 @@ const Contactus = () => {
                             })}
                         />
                         {errors.number && <h5 style={{ color: "red" }}>{errors.number.message}</h5>}
-
                         <input
                             type="email"
                             placeholder='Email'
@@ -111,7 +109,6 @@ const Contactus = () => {
                             })}
                         />
                         {errors.email && <h5 style={{ color: "red" }}>{errors.email.message}</h5>}
-
                         <textarea
                             placeholder="Message"
                             id={styles.textarea}
@@ -121,7 +118,6 @@ const Contactus = () => {
                             })}
                         ></textarea>
                         {errors.message && <h5 style={{ color: "red" }}>{errors.message.message}</h5>}
-
                         <button disabled={isSubmitting} type="submit" className={styles.btn_send}>
                             Send
                         </button>
