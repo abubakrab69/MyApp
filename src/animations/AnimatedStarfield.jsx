@@ -71,13 +71,11 @@ const AnimatedStarfield = () => {
 
   return (
     <div className={styles.starfield_container}>
-      
       {/* Soft overlay (makes text readable) */}
       <div className={styles.overlay}></div>
 
       {/* Nebula glow */}
       <div className={styles.nebula_glow}></div>
-
       {/* Stars */}
       {stars.map((star) => (
         <div
