@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
 import styles from './Project.module.css'
-
 import Chaidocs from './../assets/Chiadocs.png'
 import Nova from './../assets/Nova.png'
 import Skillgrow from './../assets/Skillgrow.png'
