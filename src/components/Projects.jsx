@@ -29,7 +29,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="zoom-in-right">
                   <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.proj_img} />
                   <div className={styles.project_detail_container}>
-                  <h1 className={styles.project_name}>Chaidocs</h1>
+                  <h1 className={styles.project_name}>Chaidocs (Clone)</h1>
                   <h4 className={styles.project_detail}>HTML, CSS, JAVASCRIPT, BOOTSTRAP</h4>
                 </div>
                 </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="zoom-in">
                   <img src={Nova} alt="Nova" loading="lazy" className={styles.proj_img} />
                   <div className={styles.project_detail_container}>
-                  <h1 className={styles.project_name}>Nova Website</h1>
+                  <h1 className={styles.project_name}>Nova Website (Clone)</h1>
                   <h4 className={styles.project_detail}>HTML, CSS, JAVASCRIPT, BOOTSTRAP</h4>
                 </div>
                 </div>
@@ -50,7 +50,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="flip-down">
                   <img src={icoder} alt="iCoder" loading="lazy" className={styles.proj_img} />
                   <div className={styles.project_detail_container}>
-                  <h1 className={styles.project_name}>i Coder Website</h1>
+                  <h1 className={styles.project_name}>i Coder Website (Clone)</h1>
                   <h4 className={styles.project_detail}>HTML, CSS, BOOTSTRAP</h4>
                 </div>
                 </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="zoom-in">
                   <img src={Hurst} alt="Hurst" loading="lazy" className={styles.proj_img} />
                   <div className={styles.project_detail_container}>
-                  <h1 className={styles.project_name}>Hurst Website</h1>
+                  <h1 className={styles.project_name}>Hurst Website (Clone)</h1>
                   <h4 className={styles.project_detail}>HTML, CSS, JAVASCRIPT</h4>
                 </div>
                 </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="zoom-in-left">
                   <img src={Skillgrow} alt="Skill Grow" loading="lazy" className={styles.proj_img} />
                   <div className={styles.project_detail_container}>
-                  <h1 className={styles.project_name}>Skillgrow</h1>
+                  <h1 className={styles.project_name}>Skillgrow(Clone)</h1>
                   <h4 className={styles.project_detail}>HTML, CSS, JAVASCRIPT</h4>
                 </div>
                 </div>
@@ -122,7 +122,7 @@ const Projects = () => {
                 <div className={styles.project1} data-aos="flip-down">
                   <img src={RPS} alt="Myntra" loading="lazy" className={styles.proj_img} />
                   <div className={styles.project_detail_container}>
-                  <h1 className={styles.project_name}>Myntra</h1>
+                  <h1 className={styles.project_name}>Myntra (Clone)</h1>
                   <h4 className={styles.project_detail}>HTML, CSS, JAVASCRIPT</h4>
                 </div>
                 </div>
