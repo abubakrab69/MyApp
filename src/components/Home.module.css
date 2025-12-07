@@ -112,20 +112,15 @@
     border-radius: inherit;
     font-size: 0;
 }
-
 /* Hover animation */
 .btn_cv:hover::after {
     width: 100%;
     font-size: 26px;
 }
-
 .btn_cv:hover {
     transform: translateY(-3px) scale(1.03);
 }
-
-
  /* hire btn  */
-
  .btn_hire {
     width: 210px;
     padding: 14px;
