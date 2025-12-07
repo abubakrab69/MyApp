@@ -142,7 +142,6 @@
     color: white;
     transition: 0.3s ease;
 }
-
 /* Glowing border layer */
 .btn_hire::before {
     content: "";
@@ -161,7 +160,6 @@
     opacity: 1;
     filter: blur(18px);
 }
-
 /* Your sliding overlay + icon */
 .btn_hire::after {
     content: "";
