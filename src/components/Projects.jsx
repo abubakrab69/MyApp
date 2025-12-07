@@ -97,7 +97,6 @@ const Projects = () => {
                 </div>
                 </div>
               </a>
-
               <a href="https://ttt-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.outer_link}>
                 <div className={styles.project1} data-aos="flip-down">
                   <img src={TicTacToe} alt="Myntra" loading="lazy" className={styles.proj_img} />
