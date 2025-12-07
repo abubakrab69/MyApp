@@ -156,7 +156,6 @@
     transition: opacity 0.4s ease, filter 0.4s ease;
     z-index: -1;
 }
-
 /* Hover glow */
 .btn_hire:hover::before {
     opacity: 1;
@@ -179,13 +178,10 @@
     border-radius: inherit;
     font-size: 0;
 }
-
-/* Hover animation */
 .btn_hire:hover::after {
     width: 100%;
     font-size: 26px;
 }
-
 .btn_hire:hover {
     transform: translateY(-3px) scale(1.03);
 }
