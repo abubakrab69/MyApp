@@ -24,7 +24,6 @@ import DART from './../assets/dart.png'
 
 
 const Home = () => {
-
   useEffect(() => {
     document.querySelector(`.${styles.hero_section}`).classList.add(styles.show)
   }, [])
