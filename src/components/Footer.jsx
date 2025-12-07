@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer_end">
-        <p>Made with ❤️ by Muhammad Abu Bakr </p>
+         <p>Made with ❤️ by Muhammad Abu Bakr </p>
       </div>
     </div>
   );
