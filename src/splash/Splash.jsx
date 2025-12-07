@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AnimatedStarfield from "../animations/AnimatedStarfield"; // adjust path
+import Logo from './../assets/logo_main.png'
 
 const Splash = () => {
   return (
@@ -24,7 +25,7 @@ const Splash = () => {
             ease: "easeInOut",
           }}
         >
-          AB
+          <img src={Logo} alt="" width={20} height={20}/>
         </motion.h1>
 
         {/* Loading bar */}
