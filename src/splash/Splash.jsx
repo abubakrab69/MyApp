@@ -25,7 +25,7 @@ const Splash = () => {
             ease: "easeInOut",
           }}
         >
-          <img src={Logo} alt="" width={20} height={20}/>
+          <img src={Logo} alt="" width={50} height={50}/>
         </motion.h1>
 
         {/* Loading bar */}
