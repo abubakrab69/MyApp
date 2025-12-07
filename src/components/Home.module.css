@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 
-
 .main{
     display: flex;
     margin: auto;
@@ -18,7 +17,6 @@
     position: relative;
     overflow: hidden;
 }
-
 .container_80{
     width: 80%;
 }
@@ -40,8 +38,6 @@
 .main_name_text{
     font-size: 20px;
     font-weight: 100;
-    /* margin-bottom: -30px; */
-    /* font-family: "DM Sans", sans-serif; */
     font-family: "Bebas Neue", sans-serif;
     font-weight: 150;
     color: white;
