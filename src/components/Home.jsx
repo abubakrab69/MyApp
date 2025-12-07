@@ -22,7 +22,6 @@ import Git from './../assets/git.png'
 import Github from './../assets/github.png'
 import DART from './../assets/dart.png'
 
-
 const Home = () => {
   useEffect(() => {
     document.querySelector(`.${styles.hero_section}`).classList.add(styles.show)
