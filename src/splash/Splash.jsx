@@ -8,7 +8,6 @@ const Splash = () => {
     <div style={styles.container}>
       {/* Animated starfield background */}
       <AnimatedStarfield />
-
       {/* Overlay to center content */}
       <div style={styles.overlay}>
         {/* Animated AB text */}
@@ -27,7 +26,6 @@ const Splash = () => {
         >
           <img src={Logo} alt="" width={130} height={130}/>
         </motion.h1>
-
         {/* Loading bar */}
         <motion.div
           style={styles.loader}
