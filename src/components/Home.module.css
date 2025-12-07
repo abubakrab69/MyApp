@@ -47,19 +47,16 @@
     color: white;
     transition: all 0.2s ease-in-out;
 }
-
 .my_img{
     position: relative;
     z-index: 2;
 }
-
 .hero_btn{
     display: flex;
     align-items: center;
     gap: 10px;
     transition: all 0.2s ease-in-out;
 }
-
 .btn_cv {
     width: 210px;
     padding: 14px;
@@ -76,7 +73,6 @@
     color: white;
     transition: 0.3s ease;
 }
-
 /* Glowing border layer */
 .btn_cv::before {
     content: "";
@@ -89,13 +85,11 @@
     transition: opacity 0.4s ease, filter 0.4s ease;
     z-index: -1;
 }
-
 /* Hover glow */
 .btn_cv:hover::before {
     opacity: 1;
     filter: blur(18px);
 }
-
 /* Your sliding overlay + icon */
 .btn_cv::after {
     content: "";
