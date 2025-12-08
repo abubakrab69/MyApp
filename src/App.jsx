@@ -5,7 +5,6 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Contactus from './components/Contactus';
 import About from './components/About';
-// import SkillSection from './components/Skill_section';
 import SplashScreen from "./splash/Splash.jsx";
 import AnimatedStarfield from './animations/AnimatedStarfield';
 import Uses from "./components/Uses.jsx";
