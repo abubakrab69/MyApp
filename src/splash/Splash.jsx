@@ -6,7 +6,6 @@ import Logo from './../assets/logo_main.png'
 const Splash = () => {
   return (
     <div style={styles.container}>
-      {/* Animated starfield background */}
       <AnimatedStarfield />
       {/* Overlay to center content */}
       <div style={styles.overlay}>
