@@ -81,12 +81,10 @@
     transition: opacity 0.4s ease, filter 0.4s ease;
     z-index: -1;
 }
-/* Hover glow */
 .btn_cv:hover::before {
     opacity: 1;
     filter: blur(18px);
 }
-/* Your sliding overlay + icon */
 .btn_cv::after {
     content: "";
     position: absolute;
@@ -102,7 +100,6 @@
     border-radius: inherit;
     font-size: 0;
 }
-/* Hover animation */
 .btn_cv:hover::after {
     width: 100%;
     font-size: 26px;
@@ -110,7 +107,6 @@
 .btn_cv:hover {
     transform: translateY(-3px) scale(1.03);
 }
- /* hire btn  */
  .btn_hire {
     width: 210px;
     padding: 14px;
