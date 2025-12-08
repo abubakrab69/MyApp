@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import AnimatedStarfield from "../animations/AnimatedStarfield"; // adjust path
+import AnimatedStarfield from "../animations/AnimatedStarfield"; 
 import Logo from './../assets/logo_main.png'
 
 const Splash = () => {
