@@ -144,6 +144,7 @@ li {
         width: 50%;
     }
 }
+
 @media screen and (max-width: 625px) {
     .nav_inner_box{
         width: 60%;
