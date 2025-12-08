@@ -7,7 +7,7 @@ const AnimatedStarfield = () => {
   const [stars, setStars] = useState([])
 
 
-  
+
   useEffect(() => {
     const generatedStars = Array.from({ length: 60 }, (_, i) => ({
       id: i,
@@ -51,5 +51,7 @@ const AnimatedStarfield = () => {
     </div>
   )
 }
+
+
 
 export default AnimatedStarfield
