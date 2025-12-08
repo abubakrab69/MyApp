@@ -46,7 +46,7 @@ const Home = () => {
           <div className={styles.hero_section}>
             <div className={styles.top_namimg}>
               <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>HELLO,</h1>
-              <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>IT'S MUHAMMAD ABU BAKR</h1>
+              <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>THIS IS MUHAMMAD ABU BAKR</h1>
               <h1 className={`${styles.hello_text} ${styles.fade_item}`}>
                 A Mobile Application and Web Developer
               </h1>
