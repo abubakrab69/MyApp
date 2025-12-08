@@ -4,7 +4,9 @@ import { NavLink } from 'react-router-dom'
 import { color } from 'framer-motion'
 import { style } from 'framer-motion/client';
 
+
 const Navbar_bottom = () => {
+  
   return (
     <div>
       <nav className={styles.navbar}>
