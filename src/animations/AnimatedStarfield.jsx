@@ -48,7 +48,6 @@
 // export default AnimatedStarfield
 
 
-
 import React, { useEffect, useState } from 'react'
 import styles from './AnimatedStarfield.module.css'
 
