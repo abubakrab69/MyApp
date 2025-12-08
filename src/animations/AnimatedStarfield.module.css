@@ -21,7 +21,6 @@
 }
 
 /* ===== CONTAINER ===== */
-
 .starfield_container {
   position: fixed;
   top: 0;
@@ -35,7 +34,6 @@
 }
 
 /* ===== NEBULA BACKGROUND ===== */
-
 .nebula_glow {
   position: absolute;
   width: 100%;
