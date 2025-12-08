@@ -41,6 +41,8 @@ const Splash = () => {
   );
 };
 
+
+
 const styles = {
   container: {
     position: "relative",
