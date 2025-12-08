@@ -170,40 +170,9 @@
     margin-top: 30px;
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
-    font-size: 23px;
-    position: relative;
-    cursor: pointer;
-    border-radius: 0px 25px 25px 0px;
-    background-color: transparent;
-    border: 1.5px solid white;
-    color: white;
-    overflow: hidden;
-}
-.btn_hire::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 0%;
-    font-size: 0px;
-    background-color: #ffffffff;
-    transition: 250ms;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 22px 22px 0px;
-    color: #3d0450;
-}
 
-.btn_hire:hover::after {
-    width: 100%;
-    height: 100%;
-    content: 'Hire Me';
-    cursor: pointer;
-    font-size: 100%;
-} */
- 
+
+
 /* project section  */
 .project_main {
     margin-top: 80px;
