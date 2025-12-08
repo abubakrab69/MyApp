@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import styles from './AnimatedStarfield.module.css'
 
 
-
 const AnimatedStarfield = () => {
   const [stars, setStars] = useState([])
 
@@ -20,7 +19,7 @@ const AnimatedStarfield = () => {
     setStars(generatedStars)
   }, [])
 
-  
+
   return (
     <div className={styles.starfield_container}>
       {/* Soft overlay (makes text readable) */}
