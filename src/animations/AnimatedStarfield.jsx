@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import styles from './AnimatedStarfield.module.css'
 
+
+
 const AnimatedStarfield = () => {
   const [stars, setStars] = useState([])
 
+
+  
   useEffect(() => {
     const generatedStars = Array.from({ length: 60 }, (_, i) => ({
       id: i,
@@ -17,6 +21,8 @@ const AnimatedStarfield = () => {
     }))
     setStars(generatedStars)
   }, [])
+
+
 
   return (
     <div className={styles.starfield_container}>
