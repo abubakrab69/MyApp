@@ -263,7 +263,6 @@
     .cardContent {
         padding: 18px;
     }
-
     .categoryBadge {
         font-size: 0.7rem;
         padding: 5px 12px;
@@ -275,7 +274,6 @@
         align-items: flex-start;
         gap: 4px;
     }
-
     .viewProject {
         font-size: 1.1rem;
     }
