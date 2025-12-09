@@ -38,7 +38,6 @@
     font-weight: 300;
     letter-spacing: 0.5px;
 }
-
 .titleUnderline {
     width: 80px;
     height: 4px;
@@ -47,7 +46,6 @@
     border-radius: 2px;
     animation: expandWidth 0.8s ease-out 0.3s both;
 }
-
 /* Projects Grid */
 .projectsGrid {
     display: grid;
