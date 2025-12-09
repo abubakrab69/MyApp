@@ -8,7 +8,7 @@
 .projectsContainer {
     max-width: 1400px;
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
 }
 /* Header Section */
 .headerSection {
@@ -236,6 +236,10 @@
 @media screen and (max-width: 480px) {
     .projectsWrapper {
         padding: 70px 12px 30px;
+    }
+
+    .projectsContainer {
+        width: 95%;
     }
 
     .projectsGrid {
