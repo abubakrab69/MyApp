@@ -252,7 +252,6 @@
     .imageContainer {
         height: 200px;
     }
-
     .cardContent {
         padding: 18px;
     }
@@ -260,7 +259,6 @@
         font-size: 0.7rem;
         padding: 5px 12px;
     }
-
     .projectTitle {
         font-size: 1.15rem;
         flex-direction: column;
