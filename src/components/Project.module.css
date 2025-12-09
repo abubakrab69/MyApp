@@ -108,7 +108,7 @@
 .imageOverlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9));
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), #3e62ff);
     display: flex;
     align-items: center;
     justify-content: center;
