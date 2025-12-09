@@ -1,7 +1,7 @@
 /* Main Wrapper */
 .projectsWrapper {
     min-height: 100vh;
-    padding: 100px 20px 60px;
+    padding: 100px 0 60px;
     background: transparent;
     position: relative;
 }
@@ -218,9 +218,9 @@
         margin-bottom: 50px;
     }
     .projectsGrid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 24px;
-        padding: 0 8px;
+        padding: 0;
     }
     .imageContainer {
         height: 220px;
@@ -250,6 +250,7 @@
     .projectsGrid {
         grid-template-columns: 1fr;
         gap: 20px;
+        padding: 0;
     }
     .imageContainer {
         height: 200px;
@@ -273,10 +274,6 @@
 }
 
 @media screen and (max-width: 360px) {
-    .projectsGrid {
-        padding: 0 4px;
-    }
-
     .cardContent {
         padding: 16px;
     }

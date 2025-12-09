@@ -1,7 +1,7 @@
 /* Main Wrapper */
 .usesWrapper {
     min-height: 100vh;
-    padding: 100px 20px 60px;
+    padding: 100px 0 60px;
     background: transparent;
     position: relative;
 }
@@ -16,7 +16,7 @@
 .headerSection {
     text-align: center;
     margin-bottom: 80px;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .mainTitle {
@@ -359,7 +359,7 @@
     .specsGrid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 12px;
-        padding: 0 10px;
+        padding: 0;
     }
 
     .specCard {
@@ -383,7 +383,7 @@
     .toolsGrid {
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         gap: 16px;
-        padding: 0 10px;
+        padding: 0;
     }
 
     .toolCardInner {
@@ -418,6 +418,7 @@
     .specsGrid {
         grid-template-columns: 1fr;
         gap: 12px;
+        padding: 0;
     }
 
     .specCard {
@@ -428,6 +429,7 @@
     .toolsGrid {
         grid-template-columns: 1fr;
         gap: 16px;
+        padding: 0;
     }
 
     .toolCardInner {
@@ -442,10 +444,5 @@
 
     .laptopCard {
         padding: 20px 12px;
-    }
-
-    .specsGrid,
-    .toolsGrid {
-        padding: 0 5px;
     }
 }

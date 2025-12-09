@@ -107,47 +107,140 @@ const Home = () => {
           </div>
         </div>
         {/* Project section */}
-        <div className={`${styles.project_cover} ${styles.container_100}`}>
-          <div className={`${styles.project_inner} ${styles.container_80}`}>
-            <h1 className={styles.project_heading}>Projects</h1>
-            <div className={styles.project_container}>
-              <div className={styles.project_first_line}>
-                <a rel="noreferrer" href="https://chai-code-abubakr.netlify.app" className={styles.outer_link} target="_blank">
-                  <div className={styles.project1}>
-                    <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.proj_img} width="100%" />
+        <div className={styles.projectsWrapper}>
+          <div className={styles.projectsContainer}>
+            <div className={styles.headerSection}>
+              <h1 className={styles.mainTitle}>Featured Projects</h1>
+              <p className={styles.subtitle}>Explore some of my best work</p>
+              <div className={styles.titleUnderline}></div>
+            </div>
+
+            <div className={styles.projectsGrid}>
+              <a href="https://chai-code-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+                <div className={styles.cardInner}>
+                  <div className={styles.imageContainer}>
+                    <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.projectImage} />
+                    <div className={styles.imageOverlay}>
+                      <span className={styles.viewProject}>View Project →</span>
+                    </div>
                   </div>
-                </a>
-                <a rel="noreferrer" href="https://nova-abubakr.netlify.app" className={styles.outer_link} target="_blank">
-                  <div className={styles.project1}>
-                    <img src={Nova} alt="Nova" className={styles.proj_img} loading="lazy" width="100%" />
+                  <div className={styles.cardContent}>
+                    <div className={styles.categoryBadge}>Web Development</div>
+                    <h3 className={styles.projectTitle}>Chaidocs <span className={styles.projectSubtitle}>(Clone)</span></h3>
+                    <div className={styles.techStack}>
+                      <span className={styles.techTag}>HTML</span>
+                      <span className={styles.techTag}>CSS</span>
+                      <span className={styles.techTag}>JavaScript</span>
+                      <span className={styles.techTag}>Bootstrap</span>
+                    </div>
                   </div>
-                </a>
-                <a rel="noreferrer" href="https://skill-grow-abubakr.netlify.app" className={styles.outer_link} target="_blank">
-                  <div className={styles.project1}>
-                    <img src={Skillgrow} alt="Skill Grow" className={styles.proj_img} loading="lazy" width="100%" />
+                </div>
+              </a>
+
+              <a href="https://nova-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+                <div className={styles.cardInner}>
+                  <div className={styles.imageContainer}>
+                    <img src={Nova} alt="Nova" loading="lazy" className={styles.projectImage} />
+                    <div className={styles.imageOverlay}>
+                      <span className={styles.viewProject}>View Project →</span>
+                    </div>
                   </div>
-                </a>
-              </div>
-              <div className={styles.project_first_line}>
-                <a rel="noreferrer" href="https://i-coder-abubakr.netlify.app" className={styles.outer_link} target="_blank">
-                  <div className={styles.project1}>
-                    <img src={icoder} alt="iCoder" loading="lazy" className={styles.proj_img} width="100%" />
+                  <div className={styles.cardContent}>
+                    <div className={styles.categoryBadge}>Web Development</div>
+                    <h3 className={styles.projectTitle}>Nova Website <span className={styles.projectSubtitle}>(Clone)</span></h3>
+                    <div className={styles.techStack}>
+                      <span className={styles.techTag}>HTML</span>
+                      <span className={styles.techTag}>CSS</span>
+                      <span className={styles.techTag}>JavaScript</span>
+                    </div>
                   </div>
-                </a>
-                <a rel="noreferrer" href="https://hurst-abubakr.netlify.app" className={styles.outer_link} target="_blank">
-                  <div className={styles.project1}>
-                    <img src={Hurst} alt="Hurst" className={styles.proj_img} loading="lazy" width="100%" />
+                </div>
+              </a>
+
+              <a href="https://skill-grow-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+                <div className={styles.cardInner}>
+                  <div className={styles.imageContainer}>
+                    <img src={Skillgrow} alt="Skillgrow" loading="lazy" className={styles.projectImage} />
+                    <div className={styles.imageOverlay}>
+                      <span className={styles.viewProject}>View Project →</span>
+                    </div>
                   </div>
-                </a>
-                <a rel="noreferrer" href="https://mintra-abubakr.netlify.app" className={styles.outer_link} target="_blank">
-                  <div className={styles.project1}>
-                    <img src={Myntra} alt="Myntra" loading="lazy" className={styles.proj_img} width="100%" />
+                  <div className={styles.cardContent}>
+                    <div className={styles.categoryBadge}>Web Development</div>
+                    <h3 className={styles.projectTitle}>Skillgrow <span className={styles.projectSubtitle}>(Clone)</span></h3>
+                    <div className={styles.techStack}>
+                      <span className={styles.techTag}>HTML</span>
+                      <span className={styles.techTag}>CSS</span>
+                      <span className={styles.techTag}>JavaScript</span>
+                    </div>
                   </div>
-                </a>
-              </div>
-              <Link to="/projects">
-                <button className={styles.btn_see_more}>See More</button>
-              </Link>
+                </div>
+              </a>
+
+              <a href="https://i-coder-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+                <div className={styles.cardInner}>
+                  <div className={styles.imageContainer}>
+                    <img src={icoder} alt="iCoder" loading="lazy" className={styles.projectImage} />
+                    <div className={styles.imageOverlay}>
+                      <span className={styles.viewProject}>View Project →</span>
+                    </div>
+                  </div>
+                  <div className={styles.cardContent}>
+                    <div className={styles.categoryBadge}>Web Development</div>
+                    <h3 className={styles.projectTitle}>i Coder <span className={styles.projectSubtitle}>(Clone)</span></h3>
+                    <div className={styles.techStack}>
+                      <span className={styles.techTag}>HTML</span>
+                      <span className={styles.techTag}>CSS</span>
+                      <span className={styles.techTag}>Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://hurst-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+                <div className={styles.cardInner}>
+                  <div className={styles.imageContainer}>
+                    <img src={Hurst} alt="Hurst" loading="lazy" className={styles.projectImage} />
+                    <div className={styles.imageOverlay}>
+                      <span className={styles.viewProject}>View Project →</span>
+                    </div>
+                  </div>
+                  <div className={styles.cardContent}>
+                    <div className={styles.categoryBadge}>Web Development</div>
+                    <h3 className={styles.projectTitle}>Hurst Website <span className={styles.projectSubtitle}>(Clone)</span></h3>
+                    <div className={styles.techStack}>
+                      <span className={styles.techTag}>HTML</span>
+                      <span className={styles.techTag}>CSS</span>
+                      <span className={styles.techTag}>JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://mintra-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+                <div className={styles.cardInner}>
+                  <div className={styles.imageContainer}>
+                    <img src={Myntra} alt="Myntra" loading="lazy" className={styles.projectImage} />
+                    <div className={styles.imageOverlay}>
+                      <span className={styles.viewProject}>View Project →</span>
+                    </div>
+                  </div>
+                  <div className={styles.cardContent}>
+                    <div className={styles.categoryBadge}>Web Development</div>
+                    <h3 className={styles.projectTitle}>Myntra <span className={styles.projectSubtitle}>(Clone)</span></h3>
+                    <div className={styles.techStack}>
+                      <span className={styles.techTag}>HTML</span>
+                      <span className={styles.techTag}>CSS</span>
+                      <span className={styles.techTag}>JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <Link to="/projects" className={styles.seeMoreLink}>
+              <button className={styles.btn_see_more}>View All Projects</button>
+            </Link>
               <h1 className={styles.project_heading}>Technical Mastery</h1>
               <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
