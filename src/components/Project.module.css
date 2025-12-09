@@ -166,7 +166,6 @@
     gap: 8px;
     margin-top: 16px;
 }
-
 .techTag {
     padding: 6px 14px;
     background: rgba(255, 255, 255, 0.05);
@@ -177,7 +176,6 @@
     font-weight: 500;
     transition: all 0.3s ease;
 }
-
 .projectCard:hover .techTag {
     background: rgba(102, 126, 234, 0.15);
     border-color: rgba(102, 126, 234, 0.3);
