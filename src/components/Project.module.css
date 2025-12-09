@@ -104,7 +104,6 @@
 .projectCard:hover .projectImage {
     transform: scale(1.1);
 }
-
 .imageOverlay {
     position: absolute;
     inset: 0;
