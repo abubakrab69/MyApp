@@ -195,7 +195,6 @@
         transform: translateY(0);
     }
 }
-
 @keyframes expandWidth {
     from {
         width: 0;
@@ -204,7 +203,6 @@
         width: 80px;
     }
 }
-
 /* Responsive Design */
 @media screen and (max-width: 1200px) {
     .projectsGrid {
@@ -217,11 +215,9 @@
     .projectsWrapper {
         padding: 80px 16px 40px;
     }
-
     .headerSection {
         margin-bottom: 50px;
     }
-
     .projectsGrid {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 24px;
