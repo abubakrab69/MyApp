@@ -37,12 +37,13 @@ function App() {
       <div style={{ position: "fixed", inset: 0, zIndex: 0 }}>
         <AnimatedStarfield />
       </div>
-      
+
 
       {/* MAIN CONTENT (above stars) */}
       <div style={{ position: "relative", zIndex: 10 }}>
         <RouterProvider router={router} />
       </div>
+      
     </div>
   );
 }
