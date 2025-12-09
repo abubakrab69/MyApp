@@ -5,13 +5,11 @@
     background: transparent;
     position: relative;
 }
-
 .projectsContainer {
     max-width: 1400px;
     margin: 0 auto;
     width: 100%;
 }
-
 /* Header Section */
 .headerSection {
     text-align: center;
