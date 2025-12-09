@@ -42,7 +42,7 @@
 .titleUnderline {
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #667eea, #3e62ff);
     margin: 0 auto;
     border-radius: 2px;
     animation: expandWidth 0.8s ease-out 0.3s both;
