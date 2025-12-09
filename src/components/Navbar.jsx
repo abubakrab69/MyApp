@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { color } from 'framer-motion'
 import Logo from './../assets/logo_main.png'
 
+
 const Navbar = () => {
   return (
     <div>
