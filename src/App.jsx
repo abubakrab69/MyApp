@@ -18,7 +18,7 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  
+
   const router = createBrowserRouter([
     { path: "/", element: <Home /> },
     { path: "/projects", element: <Projects /> },
@@ -37,6 +37,7 @@ function App() {
       <div style={{ position: "fixed", inset: 0, zIndex: 0 }}>
         <AnimatedStarfield />
       </div>
+      
 
       {/* MAIN CONTENT (above stars) */}
       <div style={{ position: "relative", zIndex: 10 }}>
