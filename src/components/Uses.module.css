@@ -22,7 +22,7 @@
 .mainTitle {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 800;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background: linear-gradient(135deg, #667eea 0%, #3d59f7 50%, #f093fb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -42,7 +42,7 @@
 .titleUnderline {
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #667eea, #3d59f7);
     margin: 0 auto;
     border-radius: 2px;
     animation: expandWidth 0.8s ease-out 0.3s both;
@@ -110,7 +110,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .specCard {
@@ -202,7 +202,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 24px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .toolCard {
