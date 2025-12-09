@@ -241,8 +241,14 @@ const Home = () => {
             <Link to="/projects" className={styles.seeMoreLink}>
               <button className={styles.btn_see_more}>View All Projects</button>
             </Link>
-              <h1 className={styles.project_heading}>Technical Mastery</h1>
-              <div className={styles.skills_main_container}>
+          </div>
+        </div>
+
+        {/* Skills Section */}
+        <div className={styles.skillsWrapper}>
+          <div className={styles.skillsContainer}>
+            <h1 className={styles.project_heading}>Technical Mastery</h1>
+            <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
                   <img src={HTML} alt="" className={styles.skill_num_one}/>
                 </div>
@@ -273,15 +279,15 @@ const Home = () => {
                 <div className={styles.skill_num_one_box}>
                   <img src={DART} alt="" className={styles.skill_num_one}/>
                 </div>
-              </div>
-              <Link to="/Uses">
-                <button className={styles.btn_Uses}>Uses</button>
-              </Link>
             </div>
+            <Link to="/Uses">
+              <button className={styles.btn_Uses}>Uses</button>
+            </Link>
           </div>
         </div>
+
         <Navbar_bottom />
-          <Footer />
+        <Footer />
       </div>
     </>
   )
