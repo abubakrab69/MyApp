@@ -340,6 +340,10 @@
         padding: 80px 16px 40px;
     }
 
+    .usesContainer {
+        width: 90%;
+    }
+
     .headerSection {
         margin-bottom: 50px;
     }
@@ -400,6 +404,10 @@
 @media screen and (max-width: 480px) {
     .usesWrapper {
         padding: 70px 12px 30px;
+    }
+
+    .usesContainer {
+        width: 95%;
     }
 
     .laptopCard {

@@ -209,6 +209,11 @@
     .projectsWrapper {
         padding: 80px 16px 40px;
     }
+
+    .projectsContainer {
+        width: 90%;
+    }
+
     .headerSection {
         margin-bottom: 50px;
     }
