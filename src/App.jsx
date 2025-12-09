@@ -18,6 +18,7 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  
   const router = createBrowserRouter([
     { path: "/", element: <Home /> },
     { path: "/projects", element: <Projects /> },
