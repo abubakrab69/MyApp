@@ -150,7 +150,6 @@
     transition: opacity 0.4s ease;
     z-index: -1;
 }
-
 .btn_send:hover::before {
     opacity: 0.8;
 }
