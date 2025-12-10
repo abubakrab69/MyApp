@@ -47,6 +47,24 @@
     position: relative;
     z-index: 2;
 }
+
+.my_image {
+    border-radius: 20px;
+    mask: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 70%,
+        rgba(0, 0, 0, 0.8) 85%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 70%,
+        rgba(0, 0, 0, 0.8) 85%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
 .hero_btn{
     display: flex;
     align-items: center;
