@@ -274,7 +274,6 @@
     letter-spacing: 1px;
     margin-bottom: 12px;
 }
-
 .projectTitle {
     font-size: 1.35rem;
     font-weight: 700;
@@ -307,7 +306,6 @@
     font-weight: 500;
     transition: all 0.3s ease;
 }
-
 .projectCard:hover .techTag {
     background: rgba(102, 126, 234, 0.15);
     border-color: rgba(102, 126, 234, 0.3);
