@@ -62,9 +62,9 @@ const AboutMe = () => {
 </div>
           </div>
           <div>
-  <h1 className='contribution_heading'>Contributions</h1>
+  {/* <h1 className='contribution_heading'>Contributions</h1> */}
   {/* Contribution img by link  */}
-  <img src="https://ghchart.rshah.org/abubakrab69" alt=""/>
+  {/* <img src="https://ghchart.rshah.org/abubakrab69" alt=""/> */}
 </div>
         </motion.div>
       </section>

@@ -238,9 +238,14 @@ const Home = () => {
               </a>
             </div>
 
-            <Link to="/projects" className={styles.seeMoreLink}>
+            <div className={styles.home_bottom_btn_container}>
+              <Link to="/projects" className={styles.seeMoreLink}>
               <button className={styles.btn_see_more}>View All Projects</button>
             </Link>
+            <Link to="/Uses">
+              <button className={styles.btn_Uses}>Uses</button>
+            </Link>
+            </div>
           </div>
         </div>
 
@@ -280,9 +285,7 @@ const Home = () => {
                   <img src={DART} alt="" className={styles.skill_num_one}/>
                 </div>
             </div>
-            <Link to="/Uses">
-              <button className={styles.btn_Uses}>Uses</button>
-            </Link>
+            
           </div>
         </div>
 

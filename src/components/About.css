@@ -85,7 +85,10 @@ section{
 
 .about-me .about-me-container .about-me-title {
   font-size: 55px;
-  color: #ffffff;
+  /* color: #ffffff; */
+  background: linear-gradient(135deg, #667eea 0%, #4460ff 50%, rgb(17, 105, 236) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
 
