@@ -311,13 +311,11 @@
     border-color: rgba(102, 126, 234, 0.3);
     color: #c4b5fd;
 }
-
 .seeMoreLink {
     display: flex;
     justify-content: center;
     text-decoration: none;
 }
-
 .btn_see_more {
     padding: 14px 40px;
     border: none;
