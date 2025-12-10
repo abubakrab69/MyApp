@@ -446,7 +446,6 @@
     font-weight: 700;
     margin-bottom: 40px;
 }
-
 .skills_main_container {
     display: flex;
     flex-wrap: wrap;
@@ -454,7 +453,6 @@
     justify-content: center; 
     margin-top: 20px;
 }
-
 .skill_num_one {
     width: 60px;
     height: 60px;
