@@ -124,40 +124,41 @@
 }
 .btn_send {
     width: 70%;
-    padding: 8px;
-    border-radius: 15px;
+    padding: 14px 28px;
+    border-radius: 50px;
     font-family: "Philosopher", sans-serif;
     cursor: pointer;
     border: none;
-    background-color: white;
-    color: #0f171d;
+    background: linear-gradient(135deg, #667eea 0%, #3d6afe 100%);
+    color: white;
     position: relative;
-    font-size: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
     margin-top: 6px;
     overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
-.btn_send::after {
+
+.btn_send::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 0%;
-    background-color: rgb(59, 167, 255);
-    transition: 250ms;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    color: #0f171d;
-    font-size: 0px;
+    inset: -2px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, #667eea, #3d6afe, #072eac);
+    filter: blur(15px);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: -1;
 }
-.btn_send:hover::after {
-    width: 100%;
-    height: 100%;
-    content: '📤';
-    font-size: 100%;
-    cursor: pointer;
+
+.btn_send:hover::before {
+    opacity: 0.8;
+}
+
+.btn_send:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
 }
 .log {
     transition: all 0.2s ease-in-out;
