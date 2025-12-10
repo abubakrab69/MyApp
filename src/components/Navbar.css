@@ -67,41 +67,41 @@ a {
     font-size: 16px;
 }
 .btn_sign_in {
-    width: 110px;
-    height: 40px;
-    padding: 8px;
+    padding: 10px 20px;
     border: none;
-    background-color: rgb(59, 167, 255);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
     font-family: "Philosopher", sans-serif;
-    font-weight: 200;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 0.95rem;
     position: relative;
-    border-radius: 15px;
+    border-radius: 50px;
     overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    white-space: nowrap;
 }
-.btn_sign_in::after {
+
+.btn_sign_in::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 0%;
-    background-color: white;
-    transition: 250ms;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    color: white;
-    font-size: 0px;
+    inset: -2px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+    filter: blur(8px);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: -1;
 }
-.btn_sign_in:hover::after {
-    width: 100%;
-    height: 100%;
-    content: '📱';
-    font-size: 100%;
-    cursor: pointer;
+
+.btn_sign_in:hover::before {
+    opacity: 0.8;
+}
+
+.btn_sign_in:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
 }
 li {
     font-family: "Philosopher", sans-serif;
@@ -132,7 +132,8 @@ li {
         width: 50%;
     }
     .btn_sign_in {
-        width: 110px;
+        padding: 8px 16px;
+        font-size: 0.85rem;
     }
     .nav_inner_box{
         width: 60%;
@@ -167,6 +168,6 @@ li {
     }
     .navbar1{
         width: 95%;
-        padding-right: 9px;
+        /* padding-right: 9px; */
     }
 }
