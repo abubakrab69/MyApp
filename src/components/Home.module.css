@@ -470,14 +470,12 @@
     align-items: center;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .skill_num_one_box:hover {
     transform: translateY(-8px);
     border-color: rgba(102, 126, 234, 0.5);
     box-shadow: 0 12px 40px rgba(102, 126, 234, 0.3);
     background: rgba(255, 255, 255, 0.05);
 }
-
 .skill_num_one_box:hover .skill_num_one {
     transform: scale(1.1);
 }
