@@ -1,0 +1,270 @@
+/* Theme Toggle Button */
+.themeToggle {
+  position: relative;
+  width: 70px;
+  height: 35px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  background: transparent;
+  padding: 0;
+  margin-left: 12px;
+}
+
+.themeToggle:focus {
+  outline: 2px solid var(--accent, #667eea);
+  outline-offset: 2px;
+}
+
+/* Toggle Track */
+.toggleTrack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+/* Dark Mode Track */
+.themeToggle.dark .toggleTrack {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  box-shadow: 
+    inset 0 2px 8px rgba(0, 0, 0, 0.3),
+    0 4px 15px rgba(102, 126, 234, 0.2);
+}
+
+/* Light Mode Track */
+.themeToggle.light .toggleTrack {
+  background: linear-gradient(135deg, #e0f2fe 0%, #b3e5fc 100%);
+  border: 1px solid rgba(102, 126, 234, 0.2);
+  box-shadow: 
+    inset 0 2px 8px rgba(0, 0, 0, 0.1),
+    0 4px 15px rgba(102, 126, 234, 0.15);
+}
+
+/* Toggle Thumb */
+.toggleThumb {
+  position: absolute;
+  top: 3px;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Dark Mode Thumb (Moon) */
+.themeToggle.dark .toggleThumb {
+  left: 3px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-shadow: 
+    0 4px 12px rgba(102, 126, 234, 0.4),
+    inset 0 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+/* Light Mode Thumb (Sun) */
+.themeToggle.light .toggleThumb {
+  left: 38px;
+  background: linear-gradient(135deg, #ffd700 0%, #ffb347 100%);
+  box-shadow: 
+    0 4px 12px rgba(255, 215, 0, 0.4),
+    inset 0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+/* Icon Container */
+.iconContainer {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  stroke-width: 2;
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode Icon (Moon) */
+.themeToggle.dark .icon {
+  color: #ffffff;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
+}
+
+/* Light Mode Icon (Sun) */
+.themeToggle.light .icon {
+  color: #ff6b35;
+  filter: drop-shadow(0 0 4px rgba(255, 107, 53, 0.3));
+  animation: sunRotate 8s linear infinite;
+}
+
+/* Stars (Dark Mode) */
+.stars {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.themeToggle.dark .stars {
+  opacity: 1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: starTwinkle 2s ease-in-out infinite;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+}
+
+/* Clouds (Light Mode) */
+.clouds {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.themeToggle.light .clouds {
+  opacity: 1;
+}
+
+.cloud {
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: cloudFloat 3s ease-in-out infinite;
+}
+
+.cloud::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  top: -2px;
+  left: 1px;
+}
+
+.cloud::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  top: -1px;
+  right: 1px;
+}
+
+/* Hover Effects */
+.themeToggle:hover {
+  transform: scale(1.05);
+}
+
+.themeToggle.dark:hover .toggleTrack {
+  box-shadow: 
+    inset 0 2px 8px rgba(0, 0, 0, 0.3),
+    0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.themeToggle.light:hover .toggleTrack {
+  box-shadow: 
+    inset 0 2px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(102, 126, 234, 0.25);
+}
+
+/* Animations */
+@keyframes starTwinkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+
+@keyframes cloudFloat {
+  0%, 100% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-50%) translateX(2px);
+    opacity: 0.8;
+  }
+}
+
+@keyframes sunRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .themeToggle {
+    width: 60px;
+    height: 30px;
+  }
+  
+  .toggleThumb {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .themeToggle.light .toggleThumb {
+    left: 33px;
+  }
+  
+  .iconContainer {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .themeToggle {
+    width: 55px;
+    height: 28px;
+    margin-left: 8px;
+  }
+  
+  .toggleThumb {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .themeToggle.light .toggleThumb {
+    left: 30px;
+  }
+  
+  .iconContainer {
+    width: 12px;
+    height: 12px;
+  }
+}

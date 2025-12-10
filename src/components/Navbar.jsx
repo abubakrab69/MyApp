@@ -1,8 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
-import { color } from 'framer-motion'
 import Logo from './../assets/logo_main.png'
+import ThemeToggle from '../theme/ThemeToggle'
 
 const Navbar = () => {
   return (
@@ -35,9 +35,14 @@ const Navbar = () => {
           </li>
         </ul>
         </div>
-        <NavLink to="/contactus"><button className="btn_sign_in">
-          Let's Contact
-        </button></NavLink>
+        <div className="navbar_actions">
+          <ThemeToggle />
+          <NavLink to="/contactus">
+            <button className="btn_sign_in">
+              Let's Contact
+            </button>
+          </NavLink>
+        </div>
       </nav>
     </div>
   )

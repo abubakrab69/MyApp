@@ -8,16 +8,18 @@ import About from './components/About';
 import SplashScreen from "./splash/Splash.jsx";
 import AnimatedStarfield from './animations/AnimatedStarfield';
 import Uses from "./components/Uses.jsx";
+import { ThemeProvider, useTheme } from './theme/ThemeContext';
+import './theme/globalTheme.css';
 
-function App() {
-
+// Main App Content Component
+const AppContent = () => {
+  const { isDarkMode } = useTheme();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
   }, []);
-
 
   const router = createBrowserRouter([
     { path: "/", element: <Home /> },
@@ -32,18 +34,31 @@ function App() {
   }
 
   return (
-    <div style={{ position: "relative" }}>
-      {/* BACKGROUND STARS (behind everything) */}
-      <div style={{ position: "fixed", inset: 0, zIndex: 0 }}>
-        <AnimatedStarfield />
-      </div>
+    <div style={{ 
+      position: "relative",
+      minHeight: "100vh",
+      background: isDarkMode ? 'transparent' : '#ffffff'
+    }}>
+      {/* BACKGROUND STARS (only in dark mode) */}
+      {isDarkMode && (
+        <div style={{ position: "fixed", inset: 0, zIndex: 0 }}>
+          <AnimatedStarfield />
+        </div>
+      )}
 
-      {/* MAIN CONTENT (above stars) */}
+      {/* MAIN CONTENT */}
       <div style={{ position: "relative", zIndex: 10 }}>
         <RouterProvider router={router} />
       </div>
-      
     </div>
+  );
+};
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   );
 }
 

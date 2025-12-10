@@ -1,0 +1,354 @@
+/* Global Theme Variables */
+:root {
+  /* Default Dark Theme */
+  --primary: #0f0f23;
+  --secondary: #1a1a2e;
+  --tertiary: #16213e;
+  
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: rgba(255, 255, 255, 0.5);
+  
+  --accent: #667eea;
+  --accent-secondary: #764ba2;
+  --accent-tertiary: #f093fb;
+  
+  --card-background: rgba(255, 255, 255, 0.03);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-hover: rgba(255, 255, 255, 0.05);
+  
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-secondary: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  --gradient-background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  
+  --shadow-primary: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --shadow-secondary: 0 20px 60px rgba(102, 126, 234, 0.3);
+  --shadow-glow: 0 0 40px rgba(102, 126, 234, 0.5);
+}
+
+/* Light Theme Override */
+[data-theme="light"] {
+  --primary: #ffffff;
+  --secondary: #ffffff;
+  --tertiary: #ffffff;
+  
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  
+  --card-background: rgba(255, 255, 255, 0.95);
+  --card-border: rgba(0, 0, 0, 0.08);
+  --card-hover: rgba(102, 126, 234, 0.05);
+  
+  --gradient-background: #ffffff;
+  
+  --shadow-primary: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --shadow-secondary: 0 20px 60px rgba(102, 126, 234, 0.15);
+  --shadow-glow: 0 0 40px rgba(102, 126, 234, 0.2);
+}
+
+/* Global Body Styles */
+body {
+  background: var(--gradient-background) !important;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  min-height: 100vh;
+}
+
+/* Light mode specific overrides */
+[data-theme="light"] body {
+  background: #ffffff !important;
+}
+
+/* Ensure all background elements follow theme */
+[data-theme="light"] * {
+  --gradient-background: #ffffff;
+}
+
+/* Smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Override for specific transition properties that shouldn't be affected */
+*:where([class*="animation"], [class*="motion"], [class*="transform"]) {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+/* Light Mode Specific Improvements */
+[data-theme="light"] {
+  /* Navbar improvements */
+  --nav-background: rgba(255, 255, 255, 0.95);
+  --nav-border: rgba(0, 0, 0, 0.1);
+  
+  /* Card improvements */
+  --card-background: rgba(255, 255, 255, 0.9);
+  --card-border: rgba(0, 0, 0, 0.1);
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  
+  /* Button improvements */
+  --button-shadow: 0 4px 15px rgba(102, 126, 234, 0.25);
+  
+  /* Text improvements for better contrast */
+  --text-primary: #1a202c;
+  --text-secondary: #2d3748;
+  --text-tertiary: #4a5568;
+}
+
+/* Light mode navbar styling */
+[data-theme="light"] .nav_inner_box {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Light mode card styling */
+[data-theme="light"] .cardInner,
+[data-theme="light"] .specCard,
+[data-theme="light"] .toolCardInner,
+[data-theme="light"] .contact_main {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Light mode comprehensive text colors */
+[data-theme="light"] {
+  /* Override all white text to black */
+  color: #1a202c !important;
+}
+
+/* Light mode - Regular text elements (make black) */
+[data-theme="light"] h1:not(.mainTitle):not(.brandName):not(.projectTitle),
+[data-theme="light"] h2:not(.mainTitle):not(.brandName),
+[data-theme="light"] h3:not(.projectTitle),
+[data-theme="light"] h4,
+[data-theme="light"] h5,
+[data-theme="light"] h6,
+[data-theme="light"] p,
+[data-theme="light"] span:not(.techTag):not(.categoryBadge):not(.projectSubtitle):not(.viewProject),
+[data-theme="light"] li,
+[data-theme="light"] a:not(.projectCard),
+[data-theme="light"] .subtitle:not(.brandTagline),
+[data-theme="light"] .contact_text,
+[data-theme="light"] .contact_para,
+[data-theme="light"] .project_name,
+[data-theme="light"] .project_detail,
+[data-theme="light"] .textTopTool,
+[data-theme="light"] .specLabel,
+[data-theme="light"] .specValue,
+[data-theme="light"] .toolName,
+[data-theme="light"] .toolDescription,
+[data-theme="light"] .sectionSubtitle,
+[data-theme="light"] .laptopTitle,
+[data-theme="light"] .laptopSubtitle,
+[data-theme="light"] .loadingText {
+  color: #1a202c !important;
+}
+
+/* Keep gradient titles as they are (these should remain gradient) */
+/* .mainTitle, .brandName, .sectionTitle will keep their original gradient colors */
+
+/* Light mode - Navigation links */
+[data-theme="light"] .nav_links a,
+[data-theme="light"] .link a {
+  color: #1a202c !important;
+}
+
+[data-theme="light"] .nav_links a.active,
+[data-theme="light"] .link:hover a {
+  color: #667eea !important;
+}
+
+/* Light mode - Footer text */
+[data-theme="light"] .footer *:not(.brandName) {
+  color: #1a202c !important;
+}
+
+[data-theme="light"] .footerHeading,
+[data-theme="light"] .contactLink,
+[data-theme="light"] .navLink,
+[data-theme="light"] .copyright p {
+  color: #1a202c !important;
+}
+
+/* Light mode - Card content */
+[data-theme="light"] .cardContent h3,
+[data-theme="light"] .cardContent p,
+[data-theme="light"] .cardContent span:not(.techTag):not(.categoryBadge) {
+  color: #1a202c !important;
+}
+
+/* Light mode - Project cards */
+[data-theme="light"] .projectTitle {
+  color: #1a202c !important;
+}
+
+[data-theme="light"] .projectSubtitle {
+  color: #4a5568 !important;
+}
+
+/* Light mode - Tech tags and badges (keep styled) */
+[data-theme="light"] .techTag {
+  background: rgba(102, 126, 234, 0.1) !important;
+  border-color: rgba(102, 126, 234, 0.2) !important;
+  color: #667eea !important;
+}
+
+[data-theme="light"] .categoryBadge {
+  background: rgba(102, 126, 234, 0.1) !important;
+  border-color: rgba(102, 126, 234, 0.2) !important;
+  color: #667eea !important;
+}
+
+/* Light mode - Form elements */
+[data-theme="light"] .inputs,
+[data-theme="light"] #textarea {
+  color: #1a202c !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-theme="light"] .inputs::placeholder,
+[data-theme="light"] #textarea::placeholder {
+  color: #4a5568 !important;
+}
+
+/* Light mode - Social icons */
+[data-theme="light"] .social_logo,
+[data-theme="light"] .socialIcon,
+[data-theme="light"] .first {
+  color: #1a202c !important;
+}
+
+[data-theme="light"] .social_logo:hover,
+[data-theme="light"] .socialIcon:hover,
+[data-theme="light"] .first:hover {
+  color: #667eea !important;
+}
+
+/* Light mode footer */
+[data-theme="light"] .footer {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Smooth transitions for all theme changes */
+* {
+  transition: background-color 0.3s ease, 
+              color 0.3s ease, 
+              border-color 0.3s ease, 
+              box-shadow 0.3s ease !important;
+}
+/* Light Mode - Home Page Specific */
+[data-theme="light"] .main_name_text,
+[data-theme="light"] .hello_text {
+  color: #1a202c !important;
+}
+
+[data-theme="light"] .hello_text_f {
+  color: #667eea !important;
+}
+
+/* Light Mode - Skills Section */
+[data-theme="light"] .skill_name {
+  color: #1a202c !important;
+}
+
+/* Light Mode - Uses Page */
+[data-theme="light"] .specCard h4,
+[data-theme="light"] .specCard p,
+[data-theme="light"] .toolCard h3,
+[data-theme="light"] .toolCard p {
+  color: #1a202c !important;
+}
+
+/* Light Mode - About Page */
+[data-theme="light"] .about_text,
+[data-theme="light"] .about_para {
+  color: #1a202c !important;
+}
+
+/* Light Mode - Contact Page */
+[data-theme="light"] .contact_main h2,
+[data-theme="light"] .contact_main h5,
+[data-theme="light"] .contact_main p {
+  color: #1a202c !important;
+}
+
+/* Light Mode - Navbar Background */
+[data-theme="light"] .navbar1 {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+
+[data-theme="light"] .nav_inner_box {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Light Mode - Cards and Containers */
+[data-theme="light"] .projectsWrapper,
+[data-theme="light"] .usesWrapper,
+[data-theme="light"] .skillsWrapper {
+  background: #ffffff !important;
+}
+
+[data-theme="light"] .laptopCard,
+[data-theme="light"] .skillsContainer {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Light Mode - Email Box */
+[data-theme="light"] .email_box {
+  background-color: #667eea !important;
+  color: #ffffff !important;
+}
+
+[data-theme="light"] .email_box h5 {
+  color: #ffffff !important;
+}
+
+/* Light Mode - Lines and Dividers */
+[data-theme="light"] .line {
+  background-color: #1a202c !important;
+}
+
+[data-theme="light"] .line2 {
+  background-color: #ffffff !important;
+}
+
+[data-theme="light"] .footerDivider {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 50%,
+    transparent 100%
+  ) !important;
+}
+
+/* Light Mode - Hover States */
+[data-theme="light"] .projectCard:hover .cardInner {
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2) !important;
+}
+
+[data-theme="light"] .specCard:hover,
+[data-theme="light"] .toolCardInner:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.2) !important;
+}
+
+/* Light Mode - Skill Boxes */
+[data-theme="light"] .skill_num_one_box {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="light"] .skill_num_one_box:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.2) !important;
+}
+
+/* Light Mode - Default text color for all elements */
+[data-theme="light"] *:where(:not(.mainTitle):not(.brandName):not(.techTag):not(.categoryBadge):not(.viewProject):not(.btn_sign_in):not(.btn_cv):not(.btn_hire):not(.btn_see_more):not(.btn_Uses):not(.btn_send)) {
+  color: #1a202c !important;
+}

@@ -103,6 +103,13 @@ a {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
 }
+
+/* Navbar Actions Container */
+.navbar_actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 li {
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
