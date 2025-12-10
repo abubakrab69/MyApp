@@ -570,15 +570,21 @@
 @media screen and (min-width: 0px) and (max-width: 426px) {
     .main_name_text{
         font-size: 20px;
+        text-align: center;
     }
     .hero_section{
         display: flex;
         flex-direction: column;
         margin: auto;
     }
+    .hello_text{
+        text-align: center;
+    }
     .top_namimg{
         width: 95%;
         margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
     }
     .my_image{
         width: 100%;
@@ -599,8 +605,10 @@
         height: 40px;
     }
     .hero_btn{
-        gap: 3px;
+        gap: 10px;
         width: 100%;
+        align-items: center;
+        justify-content: center;
     }
     .btn_cv{
         width: 160px;
