@@ -21,6 +21,7 @@ import Tailwind from './../assets/tailwindcss.jpg'
 import Git from './../assets/git.png'
 import Github from './../assets/github.png'
 import DART from './../assets/dart.png'
+import Resume from './../assets/ABUBAKR_RESUME.pdf.pdf'
 
 const Home = () => {
   useEffect(() => {
@@ -29,8 +30,8 @@ const Home = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = './assets/ABUBAKR.CV.pdf';
-    link.download = 'My-CV.pdf';
+    link.href = Resume;
+    link.download = 'ABUBAKR_RESUME.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
