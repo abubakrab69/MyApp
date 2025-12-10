@@ -349,7 +349,6 @@
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
 }
-
 .btn_Uses {
     padding: 14px 40px;
     border: none;
@@ -367,7 +366,6 @@
     position: relative;
     display: block;
 }
-
 .btn_Uses::before{
     content: "";
     position: absolute;
@@ -379,7 +377,6 @@
     transition: opacity 0.4s ease;
     z-index: -1;
 }
-
 .btn_Uses:hover::before{
     opacity: 0.8;
 }
