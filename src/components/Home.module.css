@@ -243,11 +243,9 @@
     object-fit: cover;
     transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .projectCard:hover .projectImage {
     transform: scale(1.1);
 }
-
 .imageOverlay {
     position: absolute;
     inset: 0;
@@ -258,11 +256,9 @@
     opacity: 0;
     transition: opacity 0.4s ease;
 }
-
 .projectCard:hover .imageOverlay {
     opacity: 1;
 }
-
 .viewProject {
     color: white;
     font-size: 1.25rem;
@@ -279,7 +275,6 @@
 .cardContent {
     padding: 24px;
 }
-
 .categoryBadge {
     display: inline-block;
     padding: 6px 16px;
@@ -514,6 +509,8 @@
     align-items: center;
     gap: 10px;
 }
+
+
 @media screen and (max-width: 1024px) {
     .hero_section{
         display: flex;
