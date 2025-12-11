@@ -194,6 +194,7 @@
         width: 80px;
     }
 }
+
 /* Responsive Design */
 @media screen and (max-width: 1200px) {
     .projectsGrid {
