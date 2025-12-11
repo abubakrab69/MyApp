@@ -560,8 +560,8 @@
     .btn_cv{
         gap: 0px;
     }
-    
 }
+
 @media screen and (max-width: 1024px) {
     .projectsGrid {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
