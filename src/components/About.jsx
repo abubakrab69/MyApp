@@ -9,7 +9,6 @@ import Navbar_bottom from "./Navbar_bottom";
 
 
 const AboutMe = () => {
-  
   return (
     <>
       <Navbar />
