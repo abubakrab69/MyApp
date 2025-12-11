@@ -16,6 +16,7 @@ const AppContent = () => {
   const { isDarkMode } = useTheme();
   const [loading, setLoading] = useState(true);
 
+  
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
