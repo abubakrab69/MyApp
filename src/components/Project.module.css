@@ -173,6 +173,7 @@
     color: #c4b5fd;
 }
 
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -184,6 +185,7 @@
         transform: translateY(0);
     }
 }
+
 @keyframes expandWidth {
     from {
         width: 0;
