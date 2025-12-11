@@ -94,7 +94,6 @@ const Uses = () => {
               ))}
             </div>
           </div>
-
           {/* Tools Section */}
           <div className={styles.toolsSection}>
             <div className={styles.sectionHeader} data-aos="fade-up">
