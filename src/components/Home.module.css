@@ -533,8 +533,9 @@
     .main_name_text{
         font-size: 20px;
     }
-    
 }
+
+
 @media screen and (max-width: 768px) {
     .main_name_text{
         font-size: 20px;
