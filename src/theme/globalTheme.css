@@ -107,7 +107,7 @@ body {
 [data-theme="light"] .toolCardInner,
 [data-theme="light"] .contact_main {
   background: rgba(255, 255, 255, 0.9) !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(0, 0, 0, 0.428) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
 }
 
@@ -226,9 +226,9 @@ body {
 }
 
 /* Light mode footer */
-[data-theme="light"] .footer {
-  background: rgba(255, 255, 255, 0.9) !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+[data-theme="light"] .footer, .contact_main {
+  /* background: rgba(255, 255, 255, 0.9) !important; */
+  border: .5px solid rgba(0, 0, 0, 0.409) !important;
 }
 
 /* Smooth transitions for all theme changes */
