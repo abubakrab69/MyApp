@@ -281,7 +281,7 @@ body {
 
 [data-theme="light"] .nav_inner_box {
   background: rgba(255, 255, 255, 0.9) !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border: .5px solid rgba(0, 0, 0, 0.446) !important;
 }
 
 /* Light Mode - Cards and Containers */
