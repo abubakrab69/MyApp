@@ -82,4 +82,5 @@ const styles = {
   },
 };
 
+
 export default Splash;
