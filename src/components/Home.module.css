@@ -100,7 +100,6 @@
     transition: opacity 0.4s ease;
     z-index: -1;
 }
-
 .btn_cv:hover::before {
     opacity: 0.8;
 }
