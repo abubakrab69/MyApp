@@ -47,7 +47,6 @@
     position: relative;
     z-index: 2;
 }
-
 .my_image {
     border-radius: 20px;
     mask: linear-gradient(
