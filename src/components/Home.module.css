@@ -265,7 +265,6 @@
 .projectCard:hover .viewProject {
     transform: translateY(0);
 }
-
 .cardContent {
     padding: 24px;
 }
