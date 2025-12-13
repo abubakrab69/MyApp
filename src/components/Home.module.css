@@ -89,7 +89,6 @@
     transition: all 0.3s ease;
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
-
 .btn_cv::before {
     content: "";
     position: absolute;
