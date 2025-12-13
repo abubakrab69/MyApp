@@ -142,7 +142,6 @@
 .btn_hire:hover::before {
     opacity: 0.8;
 }
-
 .btn_hire:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
