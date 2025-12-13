@@ -138,7 +138,6 @@
     transition: opacity 0.4s ease;
     z-index: -1;
 }
-
 .btn_hire:hover::before {
     opacity: 0.8;
 }
