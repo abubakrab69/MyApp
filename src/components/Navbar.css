@@ -39,7 +39,7 @@ body {
     top: 7px;
     left: 50%;
     transform: translate(-50%, 0);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     background: rgba(124, 121, 121, 0.077);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
@@ -114,7 +114,7 @@ li {
     font-family: "Philosopher", sans-serif;
     font-weight: 200;
     font-size: 20px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 .active {

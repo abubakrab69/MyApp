@@ -15,7 +15,7 @@
     border-radius: 20px;
     overflow: hidden;
     z-index: 1;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_inn{
     width: 80%;
@@ -34,11 +34,13 @@
 }
 .first{
     color: white;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
 }
 .first:hover{
     color: rgb(59, 167, 255);
     cursor: pointer;
+    transform: translateY(-2px);
 }
 .footer_title{
     text-align: center;

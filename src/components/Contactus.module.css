@@ -6,7 +6,7 @@
     align-items: center;
     margin-top: 120px;
     backdrop-filter: blur(120px);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -38,10 +38,13 @@
 }
 .social_logo {
     color: white;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
 }
 .social_logo:hover {
     color: rgb(59, 167, 255);
+    transform: translateY(-3px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact_text {
     color: white;
@@ -92,6 +95,7 @@
     margin-bottom: 6px;
     margin-top: 6px;
     padding: 10px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .inputs::placeholder {
     color: white;
@@ -115,6 +119,7 @@
     margin-bottom: 10px;
     padding: 10px;
     margin-top: 6px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 #textarea::placeholder {
     color: white;
@@ -159,12 +164,14 @@
     box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
 }
 .log {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
 }
 
 .log:hover {
     color: rgb(59, 167, 255);
     cursor: pointer;
+    transform: translateY(-2px);
 }
 .email_box {
     width: 50%;

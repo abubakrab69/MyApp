@@ -232,12 +232,51 @@ body {
   border: .5px solid rgba(0, 0, 0, 0.409) !important;
 }
 
-/* Smooth transitions for all theme changes */
+/* Global Smooth Transitions - Enhanced */
 * {
-  transition: background-color 0.3s ease, 
-              color 0.3s ease, 
-              border-color 0.3s ease, 
-              box-shadow 0.3s ease !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Specific smooth transitions for interactive elements */
+*:hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Override for elements that need custom timing */
+.projectCard,
+.specCard,
+.toolCard,
+.skill_num_one_box,
+.btn_sign_in,
+.btn_cv,
+.btn_hire,
+.btn_see_more,
+.btn_Uses,
+.btn_send,
+.socialIcon,
+.social_logo,
+.first {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Smooth hover transforms */
+.projectCard:hover,
+.specCard:hover,
+.toolCard:hover,
+.skill_num_one_box:hover {
+  transform: translateY(-8px) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Button hover effects */
+.btn_sign_in:hover,
+.btn_cv:hover,
+.btn_hire:hover,
+.btn_see_more:hover,
+.btn_Uses:hover,
+.btn_send:hover {
+  transform: translateY(-3px) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 /* Light Mode - Home Page Specific */
 [data-theme="light"] .main_name_text,
@@ -277,7 +316,7 @@ body {
 
 /* Light Mode - Navbar Background */
 [data-theme="light"] .navbar1 {
-  /* background: rgba(255, 255, 255, 0.95) !important; */
+  background: rgba(255, 255, 255, 0.95) !important;
 }
 
 [data-theme="light"] .nav_inner_box {

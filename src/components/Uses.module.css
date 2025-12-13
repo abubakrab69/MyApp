@@ -125,6 +125,7 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
+    transform: translateY(0);
 }
 
 .specCard::before {
@@ -223,6 +224,7 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
+    transform: translateY(0);
 }
 
 .toolCardInner::before {
@@ -255,7 +257,7 @@
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .toolCard:hover .toolImageWrapper {
