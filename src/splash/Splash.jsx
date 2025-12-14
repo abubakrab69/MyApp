@@ -8,7 +8,7 @@ const Splash = () => {
 
   return (
     <div style={styles.container}>
-      
+
       <AnimatedStarfield />
       {/* Overlay to center content */}
       <div style={styles.overlay}>
@@ -43,7 +43,6 @@ const Splash = () => {
     </div>
   );
 };
-
 
 
 const styles = {
