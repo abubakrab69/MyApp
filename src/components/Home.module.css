@@ -63,6 +63,16 @@
         rgba(0, 0, 0, 0.8) 85%,
         rgba(0, 0, 0, 0) 100%
     );
+    animation: floatImage 6s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 .hero_btn{
     width: 100%;
@@ -381,12 +391,30 @@
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0);
+    animation: socialBounce 2s ease-in-out infinite;
+    animation-delay: var(--delay, 0s);
 }
 .first:hover{
     background-color: #4460ff;
     color: white;
     transform: translateY(-2px);
+    animation-play-state: paused;
 }
+
+@keyframes socialBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+.first:nth-child(1) { --delay: 0s; }
+.first:nth-child(2) { --delay: 0.2s; }
+.first:nth-child(3) { --delay: 0.4s; }
+.first:nth-child(4) { --delay: 0.6s; }
+.first:nth-child(5) { --delay: 0.8s; }
 .hello_text_f{
     color: rgb(0, 166, 255);
     font-family: "DM Sans", sans-serif;
@@ -399,10 +427,21 @@
     font-weight: 600;
     color: white;
     /* color: #61baff; */
-    background: linear-gradient(#4460ff, #578fff);
+    background: linear-gradient(45deg, #4460ff, #578fff, #667eea);
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    animation: gradientMove 4s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
 }
 
 
@@ -670,15 +709,65 @@
     }
 }
 
-/* Simplified animations for better performance */
+/* Smooth Hero Section Animations */
 .hero_section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease;
+}
+
+.hero_section.loaded {
     opacity: 1;
     transform: translateY(0);
 }
 
 .fade_item {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 0;
+    transform: translateY(15px);
+    transition: all 0.6s ease;
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.fade_item:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.fade_item:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.fade_item:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.fade_item:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.fade_item:nth-child(5) {
+    animation-delay: 1s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Image smooth entrance */
+.my_img {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.8s ease;
+    animation: slideInRight 1s ease 0.5s forwards;
+}
+
+@keyframes slideInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 /* Image style (no float animation) */

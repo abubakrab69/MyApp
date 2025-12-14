@@ -24,7 +24,13 @@ import DART from './../assets/dart.png'
 import Resume from './../assets/ABUBAKR_RESUME.pdf.pdf'
 
 const Home = () => {
-  // Removed heavy animation effect for better performance
+  useEffect(() => {
+    // Simple smooth animation on load
+    const heroSection = document.querySelector(`.${styles.hero_section}`);
+    if (heroSection) {
+      heroSection.classList.add(styles.loaded);
+    }
+  }, [])
 
   const handleDownload = () => {
     const link = document.createElement('a');
