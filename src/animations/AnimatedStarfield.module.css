@@ -53,6 +53,7 @@
 
 /* ===== STARS (SIMPLIFIED) ===== */
 
+
 .star {
   position: absolute;
   background: radial-gradient(circle, rgba(135, 164, 182, 1) 0%, rgba(135, 164, 182, 0.4) 60%);
