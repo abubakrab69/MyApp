@@ -125,7 +125,7 @@
     color: white;
 }
 #textarea:focus {
-    outline-color: rgb(35, 189, 176);
+    outline-color: rgb(8, 75, 219);
 }
 .btn_send {
     width: 70%;
