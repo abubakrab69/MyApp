@@ -286,7 +286,6 @@ const Home = () => {
                   <img src={DART} alt="" className={styles.skill_num_one}/>
                 </div>
             </div>
-            
           </div>
         </div>
         <Navbar_bottom />
