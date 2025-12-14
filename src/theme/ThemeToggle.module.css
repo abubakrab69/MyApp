@@ -27,7 +27,6 @@
   overflow: hidden;
   transition: all 0.4s ease;
 }
-
 /* Dark Mode Track */
 .themeToggle.dark .toggleTrack {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
