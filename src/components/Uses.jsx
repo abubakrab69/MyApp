@@ -20,6 +20,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const Uses = () => {
+  
   useEffect(() => {
     AOS.init({
       duration: 800,
