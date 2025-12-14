@@ -24,9 +24,7 @@ import DART from './../assets/dart.png'
 import Resume from './../assets/ABUBAKR_RESUME.pdf.pdf'
 
 const Home = () => {
-  useEffect(() => {
-    document.querySelector(`.${styles.hero_section}`).classList.add(styles.show)
-  }, [])
+  // Removed heavy animation effect for better performance
 
   const handleDownload = () => {
     const link = document.createElement('a');
@@ -103,7 +101,7 @@ const Home = () => {
             </div>
             {/* my image */}
             <div className={`${styles.my_img} ${styles.float_img}`}>
-              <img src={MyPic} alt="MY" loading="lazy" className={styles.my_image} />
+              <img src={MyPic} alt="MY" loading="lazy" decoding="async" className={styles.my_image} />
             </div>
           </div>
         </div>

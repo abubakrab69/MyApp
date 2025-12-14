@@ -88,20 +88,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
-.btn_cv::before {
-    content: "";
-    position: absolute;
-    inset: -2px;
-    border-radius: inherit;
-    background: linear-gradient(135deg, #667eea, #4460ff, rgb(17, 97, 235));
-    filter: blur(15px);
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    z-index: -1;
-}
-.btn_cv:hover::before {
-    opacity: 0.8;
-}
+/* Removed heavy blur effects for better performance */
 
 .btn_cv:hover {
     transform: translateY(-3px);
@@ -124,20 +111,7 @@
     transition: all 0.3s ease;
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
-.btn_hire::before {
-    content: "";
-    position: absolute;
-    inset: -2px;
-    border-radius: inherit;
-    background: linear-gradient(135deg, #667eea, #4460ff, rgb(44, 57, 252));
-    filter: blur(15px);
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    z-index: -1;
-}
-.btn_hire:hover::before {
-    opacity: 0.8;
-}
+/* Removed heavy blur effects for better performance */
 .btn_hire:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
@@ -696,37 +670,15 @@
     }
 }
 
-/* Fade + slide-in animation */
+/* Simplified animations for better performance */
 .hero_section {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: 0.8s ease;
-}
-
-.hero_section.show {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* Each item stagger animation */
 .fade_item {
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeUp 0.9s ease forwards;
-}
-
-/* Stagger delays */
-.fade_item:nth-child(1) { animation-delay: 0.3s; }
-.fade_item:nth-child(2) { animation-delay: 0.45s; }
-.fade_item:nth-child(3) { animation-delay: 0.6s; }
-.fade_item:nth-child(4) { animation-delay: 0.75s; }
-
-/* Fade + slide keyframe */
-@keyframes fadeUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Image style (no float animation) */

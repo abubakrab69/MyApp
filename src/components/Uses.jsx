@@ -16,18 +16,7 @@ import VSCode from './../assets/vscode.png'
 import Emulator from './../assets/emulator.png'
 import Netlify from './../assets/netlify.png'
 import GithubDextop from './../assets/github_dextop.png'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-
 const Uses = () => {
-  
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-      offset: 100
-    })
-  }, [])
 
   const specs = [
     { label: "RAM", value: "16 GB", icon: "💾" },
@@ -58,14 +47,14 @@ const Uses = () => {
       <div className={styles.usesWrapper}>
         <div className={styles.usesContainer}>
           {/* Header Section */}
-          <div className={styles.headerSection} data-aos="fade-down">
+          <div className={styles.headerSection}>
             <h1 className={styles.mainTitle}>My Setup</h1>
             <p className={styles.subtitle}>Tools and technologies I use daily</p>
             <div className={styles.titleUnderline}></div>
           </div>
 
           {/* Laptop Section */}
-          <div className={styles.laptopSection} data-aos="fade-up">
+          <div className={styles.laptopSection}>
             <div className={styles.laptopCard}>
               <div className={styles.laptopImageWrapper}>
                 <img src={Laptop} alt="Dell Latitude 5420" className={styles.laptopImage} />
@@ -83,8 +72,6 @@ const Uses = () => {
                 <div 
                   key={index} 
                   className={styles.specCard}
-                  data-aos="zoom-in"
-                  data-aos-delay={index * 100}
                 >
                   <div className={styles.specIcon}>{spec.icon}</div>
                   <div className={styles.specContent}>
@@ -97,7 +84,7 @@ const Uses = () => {
           </div>
           {/* Tools Section */}
           <div className={styles.toolsSection}>
-            <div className={styles.sectionHeader} data-aos="fade-up">
+            <div className={styles.sectionHeader}>
               <h2 className={styles.sectionTitle}>Development Tools</h2>
               <p className={styles.sectionSubtitle}>My daily tech stack and productivity tools</p>
             </div>
@@ -107,8 +94,6 @@ const Uses = () => {
                 <div 
                   key={index} 
                   className={styles.toolCard}
-                  data-aos="fade-up"
-                  data-aos-delay={index * 50}
                 >
                   <div className={styles.toolCardInner}>
                     <div className={styles.toolImageWrapper}>

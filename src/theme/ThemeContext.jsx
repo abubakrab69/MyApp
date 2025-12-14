@@ -80,11 +80,6 @@ export const ThemeProvider = ({ children }) => {
       
       // Update body class for additional styling if needed
       document.body.className = isDarkMode ? 'theme-dark' : 'theme-light';
-
-      // Dispatch custom event for other components that might need to know
-      window.dispatchEvent(new CustomEvent('themeChange', {
-        detail: { isDarkMode, theme: isDarkMode ? 'dark' : 'light' }
-      }));
     }
   }, [isDarkMode, isLoading]);
 

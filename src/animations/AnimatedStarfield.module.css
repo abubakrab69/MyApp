@@ -2,21 +2,19 @@
 
 @keyframes twinkle {
   0%, 100% {
-    opacity: 0.4;
-    box-shadow: 0 0 6px rgba(135, 164, 182, 0.5);
+    opacity: 0.3;
   }
   50% {
-    opacity: 1;
-    box-shadow: 0 0 12px rgba(135, 164, 182, 0.9);
+    opacity: 0.8;
   }
 }
 
 @keyframes nebula {
   0%, 100% {
-    opacity: 0.08;
+    opacity: 0.05;
   }
   50% {
-    opacity: 0.15;
+    opacity: 0.1;
   }
 }
 
@@ -56,11 +54,10 @@
 
 .star {
   position: absolute;
-  background: radial-gradient(circle, rgba(135, 164, 182, 1) 0%, rgba(135, 164, 182, 0.4) 60%);
+  background: rgba(135, 164, 182, 0.8);
   border-radius: 50%;
-  box-shadow: 0 0 6px rgba(135, 164, 182, 0.6);
-  animation: twinkle 4s ease-in-out infinite;
-  will-change: opacity, box-shadow;
+  animation: twinkle 6s ease-in-out infinite;
+  will-change: opacity;
 }
 .starfield_container {
   z-index: 0;

@@ -14,17 +14,7 @@ import TicTacToe from './../assets/TicTacToe.png'
 import TodoList from './../assets/TodoList.png'
 import RPS from './../assets/RPS.png'
 import Navbar_bottom from './Navbar_bottom'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-
 const Projects = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-      offset: 100
-    })
-  }, [])
 
   const projectsData = [
     {
@@ -115,7 +105,7 @@ const Projects = () => {
       <div className={styles.projectsWrapper}>
         <div className={styles.projectsContainer}>
           {/* Header Section */}
-          <div className={styles.headerSection} data-aos="fade-down">
+          <div className={styles.headerSection}>
             <h1 className={styles.mainTitle}>My Projects</h1>
             <p className={styles.subtitle}>Explore my latest work and creative solutions</p>
             <div className={styles.titleUnderline}></div>
@@ -130,8 +120,6 @@ const Projects = () => {
                 rel="noreferrer" 
                 className={styles.projectCard}
                 key={index}
-                data-aos="fade-up"
-                data-aos-delay={index * 100}
               >
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>

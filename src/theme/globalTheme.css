@@ -231,14 +231,9 @@ body {
   border: .5px solid rgba(0, 0, 0, 0.409) !important;
 }
 
-/* Global Smooth Transitions - Enhanced */
+/* Global Smooth Transitions - Optimized */
 * {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-}
-
-/* Specific smooth transitions for interactive elements */
-*:hover {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease !important;
 }
 
 /* Override for elements that need custom timing */

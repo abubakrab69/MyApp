@@ -6,15 +6,15 @@ const AnimatedStarfield = () => {
   const [stars, setStars] = useState([])
 
   useEffect(() => {
-    const generatedStars = Array.from({ length: 60 }, (_, i) => ({
+    const generatedStars = Array.from({ length: 25 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       top: Math.random() * 100,
-      size: Math.random() * 2.2 + 0.5,
-      duration: Math.random() * 4 + 3,
-      delay: Math.random() * 4,
-      opacity: Math.random() * 0.4 + 0.2,   // LOWERED
-      brightness: Math.random() * 0.3 + 0.6 // LOWERED
+      size: Math.random() * 1.5 + 0.5,
+      duration: Math.random() * 6 + 4,
+      delay: Math.random() * 2,
+      opacity: Math.random() * 0.3 + 0.2,
+      brightness: Math.random() * 0.2 + 0.6
     }))
     setStars(generatedStars)
   }, [])
