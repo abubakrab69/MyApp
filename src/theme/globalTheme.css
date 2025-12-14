@@ -96,9 +96,9 @@ body {
 
 /* Light mode navbar styling */
 [data-theme="light"] .nav_inner_box {
-  background: rgba(255, 255, 255, 0.95) !important;
+  /* background: rgba(255, 255, 255, 0.95) !important;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); */
 }
 
 /* Light mode card styling */
@@ -316,12 +316,12 @@ body {
 
 /* Light Mode - Navbar Background */
 [data-theme="light"] .navbar1 {
-  background: rgba(255, 255, 255, 0.95) !important;
+  /* background: rgba(255, 255, 255, 0.95) !important; */
 }
 
 [data-theme="light"] .nav_inner_box {
   /* background: rgba(255, 255, 255, 0.9) !important; */
-  border: .5px solid rgba(0, 0, 0, 0.446) !important;
+  /* border: .5px solid rgba(84, 84, 84, 0.446) !important; */
 }
 
 /* Light Mode - Cards and Containers */
