@@ -12,7 +12,6 @@
   padding: 0;
   margin-left: 12px;
 }
-
 .themeToggle:focus {
   outline: 2px solid var(--accent, #667eea);
   outline-offset: 2px;
