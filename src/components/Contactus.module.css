@@ -158,7 +158,6 @@
 .btn_send:hover::before {
     opacity: 0.8;
 }
-
 .btn_send:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
