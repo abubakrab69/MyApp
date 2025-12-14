@@ -96,7 +96,6 @@
   color: #ffffff;
   filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.3));
 }
-
 /* Light Mode Icon (Sun) */
 .themeToggle.light .icon {
   color: #ff6b35;
