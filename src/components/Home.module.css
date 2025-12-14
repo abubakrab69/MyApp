@@ -463,17 +463,17 @@
     margin-top: 20px;
 }
 .skill_num_one {
-    width: 60px;
-    height: 60px;
+    width: 43px;
+    height: 43px;
     border-radius: 12px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .skill_num_one_box {
-    padding: 16px;
+    padding: 10px;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
