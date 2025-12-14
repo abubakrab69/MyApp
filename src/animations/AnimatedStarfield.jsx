@@ -49,5 +49,4 @@ const AnimatedStarfield = () => {
 }
 
 
-
 export default AnimatedStarfield
