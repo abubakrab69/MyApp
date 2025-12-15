@@ -63,7 +63,7 @@
         rgba(0, 0, 0, 0.8) 85%,
         rgba(0, 0, 0, 0) 100%
     );
-    animation: floatImage 6s ease-in-out infinite;
+    /* animation: floatImage 6s ease-in-out infinite; */
 }
 
 @keyframes floatImage {

@@ -26,10 +26,10 @@ const Footer = () => {
               <li className="linktext">About</li>
             </div>
           </NavLink>
-          <NavLink to="/Skill_section">
+          <NavLink to="/uses">
             <div className="footer_loca">
               {" "}
-              <li className="linktext">Skills</li>
+              <li className="linktext">Uses</li>
             </div>
           </NavLink>
         </ul>

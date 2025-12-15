@@ -175,7 +175,7 @@
 .email_box {
     width: 50%;
     padding: 30px;
-    background-color: rgb(59, 167, 255);
+    background: linear-gradient(to right, #667eea, #3354ea);
     margin-top: 70px;
 }
 .line2 {
