@@ -302,11 +302,10 @@ body {
 }
 
 /* Light Mode - Contact Page */
-[data-theme="light"] .contact_main h2,
-[data-theme="light"] .contact_main h5,
+/* [data-theme="light"] .contact_main h2,
 [data-theme="light"] .contact_main p {
   color: #1a202c !important;
-}
+} */
 
 /* Light Mode - Navbar Background */
 [data-theme="light"] .navbar1 {
