@@ -125,7 +125,6 @@
     overflow: hidden;
     transform: translateY(0);
 }
-
 .specCard::before {
     content: '';
     position: absolute;
