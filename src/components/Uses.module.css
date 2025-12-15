@@ -27,7 +27,6 @@
     letter-spacing: -1px;
     animation: fadeInUp 0.8s ease-out;
 }
-
 .subtitle {
     font-size: clamp(1rem, 2vw, 1.25rem);
     color: rgba(255, 255, 255, 0.7);
