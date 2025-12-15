@@ -138,7 +138,6 @@
     border-color: rgba(102, 126, 234, 0.5);
     box-shadow: 0 12px 40px rgba(102, 126, 234, 0.3);
 }
-
 .specCard:hover::before {
     opacity: 1;
 }
