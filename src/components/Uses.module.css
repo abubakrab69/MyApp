@@ -70,7 +70,6 @@
     z-index: 2;
     filter: drop-shadow(0 20px 40px rgba(102, 126, 234, 0.3));
 }
-
 .laptopGlow {
     position: absolute;
     inset: -20%;
