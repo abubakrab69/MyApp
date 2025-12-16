@@ -2,7 +2,6 @@ import React from "react";
 import AnimatedStarfield from "../animations/AnimatedStarfield"; 
 import Logo from './../assets/logo_main.png'
 
-
 const Splash = () => {
 
   return (
