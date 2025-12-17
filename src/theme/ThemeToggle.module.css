@@ -33,7 +33,6 @@
     inset 0 2px 8px rgba(0, 0, 0, 0.3),
     0 4px 15px rgba(102, 126, 234, 0.2);
 }
-
 /* Light Mode Track */
 .themeToggle.light .toggleTrack {
   background: linear-gradient(135deg, #e0f2fe 0%, #b3e5fc 100%);
