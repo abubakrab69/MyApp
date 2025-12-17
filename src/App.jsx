@@ -29,7 +29,6 @@ const AppContent = () => {
     { path: "/Contactus", element: <Contactus /> }
   ]);
   
-
   if (loading) {
     return <SplashScreen />;
   }
