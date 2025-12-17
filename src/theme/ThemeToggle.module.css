@@ -159,7 +159,6 @@
   top: -2px;
   left: 1px;
 }
-
 .cloud::after {
   content: '';
   position: absolute;
