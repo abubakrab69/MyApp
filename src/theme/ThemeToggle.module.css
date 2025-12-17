@@ -172,7 +172,6 @@
 .themeToggle:hover {
   transform: scale(1.05);
 }
-
 .themeToggle.dark:hover .toggleTrack {
   box-shadow: 
     inset 0 2px 8px rgba(0, 0, 0, 0.3),
