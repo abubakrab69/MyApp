@@ -237,7 +237,6 @@
     z-index: 1;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .toolCard:hover .toolImageWrapper {
     transform: scale(1.1);
     background: rgba(102, 126, 234, 0.15);
