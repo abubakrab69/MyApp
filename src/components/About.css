@@ -256,7 +256,6 @@ section{
 .mail-button2 img {
   filter: invert(56%) sepia(42%) saturate(4795%) hue-rotate(360deg) brightness(103%) contrast(105%);
 }
-
 .mail-button2:hover {
   background-color: #FF7A01;
   border: 10px solid #FF7A01;
