@@ -260,7 +260,6 @@ section{
   background-color: #FF7A01;
   border: 10px solid #FF7A01;
 }
-
 .mail-button2:hover img {
   filter: unset;
   transform: scale(1.5);
