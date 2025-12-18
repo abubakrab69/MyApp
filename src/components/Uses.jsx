@@ -111,7 +111,7 @@ const Uses = () => {
           </div>
         </div>
       </div>
-      <Navbar_bottom />
+      <Navbar_bottom /> 
       <Footer />
     </>
   )
