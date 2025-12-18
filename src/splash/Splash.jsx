@@ -3,7 +3,7 @@ import AnimatedStarfield from "../animations/AnimatedStarfield";
 import Logo from './../assets/logo_main.png'
 
 const Splash = () => {
-  
+
 
   return (
     <div style={styles.container}>
@@ -22,6 +22,7 @@ const Splash = () => {
     </div>
   );
 };
+
 
 const styles = {
   container: {
