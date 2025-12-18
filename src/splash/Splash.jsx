@@ -71,6 +71,8 @@ const styles = {
 
 export default Splash;
 
+
+
 // Add CSS animations
 const splashStyles = `
 @keyframes pulse {
