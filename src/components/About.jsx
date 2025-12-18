@@ -58,7 +58,7 @@ const AboutMe = () => {
       alt="mail"
     />
   </a>
-</div>
+</div> 
           </div>
           <div>
   {/* <h1 className='contribution_heading'>Contributions</h1> */}
