@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Logo from './../assets/logo_main.png'
 import ThemeToggle from '../theme/ThemeToggle'
 
+
 const Navbar = () => {
   return (
     <div>
