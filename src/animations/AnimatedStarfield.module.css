@@ -58,6 +58,7 @@
   animation: twinkle 6s ease-in-out infinite;
   will-change: opacity;
 }
+
 .starfield_container {
   z-index: 0;
 }
