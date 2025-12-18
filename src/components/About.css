@@ -98,6 +98,7 @@ section{
   }
 }
 
+
 .about-me-flex-container {
   margin-top: -25px;
   margin-left: 150px;
@@ -105,6 +106,7 @@ section{
   display: flex;
   justify-content: space-between;
 }
+
 
 @media (max-width: 960px) {
   .about-me-flex-container {
