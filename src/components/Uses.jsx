@@ -115,6 +115,6 @@ const Uses = () => {
       <Footer />
     </>
   )
-}
+} 
 
 export default Uses
