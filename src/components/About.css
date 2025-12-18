@@ -130,6 +130,7 @@ section{
   height: 400px;
 }
 
+
 @media (max-width: 500px) {
   .about-me-flex-container .about-me-image {
     width: 300px;
