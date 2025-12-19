@@ -53,7 +53,7 @@ const Uses = () => {
             <div className={styles.titleUnderline}></div>
           </div>
 
-          {/* Laptop Section */}
+          {/* Laptop Section */} 
           <div className={styles.laptopSection}>
             <div className={styles.laptopCard}>
               <div className={styles.laptopImageWrapper}>
