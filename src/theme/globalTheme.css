@@ -177,7 +177,7 @@ body {
 [data-theme="light"] .cardContent span:not(.techTag):not(.categoryBadge) {
   color: #1a202c !important;
 }
-
+ 
 /* Light mode - Project cards */
 [data-theme="light"] .projectTitle {
   color: #1a202c !important;
