@@ -40,7 +40,7 @@ const Uses = () => {
     { name: "Dart DevTools", description: "Debugging", image: DART, category: "Tools" },
     { name: "Emulator", description: "Android Testing", image: Emulator, category: "Tools" }
   ]
-
+ 
   return (
     <>
       <Navbar /> 
