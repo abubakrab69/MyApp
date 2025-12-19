@@ -41,7 +41,7 @@ const Uses = () => {
     { name: "Emulator", description: "Android Testing", image: Emulator, category: "Tools" }
   ]
  
-  return (
+  return ( 
     <>
       <Navbar /> 
       <div className={styles.usesWrapper}>
