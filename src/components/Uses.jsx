@@ -25,7 +25,7 @@ const Uses = () => {
     { label: "Processor", value: "Core i5", icon: "🔥" },
     { label: "OS", value: "Windows 11 Pro", icon: "🪟" }
   ]
-
+ 
   const tools = [
     { name: "VS Code", description: "Code Editor", image: VSCode, category: "Development" },
     { name: "Postman", description: "API Testing", image: Postman, category: "Development" },
