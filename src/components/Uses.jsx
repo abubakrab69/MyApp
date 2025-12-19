@@ -82,7 +82,7 @@ const Uses = () => {
               ))}
             </div>
           </div>
-          
+
           {/* Tools Section */}
           <div className={styles.toolsSection}>
             <div className={styles.sectionHeader}>
@@ -95,7 +95,7 @@ const Uses = () => {
                 <div 
                   key={index} 
                   className={styles.toolCard}
-                >
+                > 
                   <div className={styles.toolCardInner}>
                     <div className={styles.toolImageWrapper}>
                       <img src={tool.image} alt={tool.name} className={styles.toolImage} />
