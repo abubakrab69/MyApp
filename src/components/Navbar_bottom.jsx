@@ -5,7 +5,6 @@ import { color } from 'framer-motion'
 import { style } from 'framer-motion/client';
 
 
-
 const Navbar_bottom = () => {
   
   return (
