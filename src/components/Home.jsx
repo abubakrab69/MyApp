@@ -23,6 +23,7 @@ import Github from './../assets/github.png'
 import DART from './../assets/dart.png'
 import Resume from './../assets/ABUBAKR_RESUME.pdf.pdf'
 
+
 const Home = () => {
   useEffect(() => {
     // Simple smooth animation on load
