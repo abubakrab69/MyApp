@@ -93,7 +93,7 @@ body {
   --text-secondary: #2d3748;
   --text-tertiary: #4a5568;
 }
-
+ 
 /* Light mode navbar styling */
 [data-theme="light"] .nav_inner_box {
   /* background: rgba(255, 255, 255, 0.95) !important;
