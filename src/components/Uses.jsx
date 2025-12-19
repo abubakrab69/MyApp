@@ -89,7 +89,7 @@ const Uses = () => {
               <h2 className={styles.sectionTitle}>Development Tools</h2>
               <p className={styles.sectionSubtitle}>My daily tech stack and productivity tools</p>
             </div>
-
+ 
             <div className={styles.toolsGrid}>
               {tools.map((tool, index) => (
                 <div 
