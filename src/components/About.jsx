@@ -8,7 +8,7 @@ import Logo from "./../assets/logo_main.png";
 import Navbar_bottom from "./Navbar_bottom";
 
 
-const AboutMe = () => {
+const AboutMe = () => { 
   return (
     <>
       <Navbar />
