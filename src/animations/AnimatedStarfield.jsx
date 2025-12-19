@@ -18,7 +18,7 @@ const AnimatedStarfield = () => {
     }))
     setStars(generatedStars)
   }, [])
-
+ 
 
   return (
     <div className={styles.starfield_container}>
