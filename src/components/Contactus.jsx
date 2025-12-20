@@ -78,7 +78,7 @@ const Contactus = () => {
                     </div>
                     <form className={styles.myForm} onSubmit={handleSubmit(onSubmit)}>
                         <input
-                        
+
                             type="text"
                             placeholder='Username'
                             className={styles.inputs}
@@ -100,6 +100,7 @@ const Contactus = () => {
                         />
                         {errors.number && <h5 style={{ color: "red" }}>{errors.number.message}</h5>}
                         <input
+                        
                             type="email"
                             placeholder='Email'
                             className={styles.inputs}
