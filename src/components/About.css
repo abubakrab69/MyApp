@@ -107,7 +107,6 @@ section{
   justify-content: space-between;
 }
 
-
 @media (max-width: 960px) {
   .about-me-flex-container {
     flex-direction: column;
