@@ -24,7 +24,7 @@ const Contactus = () => {
     };
 
     return (
-        <>
+        <> 
             <Navbar />
             <div className={styles.contact_main}>
                 <div className={styles.logos}>
