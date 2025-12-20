@@ -268,6 +268,7 @@ section{
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .portfolio-link a {
   text-decoration: none;
   color: white;
