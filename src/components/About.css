@@ -238,6 +238,7 @@ section{
 .mail-button a {
   display: flex;
 }
+
 .mail-button img {
   -o-object-fit: contain;
   object-fit: contain;
