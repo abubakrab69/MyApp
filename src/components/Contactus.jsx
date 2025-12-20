@@ -97,10 +97,10 @@ const Contactus = () => {
                                 required: { value: true, message: "Phone required" },
                                 maxLength: { value: 11, message: "At most 11 digits" }
                             })}
-                        />
+                        /> 
                         {errors.number && <h5 style={{ color: "red" }}>{errors.number.message}</h5>}
                         <input
-                        
+
                             type="email"
                             placeholder='Email'
                             className={styles.inputs}
