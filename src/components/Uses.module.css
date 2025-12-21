@@ -219,7 +219,6 @@
 .toolCard:hover .toolCardInner::before {
     opacity: 1;
 }
-
 .toolImageWrapper {
     width: 80px;
     height: 80px;
