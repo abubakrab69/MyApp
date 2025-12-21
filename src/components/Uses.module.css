@@ -215,7 +215,6 @@
     border-color: rgba(102, 126, 234, 0.5);
     box-shadow: 0 12px 40px rgba(102, 126, 234, 0.3);
 }
-
 .toolCard:hover .toolCardInner::before {
     opacity: 1;
 }
