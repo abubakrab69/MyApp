@@ -131,7 +131,6 @@
   opacity: 0;
   transition: opacity 0.4s ease;
 }
-
 .themeToggle.light .clouds {
   opacity: 1;
 }
