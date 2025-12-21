@@ -50,7 +50,7 @@ const Uses = () => {
           <div className={styles.headerSection}>
             <h1 className={styles.mainTitle}>My Setup</h1>
             <p className={styles.subtitle}>Tools and technologies I use daily</p>
-            <div className={styles.titleUnderline}></div>
+            <div className={styles.titleUnderline}></div> 
           </div>
 
           {/* Laptop Section */} 
