@@ -104,13 +104,11 @@ li {
     color: rgb(255, 191, 0);
 }
 
-
 @media screen and (min-width: 426px) and (max-width: 2200px) {
     .navbar{
         display: none;
     }
 }
-
 
 @media screen and (max-width: 728px) {
     .logo_top {
