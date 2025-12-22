@@ -97,7 +97,6 @@
   filter: drop-shadow(0 0 4px rgba(255, 107, 53, 0.3));
   animation: sunRotate 8s linear infinite;
 }
-
 /* Stars (Dark Mode) */
 .stars {
   position: absolute;
@@ -105,7 +104,6 @@
   opacity: 0;
   transition: opacity 0.4s ease;
 }
-
 .themeToggle.dark .stars {
   opacity: 1;
 }
