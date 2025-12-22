@@ -331,11 +331,9 @@
         flex-direction: column;
         text-align: center;
     }
-
     .specIcon {
         font-size: 2rem;
     }
-
     .toolsSection {
         margin-top: 60px;
     }
