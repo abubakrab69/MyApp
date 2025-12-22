@@ -118,7 +118,6 @@
   animation: starTwinkle 2s ease-in-out infinite;
   box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
 }
-
 /* Clouds (Light Mode) */
 .clouds {
   position: absolute;
