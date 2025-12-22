@@ -311,11 +311,9 @@
     .usesContainer {
         width: 90%;
     }
-
     .headerSection {
         margin-bottom: 50px;
     }
-
     .laptopCard {
         padding: 30px 20px;
     }
@@ -323,13 +321,11 @@
     .laptopSection {
         margin-bottom: 60px;
     }
-
     .specsGrid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 12px;
         padding: 0;
     }
-
     .specCard {
         padding: 18px;
         flex-direction: column;
