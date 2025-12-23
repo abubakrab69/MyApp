@@ -65,7 +65,6 @@ const Uses = () => {
                 <p className={styles.laptopSubtitle}>14" Professional Laptop</p>
               </div>
             </div>
-
             {/* Specs Grid */}
             <div className={styles.specsGrid}>
               {specs.map((spec, index) => (
