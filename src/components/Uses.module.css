@@ -376,13 +376,11 @@
         flex-direction: row;
         text-align: left;
     }
-
     .toolsGrid {
         grid-template-columns: 1fr;
         gap: 16px;
         padding: 0;
     }
-
     .toolCardInner {
         padding: 24px 20px;
     }
