@@ -5,7 +5,6 @@ import Footer from './Footer'
 import styles from './Contactus.module.css';
 import Navbar_bottom from './Navbar_bottom';
 
-
 const Contactus = () => { 
     const {
         register,
