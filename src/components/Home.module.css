@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
 
-
 .main{
     display: flex;
     margin: auto;
@@ -236,7 +235,6 @@
     transform: translateY(20px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .projectCard:hover .viewProject {
     transform: translateY(0);
 }
@@ -446,13 +444,10 @@
     }
 }
 
-
 /* Skills Section */
 .skillsWrapper {
-    /* padding: 60px 0; */
     background: transparent;
 }
-
 .skillsContainer {
     max-width: 1400px;
     margin: 0 auto;
@@ -462,7 +457,6 @@
     text-align: center;
     font-family: Nunito, sans-serif;
     font-size: clamp(2rem, 4vw, 3.5rem);
-    /* color: #d8e8f3; */
     background: linear-gradient(135deg, #667eea 0%, #4460ff 50%, rgb(17, 105, 236) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -496,7 +490,7 @@
     transform: translateY(0);
 }
 .skill_num_one_box:hover {
-    transform: translateY(-8px);
+    transform: translateY(-3px);
     border-color: rgba(102, 126, 234, 0.5);
     box-shadow: 0 12px 40px rgba(102, 126, 234, 0.3);
     background: rgba(255, 255, 255, 0.05);
