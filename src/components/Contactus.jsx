@@ -98,7 +98,6 @@ const Contactus = () => {
                         />  
                         {errors.number && <h5 style={{ color: "red" }}>{errors.number.message}</h5>}
                         <input
-
                             type="email"
                             placeholder='Email'
                             className={styles.inputs}
