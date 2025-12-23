@@ -363,12 +363,10 @@
     .usesContainer {
         width: 95%;
     }
-
     .laptopCard {
         padding: 24px 16px;
         border-radius: 24px;
     }
-
     .specsGrid {
         grid-template-columns: 1fr;
         gap: 12px;
