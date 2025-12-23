@@ -267,6 +267,7 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+
 /* Animations */
 @keyframes fadeInUp {
     from {
