@@ -339,7 +339,6 @@
     .sectionHeader {
         margin-bottom: 40px;
     }
-
     .toolsGrid {
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
         gap: 16px;
@@ -348,7 +347,6 @@
     .toolCardInner {
         padding: 20px;
     }
-
     .toolImageWrapper {
         width: 70px;
         height: 70px;
