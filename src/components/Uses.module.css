@@ -98,7 +98,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    /* padding: 0 20px; */
 }
 .specCard {
     background: rgba(255, 255, 255, 0.03);
