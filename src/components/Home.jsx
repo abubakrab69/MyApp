@@ -163,7 +163,6 @@ const Home = () => {
                   </div>
                 </div>
               </a>
-
               <a href="https://skill-grow-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
@@ -183,7 +182,6 @@ const Home = () => {
                   </div>
                 </div>
               </a>
-
               <a href="https://i-coder-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
@@ -203,7 +201,6 @@ const Home = () => {
                   </div>
                 </div>
               </a>
-
               <a href="https://hurst-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
@@ -223,7 +220,6 @@ const Home = () => {
                   </div>
                 </div>
               </a>
-
               <a href="https://mintra-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
