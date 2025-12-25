@@ -262,34 +262,34 @@ const Home = () => {
             <h1 className={styles.project_heading}>Technical Mastery</h1>
             <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
-                  <img src={HTML} alt="" className={styles.skill_num_one}/>
+                  <img src={HTML} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={CSS} alt="" className={styles.skill_num_one}/>
+                  <img src={CSS} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={JS} alt="" className={styles.skill_num_one}/>
+                  <img src={JS} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={REACT} alt="" className={styles.skill_num_one}/>
+                  <img src={REACT} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Tailwind} alt="" className={styles.skill_num_one}/>
+                  <img src={Tailwind} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Bootstrap} alt="" className={styles.skill_num_one}/>
+                  <img src={Bootstrap} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Flutter} alt="" className={styles.skill_num_one}/>
+                  <img src={Flutter} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Git} alt="" className={styles.skill_num_one}/>
+                  <img src={Git} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Github} alt="" className={styles.skill_num_one}/>
+                  <img src={Github} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={DART} alt="" className={styles.skill_num_one}/>
+                  <img src={DART} alt="" className={styles.skill_num_one} loading='lazy'/>
                 </div>
             </div>
           </div>
