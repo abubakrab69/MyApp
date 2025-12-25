@@ -598,6 +598,8 @@
     .main_name_text{
         font-size: 15px;
         text-align: center;
+        font-weight: 400;
+        margin-bottom: 5px;
     }
     .hero_section{
         display: flex;
