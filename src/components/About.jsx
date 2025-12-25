@@ -25,16 +25,16 @@ const AboutMe = () => {
               <div className="about-me-image">
                 <div className="back-div"></div>
                 <div className="black-image">
-                  <img src={Myimage} alt="black" />
+                  <img src={Myimage} alt="black" loading="lazy"/>
                 </div>
                 <div className="main-image">
-                  <img src={Myimage} alt="smit" />
+                  <img src={Myimage} alt="smit" loading="lazy"/>
                 </div>
               </div>
               <div className="about-me-content">
                 <div className="logo">
                   <h1 className="logoAB">
-                    <img src={Logo} alt="logo"/>
+                    <img src={Logo} alt="logo" loading="lazy"/>
                   </h1>
                 </div>
                 <div className="text">
@@ -55,7 +55,7 @@ const AboutMe = () => {
   >
     <img
       src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/20391be8bf1ed24ef0e5da066bf68a5f6ee78fa1/images/mail.svg"
-      alt="mail"
+      alt="mail" loading="lazy"
     />
   </a>
 </div> 
@@ -63,7 +63,7 @@ const AboutMe = () => {
           <div>
   <h1 className='contribution_heading'>Contributions</h1>
   Contribution img by link 
-  <img src="https://ghchart.rshah.org/abubakrab69" alt=""/>
+  <img src="https://ghchart.rshah.org/abubakrab69" alt="" loading="lazy"/>
 </div>
         </motion.div>
       </section>
