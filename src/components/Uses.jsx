@@ -57,7 +57,7 @@ const Uses = () => {
           <div className={styles.laptopSection}>
             <div className={styles.laptopCard}>
               <div className={styles.laptopImageWrapper}>
-                <img src={Laptop} alt="Dell Latitude 5420" className={styles.laptopImage} loading='lazy'/>
+                <img src={Laptop} alt="Dell Latitude 5420" className={styles.laptopImage}/>
                 <div className={styles.laptopGlow}></div>
               </div>
               <div className={styles.laptopInfo}>
