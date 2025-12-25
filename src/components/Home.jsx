@@ -109,7 +109,7 @@ const Home = () => {
             </div>
             {/* my image */}
             <div className={`${styles.my_img} ${styles.float_img}`}>
-              <img src={MyPic} alt="MY" loading="lazy" decoding="async" className={styles.my_image} />
+              <img src={MyPic} alt="MY" decoding="async" className={styles.my_image} />
             </div>
           </div>
         </div>
