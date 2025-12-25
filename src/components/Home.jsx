@@ -244,7 +244,6 @@ const Home = () => {
                 </div>
               </a>
             </div>
-
             <div className={styles.home_bottom_btn_container}>
               <Link to="/projects" className={styles.seeMoreLink}>
               <button className={styles.btn_see_more}>View All Projects</button>
@@ -255,7 +254,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         {/* Skills Section */}
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsContainer}>
