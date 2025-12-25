@@ -25,10 +25,10 @@ const AboutMe = () => {
               <div className="about-me-image">
                 <div className="back-div"></div>
                 <div className="black-image">
-                  <img src={Myimage} alt="black" loading="lazy"/>
+                  <img src={Myimage} alt="black"/>
                 </div>
                 <div className="main-image">
-                  <img src={Myimage} alt="smit" loading="lazy"/>
+                  <img src={Myimage} alt="smit"/>
                 </div>
               </div>
               <div className="about-me-content">
