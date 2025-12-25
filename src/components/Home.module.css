@@ -606,6 +606,8 @@
     }
     .hello_text{
         text-align: center;
+        line-height: 1;
+        font-size: 57px;
     }
     .top_namimg{
         width: 95%;
