@@ -121,7 +121,6 @@ const Home = () => {
               <p className={styles.subtitle}>Explore some of my best work</p>
               <div className={styles.titleUnderline}></div>
             </div>
-
             <div className={styles.projectsGrid}>
               <a href="https://chai-code-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
@@ -143,7 +142,6 @@ const Home = () => {
                   </div>
                 </div>
               </a>
-
               <a href="https://nova-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
