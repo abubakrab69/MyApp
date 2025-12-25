@@ -97,7 +97,7 @@ const Uses = () => {
                 > 
                   <div className={styles.toolCardInner}>
                     <div className={styles.toolImageWrapper}>
-                      <img src={tool.image} alt={tool.name} className={styles.toolImage} />
+                      <img src={tool.image} alt={tool.name} className={styles.toolImage} loading='lazy'/>
                     </div>
                     <div className={styles.toolContent}>
                       <h3 className={styles.toolName}>{tool.name}</h3>
