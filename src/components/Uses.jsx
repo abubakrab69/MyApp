@@ -52,7 +52,6 @@ const Uses = () => {
             <p className={styles.subtitle}>Tools and technologies I use daily</p>
             <div className={styles.titleUnderline}></div> 
           </div>
-
           {/* Laptop Section */} 
           <div className={styles.laptopSection}>
             <div className={styles.laptopCard}>
@@ -81,14 +80,12 @@ const Uses = () => {
               ))}
             </div>
           </div>
-
           {/* Tools Section */}
           <div className={styles.toolsSection}>
             <div className={styles.sectionHeader}>
               <h2 className={styles.sectionTitle}>Development Tools</h2>
               <p className={styles.sectionSubtitle}>My daily tech stack and productivity tools</p>
             </div>
- 
             <div className={styles.toolsGrid}>
               {tools.map((tool, index) => (
                 <div 
