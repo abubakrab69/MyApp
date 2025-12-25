@@ -126,7 +126,7 @@ const Home = () => {
               <a href="https://chai-code-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Chaidocs} alt="Chaidocs" loading="lazy" className={styles.projectImage} />
+                    <img src={Chaidocs} alt="Chaidocs" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
@@ -147,7 +147,7 @@ const Home = () => {
               <a href="https://nova-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Nova} alt="Nova" loading="lazy" className={styles.projectImage} />
+                    <img src={Nova} alt="Nova" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
@@ -167,7 +167,7 @@ const Home = () => {
               <a href="https://skill-grow-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Skillgrow} alt="Skillgrow" loading="lazy" className={styles.projectImage} />
+                    <img src={Skillgrow} alt="Skillgrow" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
@@ -187,7 +187,7 @@ const Home = () => {
               <a href="https://i-coder-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={icoder} alt="iCoder" loading="lazy" className={styles.projectImage} />
+                    <img src={icoder} alt="iCoder" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
@@ -207,7 +207,7 @@ const Home = () => {
               <a href="https://hurst-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Hurst} alt="Hurst" loading="lazy" className={styles.projectImage} />
+                    <img src={Hurst} alt="Hurst" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
@@ -227,7 +227,7 @@ const Home = () => {
               <a href="https://mintra-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Myntra} alt="Myntra" loading="lazy" className={styles.projectImage} />
+                    <img src={Myntra} alt="Myntra" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
