@@ -596,7 +596,7 @@
 
 @media screen and (min-width: 0px) and (max-width: 426px) {
     .main_name_text{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
     }
     .hero_section{
@@ -607,7 +607,7 @@
     .hello_text{
         text-align: center;
         line-height: 1;
-        font-size: 57px;
+        font-size: 55px;
     }
     .top_namimg{
         width: 95%;
@@ -617,7 +617,7 @@
     }
     .my_image{
         width: 100%;
-        margin-top: -25px;
+        margin-top: -22px;
     }
     .my_img{
         width: 95%;
