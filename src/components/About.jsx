@@ -55,7 +55,7 @@ const AboutMe = () => {
   >
     <img
       src="https://raw.githubusercontent.com/Smit-Prajapati/prajapatismit/20391be8bf1ed24ef0e5da066bf68a5f6ee78fa1/images/mail.svg"
-      alt="mail" loading="lazy"
+      alt="mail"
     />
   </a>
 </div> 
