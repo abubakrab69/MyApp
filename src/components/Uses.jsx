@@ -78,7 +78,7 @@ const Uses = () => {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> 
           </div>  
           {/* Tools Section */}
           <div className={styles.toolsSection}>
