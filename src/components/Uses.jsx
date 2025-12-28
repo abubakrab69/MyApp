@@ -42,7 +42,7 @@ const Uses = () => {
   ]
  
   return ( 
-    <>
+    <> 
       <Navbar /> 
       <div className={styles.usesWrapper}>
         <div className={styles.usesContainer}>
