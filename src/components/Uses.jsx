@@ -63,7 +63,7 @@ const Uses = () => {
                 <h2 className={styles.laptopTitle}>Dell Latitude 5420</h2>
                 <p className={styles.laptopSubtitle}>14" Professional Laptop</p>
               </div>
-            </div>
+            </div> 
             {/* Specs Grid */}
             <div className={styles.specsGrid}>
               {specs.map((spec, index) => (
