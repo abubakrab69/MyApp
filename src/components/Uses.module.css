@@ -196,7 +196,7 @@
     transform: translateY(0);
 }
 .toolCardInner::before {
-    content: '';
+    content: ''; 
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
