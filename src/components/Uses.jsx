@@ -103,7 +103,7 @@ const Uses = () => {
                     </div>
                   </div>
                 </div>
-              ))}
+              ))} 
             </div> 
           </div>
         </div>
