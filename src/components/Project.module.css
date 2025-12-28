@@ -47,7 +47,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     gap: 32px;
-    /* padding: 0 20px; */
 }
 /* Project Card */
 .projectCard {
@@ -150,7 +149,6 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
 }
-
 /* Tech Stack */
 .techStack {
     display: flex;
@@ -245,7 +243,6 @@
     .projectsContainer {
         width: 95%;
     }
-
     .projectsGrid {
         grid-template-columns: 1fr;
         gap: 20px;
