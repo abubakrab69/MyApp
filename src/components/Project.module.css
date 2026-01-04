@@ -166,7 +166,6 @@
     gap: 8px;
     margin-top: 16px;
 }
-
 .techTag {
     padding: 6px 14px;
     background: rgba(255, 255, 255, 0.05);
@@ -212,7 +211,6 @@
         gap: 28px;
     }
 }
-
 @media screen and (max-width: 768px) {
     .projectsWrapper {
         padding: 80px 16px 40px;
