@@ -211,7 +211,6 @@
         gap: 28px;
     }
 }
-
 @media screen and (max-width: 768px) {
     .projectsWrapper {
         padding: 80px 16px 40px;
