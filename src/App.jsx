@@ -7,6 +7,7 @@ import About from './components/About';
 import SplashScreen from "./splash/Splash.jsx";
 import AnimatedStarfield from './animations/AnimatedStarfield';
 import Uses from "./components/Uses.jsx";
+import THSProjectDetail from './components/ths_project_detail';
 import { ThemeProvider, useTheme } from './theme/ThemeContext';
 import './theme/globalTheme.css';
 
@@ -24,6 +25,7 @@ const AppContent = () => {
   const router = createBrowserRouter([
     { path: "/", element: <Home /> },
     { path: "/projects", element: <Projects /> },
+    { path: "/ths_project_detail", element: <THSProjectDetail /> },
     { path: "/about", element: <About /> },
     { path: "/Uses", element: <Uses /> },
     { path: "/Contactus", element: <Contactus /> }

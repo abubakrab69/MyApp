@@ -12,14 +12,21 @@ import WeatherApp from './../assets/WeatherApp.png'
 import Calculator from './../assets/Calculator.png'
 import TicTacToe from './../assets/TicTacToe.png'
 import TodoList from './../assets/TodoList.png'
+import THSHome from './../assets/ths1.png'
 import RPS from './../assets/RPS.png'
 import Navbar_bottom from './Navbar_bottom'
 const Projects = () => {
 
   const projectsData = [
     {
+      title: "Total Home Services",
+      tech: ["Flutter", 'Dart'],
+      image: THSHome,
+      link: "./ths_project_detail",
+      category: "Mobile Developement"
+    },
+    {
       title: "Chaidocs",
-      subtitle: "(Clone)",
       tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       image: Chaidocs,
       link: "https://chai-code-abubakr.netlify.app",
@@ -27,7 +34,6 @@ const Projects = () => {
     },
     {
       title: "Nova Website",
-      subtitle: "(Clone)",
       tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       image: Nova,
       link: "https://nova-abubakr.netlify.app",
@@ -35,7 +41,6 @@ const Projects = () => {
     },
     {
       title: "i Coder Website",
-      subtitle: "(Clone)",
       tech: ["HTML", "CSS", "Bootstrap"],
       image: icoder,
       link: "https://i-coder-abubakr.netlify.app",
@@ -43,7 +48,6 @@ const Projects = () => {
     },
     {
       title: "Hurst Website",
-      subtitle: "(Clone)",
       tech: ["HTML", "CSS", "JavaScript"],
       image: Hurst,
       link: "https://hurst-abubakr.netlify.app",
@@ -51,7 +55,6 @@ const Projects = () => {
     },
     {
       title: "Skillgrow",
-      subtitle: "(Clone)",
       tech: ["HTML", "CSS", "JavaScript"],
       image: Skillgrow,
       link: "https://skill-grow-abubakr.netlify.app",
@@ -59,7 +62,6 @@ const Projects = () => {
     },
     {
       title: "Weather App",
-      subtitle: "",
       tech: ["React JS"],
       image: WeatherApp,
       link: "https://rad-tanuki-11123f.netlify.app",
@@ -67,7 +69,6 @@ const Projects = () => {
     },
     {
       title: "Calculator",
-      subtitle: "",
       tech: ["HTML", "CSS", "JavaScript"],
       image: Calculator,
       link: "https://calculator-abubakr.netlify.app",
@@ -75,7 +76,6 @@ const Projects = () => {
     },
     {
       title: "Tic Tac Toe",
-      subtitle: "",
       tech: ["HTML", "CSS", "JavaScript"],
       image: TicTacToe,
       link: "https://ttt-abubakr.netlify.app",
@@ -83,7 +83,6 @@ const Projects = () => {
     },
     {
       title: "Todo List",
-      subtitle: "",
       tech: ["HTML", "CSS", "JavaScript"],
       image: TodoList,
       link: "https://itodo-abubakr.netlify.app",
@@ -91,7 +90,6 @@ const Projects = () => {
     },
     {
       title: "Rock Paper Scissors",
-      subtitle: "",
       tech: ["HTML", "CSS", "JavaScript"],
       image: RPS,
       link: "https://rps-abubakr.netlify.app",
@@ -116,7 +114,7 @@ const Projects = () => {
             {projectsData.map((project, index) => (
               <a 
                 href={project.link} 
-                target="_blank" 
+                // target="_blank" 
                 rel="noreferrer" 
                 className={styles.projectCard}
                 key={index}
@@ -126,7 +124,6 @@ const Projects = () => {
                     <img 
                       src={project.image} 
                       alt={project.title} 
-                      loading="lazy" 
                       className={styles.projectImage} 
                     />
                     <div className={styles.imageOverlay}>
