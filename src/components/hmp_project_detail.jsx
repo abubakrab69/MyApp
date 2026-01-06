@@ -1,27 +1,24 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Navbar_bottom from './Navbar_bottom'
 import styles from './ths_project_detail.module.css'
 import AnimatedStarfield from '../animations/AnimatedStarfield'
 
-// Import THS project images
-import THSHome from './../assets/ths1.png'
-import THS2 from './../assets/ths2.png'
-import THS3 from './../assets/ths3.png'
-import THS4 from './../assets/ths4.png'
-import THS5 from './../assets/ths5.png'
-import THS6 from './../assets/ths6.png'
-import THS7 from './../assets/ths7.png'
-import THS8 from './../assets/ths8.png'
-import THS9 from './../assets/ths9.png'
-import THS10 from './../assets/ths10.png'
-import THS11 from './../assets/ths11.png'
+// Import HMP project images
+import HMP2 from './../assets/hmp1 (1).png'
+import HMP1 from './../assets/hmp1 (2).png'
+import HMP3 from './../assets/hmp1 (3).png'
+import HMP4 from './../assets/hmp1 (4).png'
+import HMP5 from './../assets/hmp1 (5).png'
+import HMP6 from './../assets/hmp1 (6).png'
+import HMP7 from './../assets/hmp1 (7).png'
+import HMP8 from './../assets/hmp1 (8).png'
 
-const THSProjectDetail = () => {
+const HMPProjectDetail = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
-  const projectImages = [THSHome, THS2, THS3, THS4, THS5, THS6, THS7, THS8, THS9, THS10, THS11]
+  const projectImages = [HMP1, HMP2, HMP3, HMP4, HMP5, HMP6, HMP7, HMP8]
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % projectImages.length)
@@ -44,7 +41,7 @@ const THSProjectDetail = () => {
         <div className={styles.detailContainer}>
           {/* Header Section */}
           <div className={styles.headerSection}>
-            <h1 className={styles.mainTitle}>Total Home Services</h1>
+            <h1 className={styles.mainTitle}>HelpMatePlus</h1>
             <p className={styles.subtitle}>Mobile Application</p>
             <div className={styles.titleUnderline}></div>
           </div>
@@ -102,9 +99,9 @@ const THSProjectDetail = () => {
               <div className={styles.detailCard}>
                 <h2 className={styles.sectionTitle}>Project Overview</h2>
                 <p className={styles.detailText}>
-                  Total Home Services (THS) is a comprehensive mobile application built with <strong>Flutter</strong> and <strong>Dart</strong>. 
-                  This application provides users with an easy way to book and manage home services including cleaning, plumbing, 
-                  electrical work, and much more.
+                  HelpMatePlus is an innovative mobile application built with <strong>Flutter</strong> and <strong>Dart</strong>. 
+                  This platform connects service seekers with professional service providers, offering a seamless experience for 
+                  finding, booking, and managing various home and professional services.
                 </p>
               </div>
 
@@ -140,7 +137,7 @@ const THSProjectDetail = () => {
               {/* Project Statistics */}
               <div className={styles.statsGrid}>
                 <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>11</h3>
+                  <h3 className={styles.statNumber}>8</h3>
                   <p className={styles.statLabel}>Screenshots</p>
                 </div>
                 <div className={styles.statBox}>
@@ -240,4 +237,4 @@ const THSProjectDetail = () => {
   )
 }
 
-export default THSProjectDetail
+export default HMPProjectDetail

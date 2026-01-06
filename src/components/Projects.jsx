@@ -13,16 +13,24 @@ import Calculator from './../assets/Calculator.png'
 import TicTacToe from './../assets/TicTacToe.png'
 import TodoList from './../assets/TodoList.png'
 import THSHome from './../assets/ths1.png'
+import HMPHome from './../assets/hmp1 (1).png'
 import RPS from './../assets/RPS.png'
 import Navbar_bottom from './Navbar_bottom'
 const Projects = () => {
 
   const projectsData = [
+     {
+      title: "HelpMatePlus",
+      tech: ["Flutter", 'Dart'],
+      image: HMPHome,
+      link: "/hmp_project_detail",
+      category: "Mobile Developement"
+    },
     {
       title: "Total Home Services",
       tech: ["Flutter", 'Dart'],
       image: THSHome,
-      link: "./ths_project_detail",
+      link: "/ths_project_detail",
       category: "Mobile Developement"
     },
     {
