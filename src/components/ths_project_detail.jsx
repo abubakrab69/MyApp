@@ -107,6 +107,7 @@ const THSProjectDetail = () => {
                   electrical work, and much more.
                 </p>
               </div>
+              <br />
 
               {/* Tech Stack */}
               <div className={styles.detailCard}>
@@ -121,6 +122,7 @@ const THSProjectDetail = () => {
                   <span className={styles.techBadge}>iOS</span>
                 </div>
               </div>
+              <br />
 
               {/* Key Features */}
               <div className={styles.detailCard}>
@@ -136,22 +138,7 @@ const THSProjectDetail = () => {
                   <li>🔔 Push notifications & alerts</li>
                 </ul>
               </div>
-
-              {/* Project Statistics */}
-              <div className={styles.statsGrid}>
-                <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>11</h3>
-                  <p className={styles.statLabel}>Screenshots</p>
-                </div>
-                <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>8+</h3>
-                  <p className={styles.statLabel}>Features</p>
-                </div>
-                <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>2</h3>
-                  <p className={styles.statLabel}>Platforms</p>
-                </div>
-              </div>
+<br />
 
               {/* What Makes It Special */}
               <div className={styles.detailCard}>
@@ -187,7 +174,7 @@ const THSProjectDetail = () => {
                   </div>
                 </div>
               </div>
-
+<br />
               {/* Development Process */}
               <div className={styles.detailCard}>
                 <h2 className={styles.sectionTitle}>🛠️ Development Process</h2>

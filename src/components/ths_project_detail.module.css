@@ -197,7 +197,6 @@
 .detailsSection {
   display: flex;
   flex-direction: column;
-  /* gap: 4px; */
 }
 
 .detailCard {
@@ -208,13 +207,6 @@
   padding: 28px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInUp 0.8s ease-out;
-}
-
-.detailCard:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(102, 126, 234, 0.4);
-  box-shadow: 0 12px 40px rgba(102, 126, 234, 0.2);
-  /* transform: translateY(-4px); */
 }
 
 .sectionTitle {
@@ -260,7 +252,6 @@
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.4), rgba(65, 90, 234, 0.3));
   border-color: rgba(102, 126, 234, 0.7);
   color: #ffffff;
-  /* transform: translateY(-2px); */
 }
 
 /* Feature List */
@@ -300,16 +291,7 @@
   border-radius: 16px;
   padding: 20px;
   text-align: center;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.statBox:hover {
-  background: rgba(102, 126, 234, 0.25);
-  border-color: rgba(102, 126, 234, 0.6);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(102, 126, 234, 0.25);
-}
-
 .statNumber {
   font-size: 2.5rem;
   font-weight: 800;
@@ -338,14 +320,14 @@
   display: flex;
   gap: 16px;
   padding: 16px;
-  background: rgba(240, 147, 251, 0.05);
+  background: rgba(147, 147, 251, 0.05);
   border-left: 4px solid #3238e7;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 .highlightItem:hover {
-  background: rgba(240, 147, 251, 0.1);
+  background: rgba(125, 119, 242, 0.054);
   transform: translateX(8px);
 }
 

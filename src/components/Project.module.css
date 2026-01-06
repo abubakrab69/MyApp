@@ -56,10 +56,10 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0);
 }
-.projectCard:hover {
+/* .projectCard:hover {
     transform: translateY(-8px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .cardInner {
     height: 100%;
     background: rgba(255, 255, 255, 0.03);
@@ -72,7 +72,7 @@
 }
 .projectCard:hover .cardInner {
     border-color: rgba(102, 126, 234, 0.5);
-    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 20px 60px rgba(102, 126, 234, 0.041);
     background: rgba(255, 255, 255, 0.05);
 }
 /* Image Container */
@@ -92,9 +92,6 @@
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 8px;
 }
-/* .projectCard:hover .projectImage {
-    transform: scale(1.1);
-} */
 .imageOverlay {
     position: absolute;
     inset: 0;
@@ -176,33 +173,6 @@
     font-weight: 500;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.projectCard:hover .techTag {
-    background: rgba(102, 126, 234, 0.15);
-    border-color: rgba(102, 126, 234, 0.3);
-    color: #c4b5fd;
-}
-
-/* Animations */
-/* @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
-
-/* @keyframes expandWidth {
-    from {
-        width: 0;
-    }
-    to {
-        width: 80px;
-    }
-} */
 
 /* Responsive Design */
 @media screen and (max-width: 1200px) {

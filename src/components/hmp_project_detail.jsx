@@ -104,6 +104,7 @@ const HMPProjectDetail = () => {
                   finding, booking, and managing various home and professional services.
                 </p>
               </div>
+              <br />
 
               {/* Tech Stack */}
               <div className={styles.detailCard}>
@@ -118,37 +119,23 @@ const HMPProjectDetail = () => {
                   <span className={styles.techBadge}>iOS</span>
                 </div>
               </div>
+              <br />
 
               {/* Key Features */}
               <div className={styles.detailCard}>
                 <h2 className={styles.sectionTitle}>Key Features</h2>
                 <ul className={styles.featureList}>
-                  <li>🔐 Secure user authentication & registration</li>
-                  <li>🔍 Smart service discovery & filtering</li>
-                  <li>📅 Easy booking & scheduling system</li>
-                  <li>💬 Real-time chat with service providers</li>
-                  <li>⭐ Rating & review system</li>
-                  <li>💳 Multiple payment options</li>
-                  <li>📍 Location-based services</li>
-                  <li>🔔 Push notifications & alerts</li>
+                  <li>•  Secure user authentication & registration</li>
+                  <li>•  Smart service discovery & filtering</li>
+                  <li>•  Easy booking & scheduling system</li>
+                  <li>•  Real-time chat with service providers</li>
+                  <li>•  Rating & review system</li>
+                  <li>•  Multiple payment options</li>
+                  <li>•  Location-based services</li>
+                  <li>•  Push notifications & alerts</li>
                 </ul>
               </div>
-
-              {/* Project Statistics */}
-              <div className={styles.statsGrid}>
-                <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>8</h3>
-                  <p className={styles.statLabel}>Screenshots</p>
-                </div>
-                <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>8+</h3>
-                  <p className={styles.statLabel}>Features</p>
-                </div>
-                <div className={styles.statBox}>
-                  <h3 className={styles.statNumber}>2</h3>
-                  <p className={styles.statLabel}>Platforms</p>
-                </div>
-              </div>
+              <br />
 
               {/* What Makes It Special */}
               <div className={styles.detailCard}>
@@ -184,6 +171,7 @@ const HMPProjectDetail = () => {
                   </div>
                 </div>
               </div>
+              <br />
 
               {/* Development Process */}
               <div className={styles.detailCard}>

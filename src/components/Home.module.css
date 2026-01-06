@@ -180,17 +180,14 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0);
 }
-.projectCard:hover {
-    transform: translateY(-8px);
-}
 .cardInner {
     height: 100%;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(10px);
-    border-radius: 24px;
+    border-radius: 10px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 .projectCard:hover .cardInner {
@@ -203,6 +200,7 @@
     width: 100%;
     height: 250px;
     overflow: hidden;
+    padding: 10px;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
 }
 .projectImage {
@@ -210,20 +208,19 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.projectCard:hover .projectImage {
-    transform: scale(1.1);
+    border-radius: 8px;
 }
 .imageOverlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9));
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), #3e62ff);
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
+
 .projectCard:hover .imageOverlay {
     opacity: 1;
 }
@@ -232,14 +229,17 @@
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 0.5px;
+    opacity: 0;
     transform: translateY(20px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .projectCard:hover .viewProject {
+    opacity: 1;
     transform: translateY(0);
 }
 .cardContent {
-    padding: 24px;
+    padding: 28px;
 }
 .categoryBadge {
     display: inline-block;
@@ -252,13 +252,13 @@
     color: #a78bfa;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 .projectTitle {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     line-height: 1.3;
     display: flex;
     align-items: baseline;
