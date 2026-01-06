@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Total Home Services",
       tech: ["Flutter", 'Dart'],
       image: THSHome,
-      link: "/ths_project_detail",
+      link: THSProjectDetail,
       category: "Mobile Developement"
     },
     {
