@@ -11,7 +11,7 @@
 .detailContainer {
   max-width: 1400px;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 }
 
 /* Header Section */
@@ -51,8 +51,8 @@
 /* Main Content - Two Column Layout */
 .mainContent {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
   align-items: start;
   animation: fadeInUp 0.8s ease-out 0.2s both;
 }
@@ -64,29 +64,48 @@
   gap: 20px;
   position: sticky;
   top: 120px;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainImageContainer {
   position: relative;
-  border-radius: 24px;
+  width: 370px;
+  height: 740px;
+  aspect-ratio: 9/19.5;
+  border-radius: 70px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2);
+  background: #000;
+  padding: 5px;
+  box-shadow: 
+    0 0 0 8px #1a1a1a,
+    0 0 0 10px rgba(102, 126, 234, 0.3),
+    0 20px 60px rgba(102, 126, 234, 0.25),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: white;
 }
 
-.mainImageContainer:hover {
-  border-color: rgba(102, 126, 234, 0.5);
-  box-shadow: 0 30px 80px rgba(102, 126, 234, 0.35);
+.mainImageContainer::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 130px;
+  height: 32px;
+  background: #000;
+  border-radius: 28px 28px 28px 28px;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .mainImage {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  border-radius: 24px;
+  border-radius: 67px;
+  object-fit: contain;
   animation: fadeIn 0.5s ease-out;
 }
 
@@ -97,7 +116,7 @@
   background: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 8px 16px;
-  border-radius: 20px;
+  border-radius: 24px;
   font-size: 0.9rem;
   font-weight: 600;
   backdrop-filter: blur(10px);
@@ -178,7 +197,7 @@
 .detailsSection {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  /* gap: 4px; */
 }
 
 .detailCard {
@@ -195,7 +214,7 @@
   background: rgba(255, 255, 255, 0.05);
   border-color: rgba(102, 126, 234, 0.4);
   box-shadow: 0 12px 40px rgba(102, 126, 234, 0.2);
-  transform: translateY(-4px);
+  /* transform: translateY(-4px); */
 }
 
 .sectionTitle {
@@ -241,7 +260,7 @@
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.4), rgba(65, 90, 234, 0.3));
   border-color: rgba(102, 126, 234, 0.7);
   color: #ffffff;
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 
 /* Feature List */
@@ -264,7 +283,7 @@
 
 .featureList li:hover {
   color: rgba(255, 255, 255, 0.95);
-  transform: translateX(8px);
+  /* transform: translateX(8px); */
 }
 
 /* Stats Grid */
@@ -485,12 +504,18 @@
 /* Tablet - 1024px and below */
 @media (max-width: 1024px) {
   .mainContent {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
   }
 
   .imageSection {
-    position: static;
+    position: sticky;
+    top: 120px;
+  }
+
+  .mainImageContainer {
+    width: 300px;
+    height: 600px;
   }
 
   .statsGrid {
@@ -504,8 +529,28 @@
     padding: 80px 16px 40px;
   }
 
+  .detailContainer {
+    width: 90%;
+  }
+
   .headerSection {
     margin-bottom: 40px;
+  }
+
+  .mainContent {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .imageSection {
+    position: relative;
+    top: auto;
+  }
+
+  .mainImageContainer {
+    width: 280px;
+    height: 560px;
+    margin: 0 auto;
   }
 
   .mainTitle {
@@ -557,12 +602,65 @@
     font-size: 1.4rem;
     min-width: 30px;
   }
+  .mainImageContainer::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 28px;
+  background: #000;
+  border-radius: 28px 28px 28px 28px;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 }
 
 /* Small Mobile - 480px and below */
 @media (max-width: 480px) {
   .detailWrapper {
     padding: 70px 12px 30px;
+  }
+
+  .detailContainer {
+    width: 95%;
+  }
+
+  .mainContent {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .imageSection {
+    position: relative;
+  }
+
+  .mainImageContainer {
+    width: 240px;
+    height: 480px;
+    margin: 0 auto;
+    border-radius: 40px;
+  }
+
+  .mainImageContainer::before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 25px;
+  background: #000;
+  border-radius: 28px 28px 28px 28px;
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+  .mainImage {
+    border-radius: 38px;
   }
 
   .mainTitle {

@@ -114,8 +114,14 @@
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 0.5px;
+    opacity: 0;
     transform: translateY(20px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projectCard:hover .viewProject {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Card Content */
@@ -178,7 +184,7 @@
 }
 
 /* Animations */
-@keyframes fadeInUp {
+/* @keyframes fadeInUp {
     from {
         opacity: 0;
         transform: translateY(30px);
@@ -187,16 +193,16 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */
 
-@keyframes expandWidth {
+/* @keyframes expandWidth {
     from {
         width: 0;
     }
     to {
         width: 80px;
     }
-}
+} */
 
 /* Responsive Design */
 @media screen and (max-width: 1200px) {
