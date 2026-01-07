@@ -607,15 +607,15 @@
         margin: auto;
     }
     .hello_text{
-        text-align: center;
+        /* text-align: center; */
         line-height: 1;
-        font-size: 50px;
+        font-size: 45px;
     }
     .top_namimg{
         width: 95%;
         margin-bottom: 0px;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
     .my_image{
         width: 100%;

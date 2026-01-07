@@ -1,7 +1,7 @@
 /* Main Wrapper */
 .usesWrapper {
     min-height: 100vh;
-    padding: 100px 0 60px;
+    padding: 150px 0 60px;
     background: transparent;
     position: relative;
 }
@@ -297,7 +297,7 @@
 
 @media screen and (max-width: 768px) {
     .usesWrapper {
-        padding: 80px 16px 40px;
+        padding: 120px 16px 40px;
     }
     .usesContainer {
         width: 90%;
@@ -350,7 +350,7 @@
 
 @media screen and (max-width: 480px) {
     .usesWrapper {
-        padding: 70px 12px 30px;
+        padding: 120px 12px 30px;
     }
     .usesContainer {
         width: 95%;
