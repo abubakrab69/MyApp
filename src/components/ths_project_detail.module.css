@@ -612,7 +612,7 @@
 /* Small Mobile - 480px and below */
 @media (max-width: 480px) {
   .detailWrapper {
-    padding: 70px 12px 30px;
+    padding: 120px 12px 30px;
   }
 
   .detailContainer {
