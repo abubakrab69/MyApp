@@ -160,6 +160,7 @@
     background-clip: text;
     margin-bottom: 16px;
     letter-spacing: -1px;
+    margin-top: -200px;
 }
 .subtitle {
     font-size: clamp(1rem, 2vw, 1.25rem);
@@ -330,10 +331,6 @@
 }
 .btn_see_more:hover::before {
     opacity: 0.8;
-}
-.btn_see_more:hover {
-    /* transform: translateY(-3px); */
-    /* box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6); */
 }
 .btn_Uses {
     width: 220px;
@@ -542,6 +539,9 @@
     }
     .logo_section_social{
         display: none;
+    }
+    .mainTitle{
+        margin-top: -100px;
     }
 }
 
@@ -841,6 +841,9 @@
     .container_80 {
         width: 90%;
     }
+    .mainTitle{
+        margin-top: -100px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -892,7 +895,9 @@
         bottom: 40px;
         line-height: 10px;
     }
-
+    .mainTitle{
+        margin-top: 0px;
+    }
     .btn_hire {
         margin: 0px;
     }
