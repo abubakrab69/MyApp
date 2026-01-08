@@ -47,6 +47,7 @@ const Home = () => {
     <>
       <Navbar />
       <div>
+        
         {/* main section */}
         <div className={`${styles.main} ${styles.container_80}`}>
           {/* hero section */}
