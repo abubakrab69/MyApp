@@ -612,9 +612,11 @@
         margin: auto;
     }
     .hello_text{
-        /* text-align: center; */
+        font-size: 100px;
+    }
+    .hello_text_second{
         line-height: 1;
-        font-size: 45px;
+        font-size: 60px;
     }
     .top_namimg{
         width: 95%;
@@ -628,6 +630,7 @@
     }
     .my_img{
         width: 95%;
+        bottom: 180px;
     }
     .container_80{
         width: 95%;
@@ -660,9 +663,6 @@
     .btn_Uses {
         padding: 12px 30px;
         font-size: 1rem;
-    }
-    .hello_text{
-        font-family: "DM Sans", sans-serif;
     }
     .projectsContainer,
     .skillsContainer {
@@ -777,7 +777,6 @@
 
 /* Image style (no float animation) */
 .hero_img {
-    /* agar koi specific styling chahiye to yahan add karo */
     max-width: 100%;
     display: block;
     height: auto;
@@ -836,7 +835,7 @@
 
 @media (max-width: 480px) {
     .main {
-        margin-top: 100px;
+        margin-top: 140px;
     }
 
     .hero_section {
@@ -852,9 +851,12 @@
     }
 
     .hello_text {
-        font-size: 16px;
+        font-size: 60px;
+        line-height: 50px;
     }
-
+    .hello_text_second{
+        font-size: 60px;
+    }
     .logo_section_social {
         margin-top: 15px;
         gap: 8px;
@@ -867,6 +869,7 @@
 
     .my_img {
         max-width: 100%;
+        bottom: 80px;
     }
 
     .my_image {
@@ -879,16 +882,21 @@
         width: 100%;
         gap: 12px;
         margin-top: 15px;
+        bottom: 40px;
+        line-height: 10px;
     }
 
-    .btn_cv, .btn_hire {
+    /* .btn_cv, .btn_hire {
         width: 100%;
         max-width: 220px;
         padding: 12px 20px;
         font-size: 0.9rem;
-    }
+    } */
 
     .container_80 {
         width: 95%;
+    }
+    .logo_section_social{
+        display: none;
     }
 }
