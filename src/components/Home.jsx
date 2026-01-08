@@ -53,7 +53,7 @@ const Home = () => {
           {/* hero section */}
           <div className={styles.hero_section}>
             <div className={styles.top_namimg}>
-              <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>HELLO, THIS IS MUHAMMAD ABU BAKR</h1>
+              <h1 className={`${styles.main_name_text} ${styles.fade_item}`}>Hello, this is Muhammad Abu Bakr</h1>
               <h1 className={`${styles.hello_text} ${styles.fade_item}`}>
                 MOBILE APPLICATION
               </h1>

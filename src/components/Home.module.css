@@ -513,11 +513,6 @@
 
 
 @media screen and (max-width: 1024px) {
-    .hero_section{
-        display: flex;
-        flex-direction: row;
-        padding: 0%;
-    }
     .top_namimg{
         width: 80%;
         margin-bottom: 0px;
@@ -533,6 +528,20 @@
     }
     .main_name_text{
         font-size: 20px;
+    }
+    .my_img {
+        max-width: 55%;
+        bottom: 155px;
+    }
+    .hello_text {
+        font-size: 105px;
+    }
+    .hello_text_second{
+        font-size: 115px;
+        line-height: .5;
+    }
+    .logo_section_social{
+        display: none;
     }
 }
 
@@ -553,20 +562,14 @@
         margin-top: 30px;
     }
     .my_img{
-        width: 95%;
+        width: 60%;
+        bottom: 100px;
     }
     .hello_text{
         font-size: 65px;
     }
     .btn_cv{
         gap: 0px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .projectsGrid {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 24px;
     }
 }
 
@@ -783,7 +786,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .main {
         margin-top: 150px;
     }
@@ -801,7 +804,11 @@
     }
 
     .hello_text {
-        font-size: 18px;
+        font-size: 100px;
+    }
+    .hello_text_second{
+        font-size: 100px;
+        line-height: .5;
     }
 
     .logo_section_social {
@@ -810,6 +817,7 @@
 
     .my_img {
         max-width: 90%;
+        bottom: 160px;
     }
 
     .my_image {
@@ -827,7 +835,9 @@
         padding: 12px 24px;
         font-size: 0.95rem;
     }
-
+    .logo_section_social{
+        display: none;
+    }
     .container_80 {
         width: 90%;
     }
@@ -866,8 +876,8 @@
         height: 35px;
     }
     .my_img {
-        max-width: 100%;
-        bottom: 80px;
+        max-width: 70%;
+        bottom: 60px;
     }
     .my_image {
         max-width: 100%;
@@ -892,5 +902,19 @@
     }
     .logo_section_social{
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .hello_text{
+        font-size: 47px;
+    }
+    .hello_text_second{
+        font-size: 45px;
+    }
+    .my_img{
+        width: 75%;
+        bottom: 50px;
     }
 }
