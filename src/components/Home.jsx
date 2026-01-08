@@ -57,7 +57,7 @@ const Home = () => {
                 MOBILE APPLICATION
               </h1>
               <h1 className={`${styles.hello_text_second} ${styles.fade_item}`}>
-                WEB DEVELOPER
+                & WEB DEVELOPER
               </h1>
               {/* social icons */}
               <div className={`${styles.logo_section_social} ${styles.fade_item}`}>

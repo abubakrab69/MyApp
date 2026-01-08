@@ -851,7 +851,7 @@
     }
 
     .hello_text {
-        font-size: 60px;
+        font-size: 54px;
         line-height: 50px;
     }
     .hello_text_second{
@@ -861,17 +861,14 @@
         margin-top: 15px;
         gap: 8px;
     }
-
     .first {
         width: 35px;
         height: 35px;
     }
-
     .my_img {
         max-width: 100%;
         bottom: 80px;
     }
-
     .my_image {
         max-width: 100%;
         height: auto;
@@ -886,12 +883,9 @@
         line-height: 10px;
     }
 
-    /* .btn_cv, .btn_hire {
-        width: 100%;
-        max-width: 220px;
-        padding: 12px 20px;
-        font-size: 0.9rem;
-    } */
+    .btn_hire {
+        margin: 0px;
+    }
 
     .container_80 {
         width: 95%;
