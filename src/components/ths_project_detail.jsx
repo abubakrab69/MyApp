@@ -139,7 +139,6 @@ const THSProjectDetail = () => {
                 </ul>
               </div>
 <br />
-
               {/* What Makes It Special */}
               <div className={styles.detailCard}>
                 <h2 className={styles.sectionTitle}>What Makes It Special</h2>
