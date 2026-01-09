@@ -805,7 +805,6 @@
         gap: 15px;
         margin-top: 20px;
     }
-
     .btn_cv, .btn_hire {
         width: 180px;
         padding: 12px 24px;
@@ -826,19 +825,15 @@
     .main {
         margin-top: 140px;
     }
-
     .hero_section {
         gap: 20px;
     }
-
     .top_namimg {
         font-size: 16px;
     }
-
     .main_name_text {
         font-size: 16px;
     }
-
     .hello_text {
         font-size: 54px;
         line-height: 50px;
