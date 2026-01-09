@@ -575,12 +575,10 @@
     .skillsContainer {
         width: 90%;
     }
-
     .projectsGrid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 20px;
     }
-
     .imageContainer {
         height: 220px;
     }
