@@ -669,25 +669,20 @@
     .imageContainer {
         height: 200px;
     }
-
     .cardContent {
         padding: 20px;
     }
-
     .btn_see_more {
         padding: 12px 24px;
         font-size: 0.95rem;
     }
-
     .skills_main_container {
         gap: 12px;
     }
-
     .skill_num_one {
         width: 45px;
         height: 45px;
     }
-
     .skill_num_one_box {
         padding: 10px;
     }
@@ -779,11 +774,9 @@
     .main {
         margin-top: 150px;
     }
-
     .hero_section {
         gap: 30px;
     }
-
     .top_namimg {
         font-size: 18px;
     }
