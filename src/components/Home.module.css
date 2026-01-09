@@ -793,17 +793,14 @@
     .logo_section_social {
         margin-top: 20px;
     }
-
     .my_img {
         max-width: 90%;
         bottom: 160px;
     }
-
     .my_image {
         max-width: 100%;
         height: auto;
     }
-
     .hero_btn {
         gap: 15px;
         margin-top: 20px;
