@@ -4,6 +4,7 @@ import Footer from './Footer'
 import Navbar_bottom from './Navbar_bottom'
 import styles from './ths_project_detail.module.css'
 import AnimatedStarfield from '../animations/AnimatedStarfield'
+import ImagePreloader from './ImagePreloader'
 
 // Import THS project images
 import THSHome from './../assets/ths1.png'
@@ -37,6 +38,14 @@ const THSProjectDetail = () => {
 
   return (
     <>
+      {/* Preload first 3 THS images for quick display */}
+      <ImagePreloader 
+        images={[
+          { src: THSHome, as: 'image', type: 'image/png' },
+          { src: THS2, as: 'image', type: 'image/png' },
+          { src: THS3, as: 'image', type: 'image/png' }
+        ]}
+      />
       <AnimatedStarfield />
       <Navbar />
 
@@ -58,6 +67,9 @@ const THSProjectDetail = () => {
                   src={projectImages[currentImageIndex]}
                   alt={`THS Screenshot ${currentImageIndex + 1}`}
                   className={styles.mainImage}
+                  width="100%"
+                  height="auto"
+                  style={{ display: 'block', aspectRatio: '9/16' }}
                 />
                 <div className={styles.imageCounter}>
                   {currentImageIndex + 1} / {projectImages.length}
@@ -90,7 +102,14 @@ const THSProjectDetail = () => {
                     className={`${styles.thumbnail} ${currentImageIndex === index ? styles.active : ''}`}
                     onClick={() => goToImage(index)}
                   >
-                    <img src={img} alt={`Thumbnail ${index + 1}`} />
+                    <img 
+                      src={img} 
+                      alt={`Thumbnail ${index + 1}`}
+                      width="100%"
+                      height="auto"
+                      loading="lazy"
+                      style={{ display: 'block', aspectRatio: '9/16' }}
+                    />
                   </div>
                 ))}
               </div>
