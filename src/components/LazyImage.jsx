@@ -50,6 +50,7 @@ const LazyImage = ({
     if (onLoad) onLoad();
   };
 
+  
   return (
     <img
       ref={imgRef}
