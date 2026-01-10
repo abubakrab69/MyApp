@@ -34,7 +34,6 @@ const LazyImage = ({
         threshold: 0.01
       }
     );
-
     if (imgRef.current) {
       observer.observe(imgRef.current);
     }
