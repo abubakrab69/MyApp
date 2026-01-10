@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
 /**
- * ImagePreloader component - preloads critical images in the head
- * to prevent layout shift and ensure images are ready on page load
+ * ImagePreloader component - aggressively preloads critical images
+ * Adds link rel="preload" to head and uses Image object for instant availability
  */
 
 const ImagePreloader = ({ images = [] }) => {
@@ -10,6 +10,10 @@ const ImagePreloader = ({ images = [] }) => {
     // Preload critical images by adding link tags to head
     images.forEach(({ src, as = 'image', type = 'image/png' }) => {
       if (!src) return;
+      
+      // Check if preload link already exists
+      const existingLink = document.querySelector(`link[href="${src}"]`);
+      if (existingLink) return;
       
       const link = document.createElement('link');
       link.rel = 'preload';
@@ -19,15 +23,37 @@ const ImagePreloader = ({ images = [] }) => {
         link.type = type;
       }
       link.crossOrigin = 'anonymous';
-      document.head.appendChild(link);
+      document.head.insertBefore(link, document.head.firstChild);
     });
 
-    // Alternative: use Image object for preloading without adding to DOM
-    images.forEach(({ src }) => {
-      if (src) {
+    // Preload images in memory immediately and in parallel
+    const imagePromises = images.map(({ src }) => {
+      return new Promise((resolve) => {
+        if (!src) {
+          resolve();
+          return;
+        }
+        
         const img = new Image();
+        img.crossOrigin = 'anonymous';
+        
+        img.onload = () => {
+          // Image is cached now, will load instantly from memory
+          resolve();
+        };
+        
+        img.onerror = () => {
+          // Even if load fails, don't block others
+          resolve();
+        };
+        
         img.src = src;
-      }
+      });
+    });
+
+    // Preload all images in parallel
+    Promise.all(imagePromises).catch(() => {
+      // Silently handle any errors
     });
   }, [images]);
 

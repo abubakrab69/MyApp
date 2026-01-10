@@ -22,6 +22,9 @@ import Git from './../assets/git.png'
 import Github from './../assets/github.png'
 import DART from './../assets/dart.png'
 import Resume from './../assets/ABUBAKR_RESUME.pdf.pdf'
+import ImagePreloader from './ImagePreloader'
+import LazyImage from './LazyImage'
+import EagerImage from './EagerImage'
 
 
 const Home = () => {
@@ -45,6 +48,12 @@ const Home = () => {
 
   return (
     <>
+      {/* Preload critical hero and project images for fast loading */}
+      <ImagePreloader 
+        images={[
+          { src: MyPic, as: 'image', type: 'image/png' }
+        ]}
+      />
       <Navbar />
       <div>
 
@@ -99,9 +108,17 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            {/* my image - centered */}
+            {/* my image - centered - using EagerImage for fast loading */}
             <div className={`${styles.my_img} ${styles.float_img}`}>
-              <img src={MyPic} alt="MY" decoding="async" className={styles.my_image} />
+              <EagerImage 
+                src={MyPic} 
+                alt="Muhammad Abu Bakr Portfolio Picture"
+                decoding="async"
+                className={styles.my_image}
+                width="100%"
+                height="auto"
+                placeholderColor="#f0f0f0"
+              />
             </div>
             {/* buttons below image */}
             <div className={`${styles.hero_btn} ${styles.fade_item}`}>
