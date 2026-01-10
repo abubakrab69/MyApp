@@ -4,6 +4,7 @@ import { useEffect } from 'react';
  * ImagePreloader component - preloads critical images in the head
  * to prevent layout shift and ensure images are ready on page load
  */
+
 const ImagePreloader = ({ images = [] }) => {
   useEffect(() => {
     // Preload critical images by adding link tags to head
