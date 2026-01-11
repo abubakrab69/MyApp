@@ -70,6 +70,7 @@ const LazyImage = ({
       loading="lazy"
     />
   );
+  
 };
 
 export default LazyImage;
