@@ -89,6 +89,7 @@ const THSProjectDetail = () => {
                   onClick={nextImage}
                   title="Next screenshot"
                 >
+                  
                   Next →
                 </button>
               </div>
