@@ -192,7 +192,7 @@ const THSProjectDetail = () => {
                   </div>
                 </div>
               </div>
-<br />
+<br /> 
               {/* Development Process */}
               <div className={styles.detailCard}>
                 <h2 className={styles.sectionTitle}>🛠️ Development Process</h2>
