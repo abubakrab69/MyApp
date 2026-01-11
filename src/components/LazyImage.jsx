@@ -56,6 +56,7 @@ const LazyImage = ({
 
   return (
     <img
+    
       ref={imgRef}
       src={imageSrc}
       alt={alt}
@@ -70,7 +71,7 @@ const LazyImage = ({
       loading="lazy"
     />
   );
-  
+
 };
 
 export default LazyImage;
