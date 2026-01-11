@@ -89,7 +89,7 @@ const THSProjectDetail = () => {
                   onClick={nextImage}
                   title="Next screenshot"
                 >
-                  
+
                   Next →
                 </button>
               </div>
@@ -157,7 +157,7 @@ const THSProjectDetail = () => {
                   <li>🔔 Push notifications & alerts</li>
                 </ul>
               </div>
-<br />
+<br /> 
               {/* What Makes It Special */}
               <div className={styles.detailCard}>
                 <h2 className={styles.sectionTitle}>What Makes It Special</h2>
