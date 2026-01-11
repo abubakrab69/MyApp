@@ -14,6 +14,7 @@ const LazyImage = ({
   placeholderColor = '#e0e0e0',
   onLoad
 }) => {
+  
   const [imageSrc, setImageSrc] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const imgRef = useRef(null);
@@ -56,7 +57,7 @@ const LazyImage = ({
 
   return (
     <img
-    
+
       ref={imgRef}
       src={imageSrc}
       alt={alt}
