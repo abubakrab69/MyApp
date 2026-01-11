@@ -14,11 +14,12 @@ const LazyImage = ({
   placeholderColor = '#e0e0e0',
   onLoad
 }) => {
-  
+
   const [imageSrc, setImageSrc] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const imgRef = useRef(null);
 
+  
   useEffect(() => {
     // Create Intersection Observer for lazy loading
     const observer = new IntersectionObserver(
