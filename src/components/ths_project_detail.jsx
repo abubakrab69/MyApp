@@ -46,7 +46,6 @@ const THSProjectDetail = () => {
       />
       <AnimatedStarfield />
       <Navbar />
-
       <div className={styles.detailWrapper}>
         <div className={styles.detailContainer}>
           {/* Header Section */}
@@ -231,7 +230,7 @@ const THSProjectDetail = () => {
           </div>
         </div>
       </div>
-      
+
       <Footer />
       <Navbar_bottom />
     </>
