@@ -32,7 +32,6 @@ const LazyImage = ({
           }
         });
       },
-
       {
         rootMargin: '50px', // Start loading 50px before image comes into view
         threshold: 0.01
