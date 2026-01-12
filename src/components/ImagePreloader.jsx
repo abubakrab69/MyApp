@@ -56,7 +56,6 @@ const ImagePreloader = ({ images = [] }) => {
       // Silently handle any errors
     });
   }, [images]);
-
   return null; // This component doesn't render anything
 };
 
