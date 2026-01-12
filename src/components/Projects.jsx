@@ -105,6 +105,7 @@ const Projects = () => {
     }
   ]
 
+  
   return (
     <>
       <Navbar />
