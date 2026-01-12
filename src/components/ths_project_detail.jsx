@@ -231,6 +231,7 @@ const THSProjectDetail = () => {
           </div>
         </div>
       </div>
+      
       <Footer />
       <Navbar_bottom />
     </>
