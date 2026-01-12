@@ -227,7 +227,7 @@ const THSProjectDetail = () => {
                   </div>
                 </div>
               </div>
-
+              
               {/* Call to Action */}
               {/* <div className={styles.ctaContainer}>
                 <a href="#" className={styles.ctaButton}>
