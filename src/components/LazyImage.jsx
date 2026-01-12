@@ -57,7 +57,6 @@ const LazyImage = ({
 
   return (
     <img
-
       ref={imgRef}
       src={imageSrc}
       alt={alt}
