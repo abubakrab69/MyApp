@@ -721,7 +721,6 @@
 .fade_item:nth-child(1) {
     animation-delay: 0.2s;
 }
-
 .fade_item:nth-child(2) {
     animation-delay: 0.4s;
 }
