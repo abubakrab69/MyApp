@@ -27,7 +27,6 @@ const THSProjectDetail = () => {
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % projectImages.length)
   }
-
   const prevImage = () => {
     setCurrentImageIndex((prev) => (prev - 1 + projectImages.length) % projectImages.length)
   }
