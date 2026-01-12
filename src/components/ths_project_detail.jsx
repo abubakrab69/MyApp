@@ -227,12 +227,6 @@ const THSProjectDetail = () => {
                 </div>
               </div>
         
-              {/* Call to Action */}
-              {/* <div className={styles.ctaContainer}>
-                <a href="#" className={styles.ctaButton}>
-                  📱 Download App
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
