@@ -33,6 +33,7 @@ const THSProjectDetail = () => {
   const goToImage = (index) => {
     setCurrentImageIndex(index)
   }
+  
 
   return (
     <>
