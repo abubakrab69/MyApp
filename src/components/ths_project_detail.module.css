@@ -6,6 +6,7 @@
   padding: 150px 0px 0px;
   background: transparent;
   position: relative;
+
 }
 
 .detailContainer {
@@ -734,4 +735,64 @@
     padding: 12px 32px;
     font-size: 0.95rem;
   }
+}
+
+/* Light-mode overrides for project detail pages */
+[data-theme="light"] .detailWrapper {
+  background: #ffffff;
+  color: var(--text-primary, #1a202c);
+}
+
+[data-theme="light"] .detailContainer {
+  background: transparent;
+}
+
+[data-theme="light"] .detailCard,
+[data-theme="light"] .thumbnailGallery,
+[data-theme="light"] .thumbnail,
+[data-theme="light"] .techBadge {
+  background: #ffffff;
+  border: 1px solid rgba(16,24,40,0.06);
+  color: var(--text-primary, #1a202c);
+  box-shadow: 0 8px 28px rgba(16,24,40,0.06);
+}
+
+[data-theme="light"] .mainTitle {
+  /* keep gradient title for visual identity */
+}
+
+[data-theme="light"] .subtitle,
+[data-theme="light"] .detailText,
+[data-theme="light"] .featureList li,
+[data-theme="light"] .timelineItem p,
+[data-theme="light"] .highlightItem p,
+[data-theme="light"] .statLabel {
+  color: #475569;
+}
+
+[data-theme="light"] .sectionTitle,
+[data-theme="light"] .timelineItem h4,
+[data-theme="light"] .highlightItem h4 {
+  color: #1a202c;
+}
+
+[data-theme="light"] .imageCounter {
+  background: rgba(0,0,0,0.06);
+  color: #1a202c;
+}
+
+[data-theme="light"] .imageCounter {
+  background: rgba(0,0,0,0.06);
+  color: #1a202c;
+}
+
+[data-theme="light"] .navButton {
+  background: linear-gradient(135deg, rgba(102,126,234,0.06), rgba(240,147,251,0.04));
+  border: 1px solid rgba(102,126,234,0.12);
+  color: #1a202c;
+}
+
+[data-theme="light"] .thumbnail.active {
+  box-shadow: 0 0 12px rgba(102,126,234,0.12);
+  border-color: rgba(102,126,234,0.18);
 }

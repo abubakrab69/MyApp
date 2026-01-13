@@ -56,10 +56,9 @@ body {
 }
 
 /* Light mode specific overrides */
-[data-theme="light"] body {
+[data-theme="light"] body, .detailWrapper {
   background: #ffffff !important;
-}
-
+} 
 /* Ensure all background elements follow theme */
 [data-theme="light"] * {
   --gradient-background: #ffffff;
@@ -95,10 +94,9 @@ body {
 }
  
 /* Light mode navbar styling */
-[data-theme="light"] .nav_inner_box {
-  /* background: rgba(255, 255, 255, 0.95) !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  backdrop-filter: blur(10px); */
+[data-theme="light"] .detailWrapper{
+  background-color: white;
+
 }
 
 /* Light mode card styling */
@@ -362,7 +360,7 @@ body {
 }
 
 /* Light Mode - Hover States */
-[data-theme="light"] .projectCard:hover .cardInner {
+[data-theme="light"] .projectCard:hover .cardInner, .detailWrapper {
   background: rgba(255, 255, 255, 0.95) !important;
   box-shadow: 0 20px 60px rgba(102, 126, 234, 0.2) !important;
 }
