@@ -268,6 +268,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
         {/* Skills Section */}
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsContainer}>
