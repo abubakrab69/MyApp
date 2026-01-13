@@ -271,8 +271,9 @@ const Home = () => {
 
         {/* Skills Section */}
         <div className={styles.skillsWrapper}>
-          <div className={styles.skillsContainer}>
-            <h1 className={styles.project_heading} style={{marginTop: 110, marginBottom: 12}}>Technical Mastery</h1>
+          <div className={styles.skillsContainer}> 
+            <h4 style={{color: 'gray', display: 'flex', justifyContent: 'center', marginTop: 110}}>What Powers My Code</h4>
+            <h1 className={styles.project_heading} style={{marginTop: 10, marginBottom: 12}}>Technical Mastery</h1>
             <div className={styles.titleUnderline}></div>
             <br /> <br />
             <div className={styles.skills_main_container}>

@@ -473,8 +473,8 @@
     margin-top: 20px;
 }
 .skill_num_one {
-    width: 43px;
-    height: 43px;
+    width: 56px;
+    height: 56px;
     border-radius: 12px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -491,7 +491,7 @@
     transform: translateY(0);
 }
 .skill_num_one_box:hover {
-    transform: translateY(-3px);
+    /* transform: translateY(-3px); */
     border-color: rgba(102, 126, 234, 0.5);
     box-shadow: 0 12px 40px rgba(102, 126, 234, 0.3);
     background: rgba(255, 255, 255, 0.05);
@@ -532,6 +532,18 @@
 .educationContainerTwo{
     margin-left: auto;
     padding: 20px;
+}
+
+/* Ensure education boxes are white with black borders in light theme
+   Use :global for the root [data-theme] so local (module) class names are preserved
+*/
+:global([data-theme="light"]) .educationContainerOne,
+:global([data-theme="light"]) .educationContainerTwo,
+:global([data-theme="light"]) .educationContainerThree {
+    background: #ffffff !important;
+    color: #1a202c !important;
+    border: 1px solid rgba(104, 104, 104, 0.9) !important;
+    box-shadow: 0 8px 20px rgba(16,24,40,0.04) !important;
 }
 .badgeYear{
     border-radius: 100px;

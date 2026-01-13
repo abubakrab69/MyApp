@@ -224,10 +224,21 @@ body {
   color: #667eea !important;
 }
 
-/* Light mode footer */
-[data-theme="light"] .footer, .contact_main {
-  /* background: rgba(255, 255, 255, 0.9) !important; */
-  border: .5px solid rgba(0, 0, 0, 0.409) !important;
+/* Light mode footer and education containers (properly scoped) */
+[data-theme="light"] .footer,
+[data-theme="light"] .contact_main,
+[data-theme="light"] .educationContainerOne,
+[data-theme="light"] .educationContainerTwo,
+[data-theme="light"] .educationContainerThree {
+  border: 1px solid rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Make education boxes white with dark text in light mode */
+[data-theme="light"] .educationContainerOne,
+[data-theme="light"] .educationContainerTwo,
+[data-theme="light"] .educationContainerThree {
+  background: #ffffff !important;
+  color: #1a202c !important;
 }
 
 /* Global Smooth Transitions - Optimized */
