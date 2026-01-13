@@ -295,16 +295,16 @@ const Home = () => {
                   <img src={Bootstrap} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Flutter} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={Flutter} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Git} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={Git} alt="" className={styles.skill_num_one} />
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Github} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={Github} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={DART} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={DART} alt="" className={styles.skill_num_one}/>
                 </div>
             </div>
           </div>
