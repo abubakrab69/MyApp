@@ -454,7 +454,8 @@
 }
 .project_heading {
     text-align: center;
-    font-family: Nunito, sans-serif;
+    font-family: "Vina Sans", sans-serif;
+  font-weight: 400 ;
     font-size: clamp(2rem, 4vw, 3.5rem);
     background: linear-gradient(135deg, #667eea 0%, #4460ff 50%, rgb(17, 105, 236) 100%);
     -webkit-background-clip: text;

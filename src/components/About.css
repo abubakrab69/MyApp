@@ -4,7 +4,8 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Vina Sans", sans-serif;
+  font-weight: 100 !important;
 }
 
 html {

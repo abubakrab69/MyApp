@@ -2,6 +2,8 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: "Vina Sans", sans-serif;
+  font-weight: 100 !important;
 }
 body {
     min-width: 337px;
@@ -71,8 +73,10 @@ a {
     border: none;
     background: linear-gradient(135deg, #667eea 0%, #3d6afe 100%);
     color: white;
-    font-family: "Philosopher", sans-serif;
-    font-weight: 500;
+    /* font-family: "Philosopher", sans-serif;
+    font-weight: 500; */
+    font-family: "Vina Sans", sans-serif;
+  font-weight: 0 !important;
     font-size: 0.95rem;
     position: relative;
     border-radius: 50px;
@@ -100,7 +104,7 @@ a {
 }
 
 .btn_sign_in:hover {
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
 }
 
@@ -111,9 +115,10 @@ a {
     gap: 8px;
 }
 li {
-    font-family: "Philosopher", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
+    font-family: "Vina Sans", sans-serif;
+  font-weight: 100 !important;
+    /* font-weight: 200; */
+    font-size: 50px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
@@ -123,6 +128,10 @@ li {
 }
 .link:hover {
     color: rgb(59, 167, 255);
+}
+.link{
+    font-family: "Vina Sans", sans-serif;
+  font-weight: 100 !important;
 }
 
 @media screen and (max-width: 768px) {
