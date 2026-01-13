@@ -271,7 +271,9 @@ const Home = () => {
         {/* Skills Section */}
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsContainer}>
-            <h1 className={styles.project_heading} style={{marginTop: 110}}>Technical Mastery</h1>
+            <h1 className={styles.project_heading} style={{marginTop: 110, marginBottom: 12}}>Technical Mastery</h1>
+            <div className={styles.titleUnderline}></div>
+            <br /> <br />
             <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
                   <img src={HTML} alt="" className={styles.skill_num_one} loading='lazy'/>
@@ -313,7 +315,9 @@ const Home = () => {
         <br />
         <br />
         <h4 style={{color: 'gray', display: 'flex', justifyContent: 'center'}}>THE FOUNDATION</h4>
-        <h1 className={styles.project_heading} style={{marginTop: 10}}>Academic Archives</h1>
+        <h1 className={styles.project_heading} style={{marginTop: 10, marginBottom: 12}}>Academic Archives</h1>
+        <div className={styles.titleUnderline}></div>
+        <br /><br />
         <div className={styles.educationWrapper}>
           <div className={styles.educationContainerOne}>
             <div className={styles.educationContent}>
