@@ -222,6 +222,9 @@
     width: 14px;
     height: 14px;
   }
+  .clouds{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 426px) {

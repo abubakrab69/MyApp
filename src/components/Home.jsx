@@ -271,7 +271,7 @@ const Home = () => {
         {/* Skills Section */}
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsContainer}>
-            <h1 className={styles.project_heading}>Technical Mastery</h1>
+            <h1 className={styles.project_heading} style={{marginTop: 110}}>Technical Mastery</h1>
             <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
                   <img src={HTML} alt="" className={styles.skill_num_one} loading='lazy'/>
@@ -306,7 +306,56 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+        <br />
+        {/* education section  */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <h4 style={{color: 'gray', display: 'flex', justifyContent: 'center'}}>THE FOUNDATION</h4>
+        <h1 className={styles.project_heading} style={{marginTop: 10}}>Academic Archives</h1>
+        <div className={styles.educationWrapper}>
+          <div className={styles.educationContainerOne}>
+            <div className={styles.educationContent}>
+              <div className={styles.badgeYear}>
+                2026 - Present
+              </div>
+              <h1 className={styles.studytext}>BS Computer Science</h1>
+              <h3 style={{color: 'gray', fontFamily: "Philosopher"}}>VIRTUAL UNIVERSITY OF PAKISTAN</h3>
+              <br />
+              <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
+                Currently pursuing, exploring theoretical concepts, coding adventures, and the endless world of software development —the journey continues!
+              </h5>
+            </div>
+          </div>
+          <div className={styles.educationContainerTwo}>
+            <div className={styles.educationContent}>
+              <div className={styles.badgeYear}>
+                2023 - 2025
+              </div>
+              <h1 className={styles.studytext}>Intermediate in Computer Science</h1>
+              <h3 style={{color: 'gray', fontFamily: "Philosopher"}}>SUPERIOR GRPUP OF COLLEGES</h3>
+              <br />
+              <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
+                Scored 1038 marks 🎉 , completed my Intermediate (ICS), where I built a strong foundation in computer science, programming concepts, and problem-solving skills.
+              </h5>
+            </div>
+          </div>
+          <div className={styles.educationContainerThree}>
+            <div className={styles.educationContent}>
+              <div className={styles.badgeYear}>
+                2021 - 2023
+              </div>
+              <h1 className={styles.studytext}>Matric(Bio)</h1>
+              <h3 style={{color: 'gray', fontFamily: "Philosopher"}}>Govt. Hight School Kotmomin Sargodha</h3>
+              <br />
+              <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
+                Scored 968 marks 🎉, surviving endless exams, late-night studies, and the chaos of school life—an unforgettable start to the academic journey.
+              </h5>
+            </div>
+          </div>
+        </div>
+
         <Navbar_bottom />
         <Footer />
       </div>

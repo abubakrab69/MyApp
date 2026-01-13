@@ -506,6 +506,44 @@
     align-items: center;
     gap: 10px;
 }
+.educationWrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.educationContainerOne, .educationContainerTwo, .educationContainerThree{
+    width: 50%;
+    height: 'auto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.026);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+.educationContainerTwo{
+    margin-left: auto;
+    padding: 20px;
+}
+.badgeYear{
+    border-radius: 100px;
+    width: 100px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #3e62ff;
+    color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -694,6 +732,13 @@
     }
     .btn_Uses{
         margin-top: 10px;
+    }
+    .educationContainerOne, .educationContainerTwo, .educationContainerThree{
+        width: 100%;
+        /* height: auto; */
+    }
+    .educationWrapper{
+        width: 90%;
     }
 }
 
