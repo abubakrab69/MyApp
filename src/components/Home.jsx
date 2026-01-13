@@ -279,33 +279,43 @@ const Home = () => {
             <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
                   <img src={HTML} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={CSS} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={JS} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={REACT} alt="" className={styles.skill_num_one} />
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Tailwind} alt="" className={styles.skill_num_one} />
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Bootstrap} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Flutter} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Git} alt="" className={styles.skill_num_one} />
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Github} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={DART} alt="" className={styles.skill_num_one}/>
+                  <h1>94%</h1>
                 </div>
             </div>
           </div>
@@ -323,43 +333,105 @@ const Home = () => {
         <div className={styles.educationWrapper}>
           <div className={styles.educationContainerOne}>
             <div className={styles.educationContent}>
+              <div style={{display: 'flex', alignItems: 'center'}}>
+                <div style={{backgroundColor: 'blue', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                                 <h1>
+                                   <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 3L1 9L12 15L23 9L12 3Z" fill="currentColor"/>
+                  <path d="M5 12V17C5 17 8 19 12 19C16 19 19 17 19 17V12" 
+                        stroke="currentColor" 
+                        stroke-width="1.5" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round"/>
+                  <path d="M23 9V14" 
+                        stroke="currentColor" 
+                        stroke-width="1.5" 
+                        stroke-linecap="round"/>
+                </svg>
+
+                                 </h1>
+                </div>
+                &nbsp; &nbsp;
+                <h1>Education</h1>
+              </div>
+              <br />
               <div className={styles.badgeYear}>
                 2026 - Present
               </div>
               <h1 className={styles.studytext}>BS Computer Science</h1>
               <h3 style={{color: 'gray', fontFamily: "Philosopher"}}>VIRTUAL UNIVERSITY OF PAKISTAN</h3>
-              <br />
               <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
                 Currently pursuing, exploring theoretical concepts, coding adventures, and the endless world of software development —the journey continues!
               </h5>
-            </div>
-          </div>
-          <div className={styles.educationContainerTwo}>
-            <div className={styles.educationContent}>
+              
               <div className={styles.badgeYear}>
                 2023 - 2025
               </div>
               <h1 className={styles.studytext}>Intermediate in Computer Science</h1>
               <h3 style={{color: 'gray', fontFamily: "Philosopher"}}>SUPERIOR GRPUP OF COLLEGES</h3>
-              <br />
               <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
                 Scored 1038 marks 🎉 , completed my Intermediate (ICS), where I built a strong foundation in computer science, programming concepts, and problem-solving skills.
               </h5>
-            </div>
-          </div>
-          <div className={styles.educationContainerThree}>
-            <div className={styles.educationContent}>
-              <div className={styles.badgeYear}>
+              
+               <div className={styles.badgeYear}>
                 2021 - 2023
               </div>
               <h1 className={styles.studytext}>Matric(Bio)</h1>
               <h3 style={{color: 'gray', fontFamily: "Philosopher"}}>Govt. Hight School Kotmomin Sargodha</h3>
-              <br />
               <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
                 Scored 968 marks 🎉, surviving endless exams, late-night studies, and the chaos of school life—an unforgettable start to the academic journey.
               </h5>
+              <br />
+
             </div>
           </div>
+
+          <div className={styles.educationContainerOne}>
+            <div className={styles.educationContent}>
+              <div style={{display: 'flex', alignItems: 'center'}}>
+                <div style={{backgroundColor: 'blue', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                  <h1>
+                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <path d="M9 6V5C9 3.895 9.895 3 11 3H13C14.105 3 15 3.895 15 5V6"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"/>
+        
+  <rect x="3" y="6" width="18" height="14" rx="2"
+        stroke="currentColor"
+        stroke-width="1.5"/>
+        
+  <path d="M3 11H21"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"/>
+        
+  <path d="M10 11V13H14V11"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
+
+                  </h1>
+                </div>
+                &nbsp; &nbsp;
+                <h1>Work Experience</h1>
+              </div>
+              <h2>Flutter Developer / Web Developer</h2>
+              <h4 style={{color: 'gray'}}>Apexvim | Sargodha, Punjab, Pakistan</h4>
+              <h3>2025 - Present</h3>
+              <ul style={{color: 'gray', marginLeft: 14, marginTop: 14}}>
+                <li style={{fontSize: 14, marginBottom: 14}}>Working on Flutter-based mobile applications and web projects, focusing on clean UI and smooth user experience.</li>
+                <li style={{fontSize: 14, marginBottom: 14}}>Developing responsive interfaces and integrating APIs for real-world applications.</li>
+                <li style={{fontSize: 14, marginBottom: 14}}>Actively improving app performance and implementing reusable components.</li>
+              </ul>
+
+            </div>
+          </div>
+          
         </div>
 
         <Navbar_bottom />
