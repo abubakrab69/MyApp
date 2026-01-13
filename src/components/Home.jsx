@@ -268,7 +268,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Skills Section */}
         <div className={styles.skillsWrapper}>
           <div className={styles.skillsContainer}>
@@ -277,22 +277,22 @@ const Home = () => {
             <br /> <br />
             <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
-                  <img src={HTML} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={HTML} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={CSS} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={CSS} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={JS} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={JS} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={REACT} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={REACT} alt="" className={styles.skill_num_one} />
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Tailwind} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={Tailwind} alt="" className={styles.skill_num_one} />
                 </div>
                 <div className={styles.skill_num_one_box}>
-                  <img src={Bootstrap} alt="" className={styles.skill_num_one} loading='lazy'/>
+                  <img src={Bootstrap} alt="" className={styles.skill_num_one}/>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Flutter} alt="" className={styles.skill_num_one} loading='lazy'/>
