@@ -1,10 +1,16 @@
 import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
+import LogoDark from "./../assets/logo_main.png";
+import LogoLight from "./../assets/logo_main2.png";
+import { useTheme } from "../theme/ThemeContext";
 
 const Footer = () => {
+  const { isDarkMode } = useTheme();
+  const Logo = isDarkMode ? LogoDark : LogoLight;
   return (
     <div className="footer">
+      <img className="footer_bg_logo" src={Logo} alt="" aria-hidden="true"/>
       <div className="footer_inn">
         <ul className="footer_links">
           <NavLink to="/">
