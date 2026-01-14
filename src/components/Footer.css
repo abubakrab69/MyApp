@@ -22,15 +22,15 @@
 /* Background logo placed behind content */
 .footer .footer_bg_logo{
     position: absolute;
-    right: 8%;
-    bottom: 12%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 360px;
-    max-width: 40%;
+    max-width: 60%;
     opacity: 0.06;
     z-index: 0;
     pointer-events: none;
     transition: opacity 0.3s ease, transform 0.3s ease;
-    transform: translateY(0);
     mix-blend-mode: screen;
     filter: grayscale(100%);
 }
