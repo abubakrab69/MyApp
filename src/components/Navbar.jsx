@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar1">
         <h1 className="logoABNav">
-          <img src={Logo} alt="" width={70} height={70}/>
+          <img src={Logo} alt="" width={70} height={70} loading="eager" decoding="async"/>
         </h1>
         <div className='nav_inner_box'>
           <ul className='nav_links'>

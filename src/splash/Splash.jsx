@@ -15,7 +15,7 @@ const Splash = () => {
       <div style={styles.overlay}>
         {/* Animated AB text */}
         <div style={styles.logoContainer}>
-          <img src={Logo} alt="" width={130} height={130} style={styles.logo}/>
+          <img src={Logo} alt="" width={130} height={130} style={styles.logo} loading="eager" decoding="async"/>
         </div>
         {/* Loading bar */}
         <div style={styles.loaderContainer}>

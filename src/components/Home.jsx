@@ -25,6 +25,8 @@ import Resume from './../assets/ABUBAKR_RESUME.pdf.pdf'
 import ImagePreloader from './ImagePreloader'
 import LazyImage from './LazyImage'
 import EagerImage from './EagerImage'
+import LogoDark from './../assets/logo_main.png'
+import LogoLight from './../assets/logo_main2.png' 
 
 
 const Home = () => {
@@ -51,7 +53,9 @@ const Home = () => {
       {/* Preload critical hero and project images for fast loading */}
       <ImagePreloader 
         images={[
-          { src: MyPic, as: 'image', type: 'image/png' }
+          { src: MyPic, as: 'image', type: 'image/png' },
+          { src: LogoDark, as: 'image', type: 'image/png' },
+          { src: LogoLight, as: 'image', type: 'image/png' }
         ]}
       />
       <Navbar />

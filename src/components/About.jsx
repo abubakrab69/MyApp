@@ -38,7 +38,7 @@ const AboutMe = () => {
               <div className="about-me-content">
                 <div className="logo">
                   <h1 className="logoAB">
-                    <img src={Logo} alt="logo" loading="lazy"/>
+                    <img src={Logo} alt="logo" loading="eager" decoding="async"/>
                   </h1>
                 </div>
                 <div className="text">
