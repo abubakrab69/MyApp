@@ -541,9 +541,6 @@
     padding: 18px 20px;
 }
 
-.educationContainerTwo{
-    /* keep default spacing if needed */
-}
 
 /* Card-like look for each inner item when in light mode */
 :global([data-theme="light"]) .educationContainerOne > .educationContent,
@@ -691,26 +688,34 @@
         display: flex;
         flex-direction: column;
         margin: auto;
+        gap: 18px;
     }
+    /* Scale down hero headings for small screens to avoid overflow */
     .hello_text{
-        font-size: 100px;
+        font-size: 38px;
+        line-height: 1.05;
+        text-align: center;
     }
     .hello_text_second{
-        line-height: 1;
-        font-size: 60px;
+        line-height: 1.05;
+        font-size: 24px;
+        text-align: center;
     }
     .top_namimg{
         width: 95%;
         margin-bottom: 0px;
         justify-content: center;
     }
+    /* Keep image in normal document flow on small screens to avoid overlap */
     .my_image{
         width: 100%;
-        margin-top: -22px;
+        margin-top: 18px;
     }
     .my_img{
         width: 95%;
-        bottom: 180px;
+        bottom: auto;
+        margin-top: 8px;
+        transform: none;
     }
     .container_80{
         width: 95%;
@@ -728,6 +733,11 @@
         width: 100%;
         align-items: center;
         justify-content: center;
+        /* Ensure buttons flow below the image on small screens */
+        position: relative;
+        bottom: auto;
+        margin-top: 12px;
+        z-index: 2;
     }
     .btn_cv{
         width: 160px;
