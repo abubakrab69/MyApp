@@ -19,7 +19,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 11.5px 1px;
+    padding: 11.5px 0px;
     border-radius: 60px;
     position: fixed;
     bottom: 25px;
@@ -30,7 +30,8 @@ body {
     background: rgba(124, 121, 121, 0.077);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 0.3px solid rgba(255, 255, 255, 0.2);
+    /* border-bottom: 0.3px solid rgba(255, 255, 255, 0.2); */
+    border: 0.1px solid rgba(255, 255, 255, 0.2);
     z-index: 1000;
 }
 .logo_top {

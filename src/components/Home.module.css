@@ -526,6 +526,7 @@
 .educationContainerOne > .educationContent,
 .educationContainerTwo > .educationContent,
 .educationContainerThree > .educationContent {
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -565,7 +566,7 @@
 }
 .badgeYear{
     border-radius: 100px;
-    width: 100px;
+    width: 84px;
     padding: 3px;
     font-size: 14px;
     background-color: #3458f8c6;

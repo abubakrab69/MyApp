@@ -279,7 +279,7 @@ const Home = () => {
             <div className={styles.skills_main_container}>
                 <div className={styles.skill_num_one_box}>
                   <img src={HTML} alt="" className={styles.skill_num_one}/>
-                  <h1>94%</h1>
+                  <h1>95%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={CSS} alt="" className={styles.skill_num_one}/>
@@ -287,23 +287,23 @@ const Home = () => {
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={JS} alt="" className={styles.skill_num_one}/>
-                  <h1>94%</h1>
+                  <h1>87%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={REACT} alt="" className={styles.skill_num_one} />
-                  <h1>94%</h1>
+                  <h1>85%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Tailwind} alt="" className={styles.skill_num_one} />
-                  <h1>94%</h1>
+                  <h1>93%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Bootstrap} alt="" className={styles.skill_num_one}/>
-                  <h1>94%</h1>
+                  <h1>92%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Flutter} alt="" className={styles.skill_num_one}/>
-                  <h1>94%</h1>
+                  <h1>90%</h1>
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={Git} alt="" className={styles.skill_num_one} />
@@ -315,7 +315,7 @@ const Home = () => {
                 </div>
                 <div className={styles.skill_num_one_box}>
                   <img src={DART} alt="" className={styles.skill_num_one}/>
-                  <h1>94%</h1>
+                  <h1>90%</h1>
                 </div>
             </div>
           </div>
@@ -334,7 +334,7 @@ const Home = () => {
           <div className={styles.educationContainerOne}>
             <div className={styles.educationContent}>
               <div style={{display: 'flex', alignItems: 'center'}}>
-                <div style={{backgroundColor: 'blue', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <div style={{backgroundColor: '#3458f8c6', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                  <h1>
                                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -355,7 +355,6 @@ const Home = () => {
                 &nbsp; &nbsp;
                 <h1>Education</h1>
               </div>
-              <br />
               <div className={styles.badgeYear}>
                 2026 - Present
               </div>
@@ -382,15 +381,13 @@ const Home = () => {
               <h5 style={{color: 'gray',fontFamily: "Philosopher"}}>
                 Scored 968 marks 🎉, surviving endless exams, late-night studies, and the chaos of school life—an unforgettable start to the academic journey.
               </h5>
-              <br />
-
             </div>
           </div>
 
           <div className={styles.educationContainerOne}>
             <div className={styles.educationContent}>
               <div style={{display: 'flex', alignItems: 'center'}}>
-                <div style={{backgroundColor: 'blue', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <div style={{backgroundColor: '#3458f8c6', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <h1>
                     <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
      xmlns="http://www.w3.org/2000/svg">
@@ -419,16 +416,24 @@ const Home = () => {
                 </div>
                 &nbsp; &nbsp;
                 <h1>Work Experience</h1>
+                <br />
               </div>
-              <h2>Flutter Developer / Web Developer</h2>
-              <h4 style={{color: 'gray'}}>Apexvim | Sargodha, Punjab, Pakistan</h4>
-              <h3>2025 - Present</h3>
+              <h1>Frontend Developer Intern</h1>
+              <h3 style={{color: 'gray'}}>Apexvim | May 28, 2025 - December 09, 2025</h3>
               <ul style={{color: 'gray', marginLeft: 14, marginTop: 14}}>
+                <li style={{fontSize: 14, marginBottom: 14}}>Assisted in building responsive UI using HTML, CSS, and JavaScript.</li>
+                <li style={{fontSize: 14, marginBottom: 14}}>Worked with React basics and UI components.</li>
+                <li style={{fontSize: 14, marginBottom: 14}}>Collaborated with seniors to fix UI bugs and improve layouts.</li>
+                <li style={{fontSize: 14, marginBottom: 14}}>Learned best practices for clean and reusable frontend code.</li>
+              </ul>
+              <h1>Flutter & React Developer</h1>
+              <h3 style={{color: 'white'}}>Apexvim | December 10, 2025 - Present</h3>
+              <ul style={{color: 'white', marginLeft: 14, marginTop: 14}}>
                 <li style={{fontSize: 14, marginBottom: 14}}>Working on Flutter-based mobile applications and web projects, focusing on clean UI and smooth user experience.</li>
                 <li style={{fontSize: 14, marginBottom: 14}}>Developing responsive interfaces and integrating APIs for real-world applications.</li>
                 <li style={{fontSize: 14, marginBottom: 14}}>Actively improving app performance and implementing reusable components.</li>
+                {/* <li style={{fontSize: 14, marginBottom: 14}}>Integrated REST APIs and handled application state.</li> */}
               </ul>
-
             </div>
           </div>
           
@@ -442,3 +447,5 @@ const Home = () => {
 }
 
 export default Home
+
+
