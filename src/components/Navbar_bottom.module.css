@@ -30,7 +30,6 @@ body {
     background: rgba(124, 121, 121, 0.077);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
-    /* border-bottom: 0.3px solid rgba(255, 255, 255, 0.2); */
     border: 0.1px solid rgba(255, 255, 255, 0.2);
     z-index: 1000;
 }
