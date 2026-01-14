@@ -41,6 +41,7 @@ const AppContent = () => {
         if (mounted) setLoading(false);
       });
 
+      
     return () => {
       mounted = false;
     };
