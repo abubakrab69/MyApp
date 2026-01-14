@@ -1,9 +1,12 @@
 import React from "react";
 import AnimatedStarfield from "../animations/AnimatedStarfield"; 
-import Logo from './../assets/logo_main.png'
+import LogoDark from './../assets/logo_main.png'
+import LogoLight from './../assets/logo_main2.png'
+import { useTheme } from "../theme/ThemeContext" 
 
 const Splash = () => {
-
+  const { isDarkMode } = useTheme();
+  const Logo = isDarkMode ? LogoDark : LogoLight;
 
   return (
     <div style={styles.container}>

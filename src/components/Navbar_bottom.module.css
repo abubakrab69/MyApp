@@ -45,7 +45,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
     list-style: none;
 }
 a {
@@ -131,7 +131,7 @@ li {
     }
 
     .nav_links {
-        gap: 65px;
+        gap: 85px;
     }
     .navbar{
         width: 90%;

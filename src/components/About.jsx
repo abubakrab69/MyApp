@@ -4,11 +4,15 @@ import Navbar from "./Navbar";
 import Myimage from "./../assets/aboutimage.jpeg";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
-import Logo from "./../assets/logo_main.png";
+import LogoDark from "./../assets/logo_main.png";
+import LogoLight from "./../assets/logo_main2.png";
+import { useTheme } from "../theme/ThemeContext";
 import Navbar_bottom from "./Navbar_bottom";
 
 
 const AboutMe = () => { 
+  const { isDarkMode } = useTheme();
+  const Logo = isDarkMode ? LogoDark : LogoLight;
   return (
     <>
       <Navbar />

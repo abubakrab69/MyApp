@@ -526,7 +526,7 @@
 .educationContainerOne > .educationContent,
 .educationContainerTwo > .educationContent,
 .educationContainerThree > .educationContent {
-    height: 540px;
+    /* height: 540px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

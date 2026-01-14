@@ -1,10 +1,14 @@
 import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
-import Logo from './../assets/logo_main.png'
-import ThemeToggle from '../theme/ThemeToggle'
+import LogoDark from './../assets/logo_main.png'
+import LogoLight from './../assets/logo_main2.png'
+import { useTheme } from '../theme/ThemeContext'
+import ThemeToggle from '../theme/ThemeToggle' 
 
 const Navbar = () => {
+  const { isDarkMode } = useTheme();
+  const Logo = isDarkMode ? LogoDark : LogoLight;
   return (
     <div>
       <nav className="navbar1">
