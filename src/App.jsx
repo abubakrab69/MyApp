@@ -19,8 +19,31 @@ const AppContent = () => {
 
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1200);
-    return () => clearTimeout(timer);
+    let mounted = true;
+
+    const wait = (ms) => new Promise((res) => setTimeout(res, ms));
+    const loadImage = (src) => new Promise((res) => {
+      if (!src) return res();
+      const img = new Image();
+      img.onload = () => res();
+      img.onerror = () => res(); // resolve on error so splash doesn't hang
+      img.src = src;
+    });
+
+    // Dynamically import hero image so bundler resolves the path
+    import('./assets/Mypic.png')
+      .then((module) => module.default || module)
+      .then((heroSrc) => Promise.all([wait(1200), loadImage(heroSrc)]))
+      .then(() => {
+        if (mounted) setLoading(false);
+      })
+      .catch(() => {
+        if (mounted) setLoading(false);
+      });
+
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   const router = createBrowserRouter([

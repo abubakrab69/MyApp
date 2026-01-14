@@ -61,9 +61,21 @@
 } 
 
 @media screen and (max-width: 426px) {
+    /* Show a much smaller subtle logo on mobile, anchored near the bottom */
     .footer .footer_bg_logo{
-        display: none;
+        display: block;
+        /* left: 50%; */
+        /* bottom: 8%; */
+        top: auto;
+        transform: translateX(-50%);
+        /* width: 140px; */
+        /* max-width: 45%; */
+        opacity: 0.045;
+        mix-blend-mode: normal;
+        filter: grayscale(100%) brightness(1.02);
+        pointer-events: none;
     }
+
     .footer{
         width: 90% !important;
         margin-bottom: 100px;
