@@ -28,7 +28,7 @@ body {
     transition: all 0.2s ease-in-out;
     background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(12px);
 
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);

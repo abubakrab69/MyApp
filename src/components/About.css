@@ -16,7 +16,7 @@ html {
   color: #FF7A01;
 }
 .montserrat {
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 img {
   width: 100%;
@@ -165,15 +165,7 @@ section{
   position: absolute;
   left: 25%;
   top: 5%;
-  box-shadow: 
-    rgb(0, 0, 0) 0px 7px 50px 0px,
-    0 8px 32px rgba(31, 38, 135, 0.37),
-    inset 0 1px 1px rgba(255, 255, 255, 0.25);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1.5px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
+
 }
 
 .about-me-flex-container .about-me-image .main-image:hover {
@@ -204,26 +196,7 @@ section{
   align-items: center;
   gap: 0px;
   flex: 0 0 40%;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  padding: 30px;
-  border-radius: 25px;
-  border: 1.5px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 
-    0 8px 32px rgba(31, 38, 135, 0.37),
-    inset 0 1px 1px rgba(255, 255, 255, 0.3),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.about-me-flex-container .about-me-content:hover {
-  background: rgba(255, 255, 255, 0.12);
-  box-shadow: 
-    0 12px 40px rgba(31, 38, 135, 0.45),
-    inset 0 1px 1px rgba(255, 255, 255, 0.4),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.15),
-    0 0 30px rgba(102, 126, 234, 0.25);
+  
 }
 
 @media (max-width: 960px) {

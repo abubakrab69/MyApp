@@ -44,9 +44,11 @@ body {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(12px);
 
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
     z-index: 1000;
 }
@@ -105,7 +107,8 @@ a {
     opacity: 0.8;
 }
 .btn_sign_in:hover {
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+    transform: translateY(0px);
+    color: #4460ff;
 }
 
 /* Navbar Actions Container */

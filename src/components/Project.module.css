@@ -64,20 +64,19 @@
     border-radius: 20px;
     overflow: hidden;
     border: 1.5px solid rgba(255, 255, 255, 0.25);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 
-        0 8px 32px rgba(31, 38, 135, 0.37),
-        inset 0 1px 1px rgba(255, 255, 255, 0.3),
-        inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+        background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+
+  border-radius: 30px;
 }
 .projectCard:hover .cardInner {
-    border-color: rgba(102, 126, 234, 0.7);
-    box-shadow: 
-        0 12px 40px rgba(102, 126, 234, 0.45),
-        inset 0 1px 1px rgba(255, 255, 255, 0.4),
-        inset 0 -1px 0 rgba(0, 0, 0, 0.15),
-        0 0 30px rgba(102, 126, 234, 0.35);
-    background: rgba(255, 255, 255, 0.15);
+    /* border-color: rgba(102, 126, 234, 0.7); */
+    /* background: rgba(255, 255, 255, 0.15); */
 }
 /* Image Container */
 
@@ -87,7 +86,7 @@
     height: 250px;
     overflow: hidden;
     padding: 10px;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15));
+    /* background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15)); */
     border-radius: 16px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -98,7 +97,7 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 8px;
+    border-radius: 13px;
 }
 .imageOverlay {
     position: absolute;

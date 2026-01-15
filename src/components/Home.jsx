@@ -335,7 +335,7 @@ const Home = () => {
         <div className={styles.titleUnderline}></div>
         <br /><br />
         <div className={styles.educationWrapper}>
-          <div className={styles.educationContainerOne}>
+          <div className={styles.educationContainerTwo}>
             <div className={styles.educationContent}>
               <div style={{display: 'flex', alignItems: 'center'}}>
                 <div style={{backgroundColor: '#3458f8c6', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
