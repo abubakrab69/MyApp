@@ -41,6 +41,7 @@
 .logos {
     width: 10%; 
 }
+
 .logos {
     display: flex;
     flex-direction: column;
