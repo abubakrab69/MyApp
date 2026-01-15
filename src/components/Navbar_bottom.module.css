@@ -25,12 +25,13 @@ body {
     bottom: 25px;
     left: 50%;
     transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
     transition: all 0.2s ease-in-out;
-    background: rgba(124, 121, 121, 0.077);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 0.1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
     z-index: 1000;
 }
 .logo_top {

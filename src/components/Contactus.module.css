@@ -5,16 +5,28 @@
     justify-content: center;
     align-items: center;
     margin-top: 120px;
-    backdrop-filter: blur(120px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
     padding: 20px 0px;
     position: relative;
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 30px;
+    box-shadow: 
+        0 8px 32px rgba(31, 38, 135, 0.37),
+        inset 0 1px 1px rgba(255, 255, 255, 0.35),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.contact_main:hover {
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 
+        0 12px 40px rgba(31, 38, 135, 0.45),
+        inset 0 1px 1px rgba(255, 255, 255, 0.4),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.15),
+        0 0 30px rgba(102, 126, 234, 0.25);
 } 
 .form {
     width: 90%;
@@ -86,20 +98,28 @@
     width: 70%;
     padding: 13px 13px 13px 0px;
     font-family: "Philosopher", sans-serif;
-    border: 2px solid rgb(80, 96, 102);
+    border: 2px solid rgba(102, 126, 234, 0.4);
     border-radius: 12px;
-    background-color: transparent;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     color: white;
     margin-bottom: 6px;
     margin-top: 6px;
     padding: 10px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15);
 }
 .inputs::placeholder {
     color: white;
 }
 .inputs:focus {
-    outline-color: rgb(8, 75, 219);
+    outline: none;
+    border-color: rgb(102, 126, 234);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 
+        inset 0 1px 1px rgba(255, 255, 255, 0.2),
+        0 0 15px rgba(102, 126, 234, 0.3);
 }
 #textarea {
     width: 70%;
@@ -110,20 +130,28 @@
     overflow: auto;
     font-family: "Philosopher", sans-serif;
     margin: 2px solid gray;
-    border: 2px solid rgb(80, 96, 102);
-    background-color: transparent;
+    border: 2px solid rgba(102, 126, 234, 0.4);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     color: white;
     border-radius: 12px;
     margin-bottom: 10px;
     padding: 10px;
     margin-top: 6px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15);
 }
 #textarea::placeholder {
     color: white;
 }
 #textarea:focus {
-    outline-color: rgb(8, 75, 219);
+    outline: none;
+    border-color: rgb(102, 126, 234);
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 
+        inset 0 1px 1px rgba(255, 255, 255, 0.2),
+        0 0 15px rgba(102, 126, 234, 0.3);
 }
 .btn_send {
     width: 70%;

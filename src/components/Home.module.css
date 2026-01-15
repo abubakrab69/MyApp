@@ -105,14 +105,19 @@
     cursor: pointer;
     border-radius: 50px;
     overflow: hidden;
-    background: linear-gradient(135deg, #667eea 0%, #4460ff 100%);
+    /* background: linear-gradient(135deg, #667eea 0%, #4460ff 100%); */
     color: white;
     transition: all 0.3s ease;
-}
-/* Removed heavy blur effects for better performance */
+    background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(20px);
 
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    z-index: 1000;
+}
 .btn_cv:hover {
-    transform: translateY(-2px);
+    /* transform: translateY(-2px); */
     box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
 }
 .btn_hire {
@@ -131,9 +136,15 @@
     color: white;
     transition: all 0.3s ease;
     border: 1px solid white;
+    background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    z-index: 1000;
 }
 .btn_hire:hover{
-    background-color: white;
     color: #4460ff;
 }
 
