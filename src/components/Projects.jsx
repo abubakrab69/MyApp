@@ -141,8 +141,6 @@ const Projects = () => {
                   </div>
                   
                   <div className={styles.cardContent}>
-                    {/* <div className={styles.categoryBadge}>{project.category}</div> */}
-
                     <h3 className={styles.projectTitle}>
                       {project.title} <span className={styles.projectSubtitle}>{project.category}</span>
                     </h3>
