@@ -81,7 +81,7 @@ const Uses = () => {
               ))}
             </div> 
           </div>  
-          
+
           {/* Tools Section */}
           <div className={styles.toolsSection}>
             <div className={styles.sectionHeader}>
@@ -110,6 +110,7 @@ const Uses = () => {
           </div>
         </div>
       </div>
+      
       <Navbar_bottom />  
       <Footer />
     </>
