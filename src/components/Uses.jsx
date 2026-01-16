@@ -43,7 +43,7 @@ const Uses = () => {
  
   return ( 
     <> 
-    
+
       <Navbar /> 
       <div className={styles.usesWrapper}>
         <div className={styles.usesContainer}>
@@ -81,6 +81,7 @@ const Uses = () => {
               ))}
             </div> 
           </div>  
+          
           {/* Tools Section */}
           <div className={styles.toolsSection}>
             <div className={styles.sectionHeader}>
