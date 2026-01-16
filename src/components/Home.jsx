@@ -156,13 +156,13 @@ const Home = () => {
                   </div>
                   <div className={styles.cardContent}>
                     <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Chaidocs <span className={styles.projectSubtitle}>(Clone)</span></h3>
-                    <div className={styles.techStack}>
+                    <h3 className={styles.projectTitle}>Chaidocs</h3>
+                    {/* <div className={styles.techStack}>
                       <span className={styles.techTag}>HTML</span>
                       <span className={styles.techTag}>CSS</span>
                       <span className={styles.techTag}>JavaScript</span>
                       <span className={styles.techTag}>Bootstrap</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </a>
@@ -176,12 +176,12 @@ const Home = () => {
                   </div>
                   <div className={styles.cardContent}>
                     <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Nova Website <span className={styles.projectSubtitle}>(Clone)</span></h3>
-                    <div className={styles.techStack}>
+                    <h3 className={styles.projectTitle}>Nova Website</h3>
+                    {/* <div className={styles.techStack}>
                       <span className={styles.techTag}>HTML</span>
                       <span className={styles.techTag}>CSS</span>
                       <span className={styles.techTag}>JavaScript</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </a>
@@ -195,12 +195,12 @@ const Home = () => {
                   </div>
                   <div className={styles.cardContent}>
                     <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Skillgrow <span className={styles.projectSubtitle}>(Clone)</span></h3>
-                    <div className={styles.techStack}>
-                      <span className={styles.techTag}>HTML</span>
+                    <h3 className={styles.projectTitle}>Skillgrow</h3>
+                    {/* <div className={styles.techStack}> */}
+                      {/* <span className={styles.techTag}>HTML</span>
                       <span className={styles.techTag}>CSS</span>
                       <span className={styles.techTag}>JavaScript</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </a>
@@ -214,12 +214,12 @@ const Home = () => {
                   </div>
                   <div className={styles.cardContent}>
                     <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>i Coder <span className={styles.projectSubtitle}>(Clone)</span></h3>
-                    <div className={styles.techStack}>
+                    <h3 className={styles.projectTitle}>i Coder </h3>
+                    {/* <div className={styles.techStack}>
                       <span className={styles.techTag}>HTML</span>
                       <span className={styles.techTag}>CSS</span>
                       <span className={styles.techTag}>Bootstrap</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </a>
@@ -233,12 +233,12 @@ const Home = () => {
                   </div>
                   <div className={styles.cardContent}>
                     <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Hurst Website <span className={styles.projectSubtitle}>(Clone)</span></h3>
-                    <div className={styles.techStack}>
+                    <h3 className={styles.projectTitle}>Hurst Website</h3>
+                    {/* <div className={styles.techStack}>
                       <span className={styles.techTag}>HTML</span>
                       <span className={styles.techTag}>CSS</span>
                       <span className={styles.techTag}>JavaScript</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </a>
@@ -252,12 +252,12 @@ const Home = () => {
                   </div>
                   <div className={styles.cardContent}>
                     <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Myntra <span className={styles.projectSubtitle}>(Clone)</span></h3>
-                    <div className={styles.techStack}>
+                    <h3 className={styles.projectTitle}>Myntra</h3>
+                    {/* <div className={styles.techStack}>
                       <span className={styles.techTag}>HTML</span>
                       <span className={styles.techTag}>CSS</span>
                       <span className={styles.techTag}>JavaScript</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </a>
