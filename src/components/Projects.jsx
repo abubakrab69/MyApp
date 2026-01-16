@@ -117,6 +117,7 @@ const Projects = () => {
             <p className={styles.subtitle}>Explore my latest work and creative solutions</p>
             <div className={styles.titleUnderline}></div>
           </div>
+          
 
           {/* Projects Grid */}
           <div className={styles.projectsGrid}>
@@ -157,7 +158,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      
+
       <Navbar_bottom/>
       <Footer/>
     </>
