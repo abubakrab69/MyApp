@@ -144,7 +144,6 @@ const Projects = () => {
                     <h3 className={styles.projectTitle}>
                       {project.title} <span className={styles.projectSubtitle}>{project.category}</span>
                     </h3>
-
                   </div>
                 </div>
               </a>
