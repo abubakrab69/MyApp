@@ -118,7 +118,6 @@ const Projects = () => {
             <div className={styles.titleUnderline}></div>
           </div>
 
-
           {/* Projects Grid */}
           <div className={styles.projectsGrid}>
             {projectsData.map((project, index) => (
