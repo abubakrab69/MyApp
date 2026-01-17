@@ -144,11 +144,7 @@ const Projects = () => {
                     <h3 className={styles.projectTitle}>
                       {project.title} <span className={styles.projectSubtitle}>{project.category}</span>
                     </h3>
-                    {/* <div className={styles.techStack}>
-                      {project.tech.map((tech, i) => (
-                        <span key={i} className={styles.techTag}>{tech}</span>
-                      ))}
-                    </div> */}
+
                   </div>
                 </div>
               </a>
