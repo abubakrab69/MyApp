@@ -814,7 +814,7 @@
         /* Ensure buttons flow below the image on small screens */
         position: relative;
         bottom: auto;
-        margin-top: 12px;
+        margin-top: 0px;
         z-index: 2;
     }
     .btn_cv{
@@ -1035,12 +1035,12 @@
         flex-direction: column;
         width: 100%;
         gap: 12px;
-        margin-top: 15px;
-        bottom: 40px;
+        margin-top: 0px;
+        bottom: 135px;
         line-height: 10px;
     }
     .mainTitle{
-        margin-top: 0px;
+        margin-top: -90px;
     }
     .btn_hire {
         margin: 0px;

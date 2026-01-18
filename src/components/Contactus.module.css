@@ -127,7 +127,7 @@
 }
 .inputs:focus {
     outline: none;
-    border-color: rgb(40, 72, 215);
+    border-color: rgb(59, 167, 255);
 }
 #textarea {
     width: 70%;
@@ -163,7 +163,7 @@
 }
 #textarea:focus {
     outline: none;
-    border-color: rgb(40, 68, 189);
+    border-color: rgb(59, 167, 255);
 }
 .btn_send {
     width: 70%;
@@ -180,7 +180,7 @@
     overflow: hidden;
     transition: all 0.3s ease;
 
-    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(to right, rgb(59, 167, 255), rgb(59, 167, 255), #3354ea);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(12px);
 
@@ -190,9 +190,6 @@
 }
 .btn_send:hover::before {
     opacity: 0.8;
-}
-.btn_send:hover {
-    color: #3354ea;
 }
 .log {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -206,7 +203,7 @@
 .email_box {
     width: 50%;
     padding: 30px;
-    background: linear-gradient(to right, #667eea, #3354ea);
+    background: linear-gradient(to right, rgb(59, 167, 255), rgb(59, 167, 255), #3354ea);
     margin-top: 70px;
 }
 .line2 {
