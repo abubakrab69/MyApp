@@ -1,8 +1,8 @@
 /* Theme Toggle Button */
 .themeToggle {
   position: relative;
-  width: 70px;
-  height: 35px;
+  width: 60px;
+  height: 27px;
   border: 1.5px solid rgba(102, 126, 234, 0.3);
   border-radius: 50px;
   cursor: pointer;
@@ -24,10 +24,10 @@
     inset 0 1px 1px rgba(255, 255, 255, 0.3),
     0 0 20px rgba(102, 126, 234, 0.2);
 }
-.themeToggle:focus {
+/* .themeToggle:focus {
   outline: 2px solid var(--accent, #667eea);
   outline-offset: 2px;
-}
+} */
 /* Toggle Track */
 .toggleTrack {
   position: relative;
@@ -36,7 +36,7 @@
   border-radius: inherit;
   overflow: hidden;
   transition: all 0.4s ease;
-  background: rgba(255, 255, 255, 0.08) !important;
+  background: rgba(255, 255, 255, 0) !important;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 }
@@ -59,9 +59,9 @@
 /* Toggle Thumb */
 .toggleThumb {
   position: absolute;
-  top: 3px;
-  width: 29px;
-  height: 29px;
+  top: 4px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
@@ -93,8 +93,8 @@
 }
 /* Icon Container */
 .iconContainer {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,13 +149,14 @@
 }
 .cloud {
   position: absolute;
-  width: 8px;
-  height: 4px;
+  width: 6px;
+  height: 3px;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
   top: 50%;
   transform: translateY(-50%);
   animation: cloudFloat 3s ease-in-out infinite;
+  transition: all 0.3s ease;
 }
 .cloud::before {
   content: '';
@@ -178,9 +179,9 @@
   right: 1px;
 }
 /* Hover Effects */
-.themeToggle:hover {
+/* .themeToggle:hover {
   transform: scale(1.05);
-}
+} */
 .themeToggle.dark:hover .toggleTrack {
   box-shadow: 
     inset 0 2px 8px rgba(0, 0, 0, 0.3),

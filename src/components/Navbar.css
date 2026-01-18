@@ -54,7 +54,7 @@ body {
 }
 
 .logo_top {
-    width: 42px;
+    width: 30px;
     border-radius: 50%;
 }
 .logo_top:hover {
@@ -74,7 +74,7 @@ a {
     font-size: 16px;
 }
 .btn_sign_in {
-    padding: 15px 22px;
+    padding: 13px 27px;
     border: none;
     color: white;
     font-size: 0.95rem;
@@ -86,11 +86,11 @@ a {
     box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
     white-space: nowrap;
 
-    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(to right, rgb(59, 167, 255), rgb(59, 167, 255), rgb(11, 38, 146));
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(20px);
 
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  /* border: 1px solid rgba(255, 255, 255, 0.15); */
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
     z-index: 1000;
 }
@@ -104,12 +104,8 @@ a {
     transition: opacity 0.4s ease;
     z-index: -1;
 }
-.btn_sign_in:hover::before {
-    opacity: 0.8;
-}
 .btn_sign_in:hover {
-    transform: translateY(0px);
-    color: #4460ff;
+    /* transform: translateY(0px); */
 }
 
 /* Navbar Actions Container */

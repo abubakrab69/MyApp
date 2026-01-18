@@ -105,20 +105,23 @@
     cursor: pointer;
     border-radius: 50px;
     overflow: hidden;
-    /* background: linear-gradient(135deg, #667eea 0%, #4460ff 100%); */
+    background: linear-gradient(135deg, rgb(59, 167, 255) 0%, rgb(59, 167, 255),  #4460ff 100%);
     color: white;
     transition: all 0.3s ease;
-    background: rgba(255, 255, 255, 0);
+    /* background: rgba(255, 255, 255, 0); */
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(20px);
 
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
     z-index: 1000;
+
+    transition: all 0.3s ease-in-out;
 }
 .btn_cv:hover {
     /* transform: translateY(-2px); */
     box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+
 }
 .btn_hire {
     width: 210px;
@@ -145,7 +148,7 @@
     z-index: 1000;
 }
 .btn_hire:hover{
-    color: #4460ff;
+    color: rgb(59, 167, 255);
 }
 
 /* Projects Section */
@@ -166,7 +169,7 @@
 .mainTitle {
     font-size: clamp(2.5rem, 6vw, 4rem);
     font-weight: 800;
-    background: linear-gradient(135deg, #667eea 0%, #4460ff 50%, rgb(17, 105, 236) 100%);
+    background: linear-gradient(135deg, rgb(59, 167, 255) 0%, rgb(59, 167, 255) 50%, rgb(17, 105, 236) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -183,7 +186,7 @@
 .titleUnderline {
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #1128aa);
+    background: linear-gradient(90deg, rgb(59, 167, 255), #1128aa);
     margin: 0 auto;
     border-radius: 2px;
 }
@@ -279,12 +282,11 @@
 .categoryBadge {
     display: inline-block;
     padding: 6px 16px;
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
     border: 1px solid rgba(102, 126, 234, 0.3);
     border-radius: 20px;
     font-size: 0.75rem;
     font-weight: 600;
-    color: #a78bfa;
+    color: rgb(59, 167, 255);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 7px;
@@ -337,7 +339,7 @@
     width: 220px;
     padding: 14px 40px;
     border: none;
-    background: linear-gradient(135deg, #667eea 0%, #4460ff 100%);
+    background: linear-gradient(135deg, rgb(59, 167, 255) 0%, rgb(59, 167, 255),  #4460ff 100%);
     color: white;
     font-family: "Philosopher", sans-serif;
     font-weight: 500;
@@ -347,7 +349,7 @@
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0);
+    /* background: rgba(255, 255, 255, 0); */
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(20px);
 
@@ -368,7 +370,7 @@
     z-index: -1;
 }
 .btn_see_more:hover {
-    color: #3e62ff;
+    /* color: #3e62ff; */
 }
 .btn_Uses {
     width: 220px;
@@ -395,10 +397,12 @@
     z-index: 3000;
     transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+
+    transition: all 0.3s ease-in-out;
 }
 .btn_Uses:hover{
     /* background-color: white; */
-    color: #4460ff;
+    color: rgb(59, 167, 255);
 }
 .logo_section_social{
     width: 100%;
@@ -437,7 +441,7 @@
     animation-delay: var(--delay, 0s);
 }
 .first:hover{
-    background-color: #4460ff;
+    background-color: rgb(59, 167, 255);
     color: white;
     transform: translateY(-2px);
     animation-play-state: paused;
@@ -464,7 +468,7 @@
   font-weight: 400;
   font-style: normal;
     color: white;
-    background: linear-gradient(45deg, #4460ff, #578fff, #667eea);
+    background: linear-gradient(45deg,rgb(59, 167, 255), rgb(59, 167, 255), #667eea);
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -505,7 +509,7 @@
     font-family: "Vina Sans", sans-serif;
   font-weight: 400 ;
     font-size: clamp(2rem, 4vw, 3.5rem);
-    background: linear-gradient(135deg, #667eea 0%, #4460ff 50%, rgb(17, 105, 236) 100%);
+    background: linear-gradient(135deg, rgb(59, 167, 255) 0%, rgb(59, 167, 255) 50%, rgb(17, 105, 236) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -546,7 +550,7 @@
 
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-    z-index: 1000;
+    z-index: 500;
 }
 .skill_num_one_box:hover {
     /* transform: translateY(-3px); */
@@ -603,7 +607,7 @@
 
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-    z-index: 3000;
+    z-index: 500;
     transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
@@ -640,7 +644,7 @@
     width: 84px;
     padding: 3px;
     font-size: 14px;
-    background-color: #3458f8c6;
+    background-color: rgb(59, 167, 255);
     color:  white;
     display: flex;
     justify-content: center;

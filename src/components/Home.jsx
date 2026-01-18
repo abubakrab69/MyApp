@@ -338,7 +338,7 @@ const Home = () => {
           <div className={styles.educationContainerTwo}>
             <div className={styles.educationContent}>
               <div style={{display: 'flex', alignItems: 'center'}}>
-                <div style={{backgroundColor: '#3458f8c6', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <div style={{backgroundColor: 'rgb(59, 167, 255)', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                                  <h1>
                                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -391,7 +391,7 @@ const Home = () => {
           <div className={styles.educationContainerOne}>
             <div className={styles.educationContent}>
               <div style={{display: 'flex', alignItems: 'center'}}>
-                <div style={{backgroundColor: '#3458f8c6', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <div style={{backgroundColor: 'rgb(59, 167, 255)', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <h1>
                     <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
      xmlns="http://www.w3.org/2000/svg">
