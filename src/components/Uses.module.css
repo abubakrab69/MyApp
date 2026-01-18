@@ -19,7 +19,7 @@
 .mainTitle {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 800;
-    background: linear-gradient(135deg, #667eea 0%, #3d59f7 50%, #f093fb 100%);
+    background: linear-gradient(135deg, rgb(59, 167, 255), rgb(59, 167, 255) 0%, #3d59f7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -37,7 +37,7 @@
 .titleUnderline {
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #3d59f7);
+    background: linear-gradient(90deg, rgb(59, 167, 255), #3d59f7);
     margin: 0 auto;
     border-radius: 2px;
     animation: expandWidth 0.8s ease-out 0.3s both;
