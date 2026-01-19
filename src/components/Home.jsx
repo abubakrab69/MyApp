@@ -325,6 +325,7 @@ const Home = () => {
           </div>
         </div>
         <br />
+        
         {/* education section  */}
         <br />
         <br />
