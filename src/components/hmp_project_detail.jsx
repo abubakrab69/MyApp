@@ -36,7 +36,6 @@ const HMPProjectDetail = () => {
     <>
       <AnimatedStarfield />
       <Navbar />
-
       <div className={styles.detailWrapper}>
         <div className={styles.detailContainer}>
           {/* Header Section */}
