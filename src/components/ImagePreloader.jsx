@@ -50,6 +50,7 @@ const ImagePreloader = ({ images = [] }) => {
         img.src = src;
       });
     });
+    
 
     // Preload all images in parallel
     Promise.all(imagePromises).catch(() => {
