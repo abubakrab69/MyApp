@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from 'react';
  * LazyImage component - lazy loads images when they come into viewport
  * Prevents loading images that user might not see
  */
-
 const LazyImage = ({ 
   src, 
   alt, 
