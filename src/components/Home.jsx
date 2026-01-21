@@ -8,6 +8,9 @@ import Skillgrow from './../assets/Skillgrow.png'
 import icoder from './../assets/icoder.png'
 import Hurst from './../assets/Hurst.png'
 import Myntra from './../assets/myntra.png'
+import THS from './../assets/ths1.png'
+import HMP from './../assets/hmp1 (1).png'
+import HMP2 from './../assets/hmp1 (2).png'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Navbar_bottom from './Navbar_bottom'
@@ -146,45 +149,34 @@ const Home = () => {
               <div className={styles.titleUnderline}></div>
             </div>
             <div className={styles.projectsGrid}>
-              <a href="https://chai-code-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+              <Link to="/ths_project_detail" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Chaidocs} alt="Chaidocs" className={styles.projectImage} />
+                    <img src={THS} alt="THS Project" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
                   </div>
                   <div className={styles.cardContent}>
-                    <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Chaidocs</h3>
-                    {/* <div className={styles.techStack}>
-                      <span className={styles.techTag}>HTML</span>
-                      <span className={styles.techTag}>CSS</span>
-                      <span className={styles.techTag}>JavaScript</span>
-                      <span className={styles.techTag}>Bootstrap</span>
-                    </div> */}
+                    <div className={styles.categoryBadge}>Mobile Development</div>
+                    <h3 className={styles.projectTitle}>Total Home Services</h3>
                   </div>
                 </div>
-              </a>
-              <a href="https://nova-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
+              </Link>
+              <Link to="/hmp_project_detail" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
-                    <img src={Nova} alt="Nova" className={styles.projectImage} />
+                    <img src={HMP2} alt="HelpMatePlus Project" className={styles.projectImage} />
                     <div className={styles.imageOverlay}>
                       <span className={styles.viewProject}>View Project →</span>
                     </div>
                   </div>
                   <div className={styles.cardContent}>
-                    <div className={styles.categoryBadge}>Web Development</div>
-                    <h3 className={styles.projectTitle}>Nova Website</h3>
-                    {/* <div className={styles.techStack}>
-                      <span className={styles.techTag}>HTML</span>
-                      <span className={styles.techTag}>CSS</span>
-                      <span className={styles.techTag}>JavaScript</span>
-                    </div> */}
+                    <div className={styles.categoryBadge}>Mobile Development</div>
+                    <h3 className={styles.projectTitle}>HelpMatePlus</h3>
                   </div>
                 </div>
-              </a>
+              </Link>
               <a href="https://skill-grow-abubakr.netlify.app" target="_blank" rel="noreferrer" className={styles.projectCard}>
                 <div className={styles.cardInner}>
                   <div className={styles.imageContainer}>
@@ -389,33 +381,33 @@ const Home = () => {
             </div>
           </div>
 
-          <div className={styles.educationContainerOne}>
+          <div className={styles.educationContainerTwo}>
             <div className={styles.educationContent}>
               <div style={{display: 'flex', alignItems: 'center'}}>
                 <div style={{backgroundColor: 'rgb(59, 167, 255)', width: 55, height: 55, borderRadius: 50, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <h1>
-                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
-     xmlns="http://www.w3.org/2000/svg">
-  <path d="M9 6V5C9 3.895 9.895 3 11 3H13C14.105 3 15 3.895 15 5V6"
-        stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"/>
-        
-  <rect x="3" y="6" width="18" height="14" rx="2"
-        stroke="currentColor"
-        stroke-width="1.5"/>
-        
-  <path d="M3 11H21"
-        stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"/>
-        
-  <path d="M10 11V13H14V11"
-        stroke="currentColor"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"/>
-</svg>
+                                              <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 6V5C9 3.895 9.895 3 11 3H13C14.105 3 15 3.895 15 5V6"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"/>
+                                  
+                            <rect x="3" y="6" width="18" height="14" rx="2"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"/>
+                                  
+                            <path d="M3 11H21"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"/>
+                                  
+                            <path d="M10 11V13H14V11"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"/>
+                          </svg>
 
                   </h1>
                 </div>
